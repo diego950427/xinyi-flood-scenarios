@@ -11,6 +11,7 @@ from backend import (
 )
 from visuals import map_figure
 from charts import rainfall_html, history_html, budget_html
+from cloud_observability import log_progress_resources
 
 st.set_page_config(page_title="信義區｜自己選雨、自己試算", layout="wide")
 st.html("""<!--
@@ -101,7 +102,8 @@ with left:
     except ValueError as exc:
         valid = False
         st.error(str(exc))
-    if run_action.button("開始這次模擬", type="primary", width="stretch", disabled=bool(current_job) or not valid,
+    run_label = ("正在計算，請往下看進度" if own_job else "求解器使用中，請稍後") if current_job else "開始這次模擬"
+    if run_action.button(run_label, type="primary", width="stretch", disabled=bool(current_job) or not valid,
                  key="start_run"):
         try:
             rid = start_job(request, token)
@@ -137,6 +139,8 @@ def progress_panel():
         return
     status = status_of(rid)
     state = status["state"]
+    log_progress_resources(st.session_state, rid, state,
+                           status.get("time_s"), status.get("end_s"))
     if state in ("queued", "running", "finishing"):
         st.subheader("正在計算")
         fraction = min(.99, status.get("time_s", 0) / max(status.get("end_s", 1), 1))
@@ -258,3 +262,4 @@ with st.expander("這個版本能回答什麼？資料來源在哪裡？"):
     st.markdown("[EPA SWMM 說明](https://www.epa.gov/water-research/storm-water-management-model-swmm) · "
                 "[雨量來源入口](https://history.colife.org.tw/)")
     st.markdown("[程式、資料來源與測試紀錄](https://github.com/diego950427/xinyi-flood-scenarios)")
+    st.markdown("[下載已完成的雲端實跑成果（含 QGIS）](https://github.com/diego950427/xinyi-flood-scenarios/releases/tag/v3.0.0)")

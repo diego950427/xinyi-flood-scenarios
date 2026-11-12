@@ -87,7 +87,7 @@ def rainfall_html(req):
     html = _document("rain", title,
         "時間往右，雨強往上。一條直線＝一個雨量區間。",
         "拖動滑桿查輸入。雨後延長段明示無雨；不把缺測填成 0。",
-        "F3 · 區內面積加權 · " + str(meta["label"]), data)
+        "區內面積加權 · " + str(meta["label"]), data)
     return html, total, meta
 
 
@@ -107,7 +107,7 @@ def history_html(folder):
     return _document("history", f"同時積水 >10 cm：最多 {peak:.2f} km²",
         "一點＝一次求解器輸出。面積可隨退水下降。",
         "這條線可以下降。「曾超過」合併整段位置，與這裡的當時面積不同。",
-        "F2 · 原生 history.csv · 情境模擬，非淹水機率", data)
+        "各時刻計算結果 · 情境模擬，非淹水機率", data)
 
 
 def budget_data(summary):
@@ -137,4 +137,4 @@ def budget_html(summary):
         "全計算域。實線梯＝總量；虛線梯＝扣除量。",
         f"留在地表 {data['surface_m3']:,.0f} m³；留在等效排水單元 {data['native_m3']:,.0f} m³。"
         f"帳面殘差 {data['residual_m3']:,.2f} m³，沒有為了湊齊而修改數值。",
-        "F9 · 原生水量收支 · 1 m³＝1,000 公升", data)
+        "求解器水量收支 · 1 m³＝1,000 公升", data)

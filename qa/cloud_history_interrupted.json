@@ -1,0 +1,16 @@
+{
+  "status": "INTERRUPTED_NOT_ACCEPTED",
+  "date_local": "2026-11-13",
+  "timezone": "Asia/Taipei",
+  "deployment_commit": "e6d415e",
+  "event_id": "H20240710",
+  "rain_duration_s": 21600,
+  "recession_s": 3600,
+  "last_observed_progress_hours": 6.52,
+  "expected_hours": 7.0,
+  "observation": "The public browser displayed progress through 6.52/7.00 hours. The hosting log then showed Starting up repository and Cloning at 2026-11-12 16:30:17 UTC. The run vanished from the session and only the two pre-existing V2 examples remained.",
+  "completion_verified": false,
+  "new_result_archive_acquired": false,
+  "restart_cause": "UNKNOWN; no direct OOM evidence observed",
+  "old_example_excluded": "The subsequently offered 20261020_194910_441553a8_results.zip is the pre-existing V2 example, not a result of this cloud run. It is excluded from cloud acceptance."
+}

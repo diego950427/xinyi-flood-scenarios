@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": {
+    "actual_local_process_sample": true,
+    "process_tree_and_cgroup_values": true,
+    "unlimited_cgroup_is_explicit": true,
+    "sixty_second_interval": true,
+    "phase_changes_log_immediately": true,
+    "progress_units_and_log_fields": true,
+    "no_session_secrets_or_private_paths": true,
+    "sampling_failure_does_not_break_ui": true
+  },
+  "actual_local_sample": {
+    "process_tree_rss_bytes": 31420416,
+    "process_tree_sampled_count": 1,
+    "cgroup_memory_current_bytes": null,
+    "cgroup_memory_max_bytes": null
+  },
+  "scope": "Local resource helper, timing, phase and privacy checks; no cloud memory or solver claim."
+}

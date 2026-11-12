@@ -1,0 +1,305 @@
+{
+  "passed_before_qgis": true,
+  "scope": "Actual Streamlit-download ZIP; numerical acceptance independently recomputed locally from its native outputs. No solver rerun. QGIS headless loading recorded separately below.",
+  "archive": "qa/artifacts/cloud_custom/20261112_155746_978c55cbf129_results.zip",
+  "archive_sha256": "5d46593de94f28a1382ed2bbe75a6ff151af44213b1210982d8c3cd87297515d",
+  "archive_bytes": 5715314,
+  "extracted_to": "qa/artifacts/cloud_custom/extracted_20261112_155746_978c55cbf129",
+  "member_count": 29,
+  "uncompressed_bytes": 10359925,
+  "checks": {
+    "safe_member_paths": true,
+    "crc_all_members": true,
+    "reported_all_15_checks_pass": true,
+    "recomputed_all_15_checks_pass": true,
+    "reported_checks_match_recomputation": true,
+    "reported_numeric_summary_matches": true,
+    "linux_provenance": true,
+    "source_manifest_hash_matches_release": true,
+    "coupling_source_hashes_match_release": true,
+    "requested_custom_10mm_10min": true,
+    "request_matches_summary_and_provenance": true,
+    "saved_rain_matches_request": true,
+    "seven_rasters_and_npz_match_native_state": true,
+    "all_end_clocks_600s": true,
+    "exact_native_completion_line": true,
+    "no_personal_paths_or_obvious_credentials_in_text": true,
+    "no_executables_or_secret_files": true
+  },
+  "native_checks_recomputed": {
+    "native_completion_marker": true,
+    "full_surface_clock": true,
+    "full_native_clock": true,
+    "native_version_52004": true,
+    "finite_nonnegative": true,
+    "max_not_below_final": true,
+    "duration_in_range": true,
+    "rain_integral": true,
+    "surface_balance": true,
+    "combined_balance_under_1pct": true,
+    "native_balance_under_1pct": true,
+    "zero_native_warnings": true,
+    "no_unaccounted_flood": true,
+    "native_binary_storage": true,
+    "no_hidden_depth_correction": true
+  },
+  "request": {
+    "mode": "custom",
+    "event_id": "H20240710",
+    "total_mm": 10.0,
+    "duration_min": 10.0,
+    "rain_shape": "uniform",
+    "recession_min": 0.0,
+    "drain_mm_h": 30.0,
+    "storage_mm": 20.0,
+    "inlet_area_m2": 0.2,
+    "infiltration_mm_h": 0.0,
+    "exchange_cap_s": 1.0,
+    "model": "SWMM_equivalent_units_bidirectional_2D_NOT_actual_network"
+  },
+  "native_version": 52004,
+  "clocks": {
+    "history_s": 600.0,
+    "progress_s": 600,
+    "balance_s": 600.0,
+    "native_binary_s": 600.0000002404452,
+    "expected_s": 600.0
+  },
+  "exchange_steps": 600.0,
+  "surface_steps": 600.0,
+  "native_wall_s": 18.5074137,
+  "result_metrics": {
+    "combined_error_pct": 0.00015051675341464386,
+    "expected_rain_m3": 357576.00000000006,
+    "reporting_area_km2": 11.2388,
+    "area_ever_gt5_km2": 0.078,
+    "area_ever_gt10_km2": 0.0196,
+    "area_ever_gt30_km2": 0.0,
+    "max_depth_m": 0.23362936648294969,
+    "p99_depth_m": 0.04471015290011935,
+    "native_binary_storage_m3": 185.2935333251953
+  },
+  "native_flow_error_pct": 0.01827513,
+  "provenance_platform": "linux",
+  "declared_cloud_binary_hashes": {
+    "engine_sha256": "e4a4ea1f5b81169d6ffe698bcda3668d70f5fdb229ce219ee32301cf4595fa47",
+    "swmm_library_sha256": "fec818b28a2060d612c59f1edee4f0a1e1cf8782ef7ed6c56a60d60a7705d0ce"
+  },
+  "binary_hash_limitation": "The executable/shared library are not in the result ZIP, so their recorded hashes are provenance declarations; output format/version and result integrity were actually checked.",
+  "rasters": [
+    {
+      "field": "final_depth_m",
+      "matches_native_and_npz": true
+    },
+    {
+      "field": "qx_m2_s",
+      "matches_native_and_npz": true
+    },
+    {
+      "field": "qrow_m2_s",
+      "matches_native_and_npz": true
+    },
+    {
+      "field": "max_depth_m",
+      "matches_native_and_npz": true
+    },
+    {
+      "field": "time_of_max_s",
+      "matches_native_and_npz": true
+    },
+    {
+      "field": "first_gt10_s",
+      "matches_native_and_npz": true
+    },
+    {
+      "field": "duration_gt10_s",
+      "matches_native_and_npz": true
+    }
+  ],
+  "privacy_findings": [],
+  "text_scan_decodings": {
+    "rainfall.json": "utf-8-sig",
+    "provenance.json": "utf-8-sig",
+    "result.qgs": "utf-8-sig",
+    "request.json": "utf-8-sig",
+    "xinyi_boundary.geojson": "utf-8-sig",
+    "READ_ME.txt": "utf-8-sig",
+    "summary.json": "utf-8-sig",
+    "native/units_result.csv": "utf-8-sig",
+    "native/progress.json": "utf-8-sig",
+    "native/balance.csv": "utf-8-sig",
+    "native/exchange.csv": "utf-8-sig",
+    "native/model.inp": "utf-8-sig",
+    "native/console.log": "utf-8-sig",
+    "native/model.rpt": "latin-1 byte-preserving scan",
+    "native/exchange_cap.txt": "utf-8-sig",
+    "native/history.csv": "utf-8-sig",
+    "native/units.csv": "utf-8-sig"
+  },
+  "files": [
+    {
+      "path": "max_depth_m.tif",
+      "bytes": 328031,
+      "sha256": "04471bd7a1e06cc14f0d49fe565fe1aca2cc714adfc057a04814c00f135ab2b5"
+    },
+    {
+      "path": "final_depth_m.tif",
+      "bytes": 328031,
+      "sha256": "04471bd7a1e06cc14f0d49fe565fe1aca2cc714adfc057a04814c00f135ab2b5"
+    },
+    {
+      "path": "qx_m2_s.tif",
+      "bytes": 345227,
+      "sha256": "b9d755aaf34757fc631b1d681cf5c852a3cc4d3bf97f57f7a7b1b8a3853ef758"
+    },
+    {
+      "path": "rain_input.npz",
+      "bytes": 1651,
+      "sha256": "1b5e9b0e2302d0dbf6e289ff2f1b936da13f7e5127a0944d069263385ded15e4"
+    },
+    {
+      "path": "rainfall.json",
+      "bytes": 285,
+      "sha256": "1ce3a0872ed13c0fd1459f80816b8bc1fc5c918b4a9074de36740ed8049404df"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1380,
+      "sha256": "331111f97b764214e0a786cc4b0bab8c37a6c8f3060178576a61509a8716cd01"
+    },
+    {
+      "path": "grids.npz",
+      "bytes": 1292154,
+      "sha256": "32ccaf81e3c311e34f2130c8a1a502623bc211ab88e3e141f90f2508a8083f6c"
+    },
+    {
+      "path": "result.qgs",
+      "bytes": 49177,
+      "sha256": "ca752ca771416ac2e3a3929e6ef77f91a337b79fb7675e15bd6abd7643d7ea40"
+    },
+    {
+      "path": "qrow_m2_s.tif",
+      "bytes": 343557,
+      "sha256": "39d73f2a0d9a22898e0a9df51b345c84129f6ff60cf1180f971aaf25a5d69a59"
+    },
+    {
+      "path": "time_of_max_s.tif",
+      "bytes": 12089,
+      "sha256": "a27a28f8a9e6da46fc563480b85fbea822f973edd3e609332663525c674861b4"
+    },
+    {
+      "path": "request.json",
+      "bytes": 337,
+      "sha256": "d6bf556091c790016757ee054370a12986bd92b8bd7c3c8fac5ac60dcf1997b8"
+    },
+    {
+      "path": "xinyi_boundary.geojson",
+      "bytes": 70937,
+      "sha256": "253b0ac4d9f1943faa3a8791b16d47d4b4e1ee19b79198437385d5dea96e56c9"
+    },
+    {
+      "path": "first_gt10_s.tif",
+      "bytes": 14924,
+      "sha256": "0da8a64fa73773581b206f18a7ff007d9275fef5a14edc43d5b5bbf829a782cb"
+    },
+    {
+      "path": "max_depth.png",
+      "bytes": 175046,
+      "sha256": "5d237e5525d7d09f5f1c8ed5378827eb4b2a08286fab24bf6a39cbe719fe7e12"
+    },
+    {
+      "path": "READ_ME.txt",
+      "bytes": 657,
+      "sha256": "1a33c1569a13d840b09682ba78bac9a82bafca4b0faa451e0149ab879c927b16"
+    },
+    {
+      "path": "duration_gt10_s.tif",
+      "bytes": 13919,
+      "sha256": "b6fb31d5bdfc332c5209e508094934661a3c85cb07fb372e1f29b3792bdf769f"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 2375,
+      "sha256": "298034115b8e3c039100a3a99894a821f105315c49897c5323e61e89cbeadc0a"
+    },
+    {
+      "path": "native/units_result.csv",
+      "bytes": 13761,
+      "sha256": "5e98487df02b83c2e59db6b927df9ad815c0c8e50dac4284bdecfc6adf402650"
+    },
+    {
+      "path": "native/progress.json",
+      "bytes": 47,
+      "sha256": "f6027b70e954cd6e16fe72e98148fe538c6d904c8ca27646cc7a62f9a6108943"
+    },
+    {
+      "path": "native/state.bin",
+      "bytes": 5006064,
+      "sha256": "cda4de78f92424d1c67bf47e3650b153eb80e4295cae798fd33ed9f083d41b76"
+    },
+    {
+      "path": "native/balance.csv",
+      "bytes": 482,
+      "sha256": "398dcae9b8b1a8c6f83a906d046e36c5cca9467ce3fc1c918d610bb9ac3724be"
+    },
+    {
+      "path": "native/exchange.csv",
+      "bytes": 36007,
+      "sha256": "a137728ef57a1188dee01efb9cd8f6eaef54941be5457e0c88c60fac776e7157"
+    },
+    {
+      "path": "native/model.inp",
+      "bytes": 117801,
+      "sha256": "b614772dbf5e7c1a26cb0e2dd80ad0ce05084aac9b17634f89715485fac1e124"
+    },
+    {
+      "path": "native/console.log",
+      "bytes": 47,
+      "sha256": "b295d052c8c7dc481aba1fb5432b9ff1faca3127a948354a144a83567bf03dda"
+    },
+    {
+      "path": "native/model.rpt",
+      "bytes": 1794073,
+      "sha256": "4a0bc84bd4a4f1e91dc863d64869cb11ca6d42d367b58d7368de21a1e65a7699"
+    },
+    {
+      "path": "native/exchange_cap.txt",
+      "bytes": 3,
+      "sha256": "d0ff5974b6aa52cf562bea5921840c032a860a91a3512f7fe8f768f6bbe005f6"
+    },
+    {
+      "path": "native/model.out",
+      "bytes": 398386,
+      "sha256": "19818d9e2c4e063ba418e1ce21ab29357d5cccc7879ba14870adf21e150d3c16"
+    },
+    {
+      "path": "native/history.csv",
+      "bytes": 1794,
+      "sha256": "6b8771ffcab5363dcb6f629342c6dee970256c97aab2b8bd87dfb85655c7e595"
+    },
+    {
+      "path": "native/units.csv",
+      "bytes": 11683,
+      "sha256": "b720022775a9baf360b2d02c81337eada5a4c5e78b10dee1c941af7c54276444"
+    }
+  ],
+  "headless_qgis": {
+    "project": "qa/artifacts/cloud_custom/extracted_20261112_155746_978c55cbf129/result.qgs",
+    "checks": {
+      "loaded_actual_cloud_download": true,
+      "exactly_two_valid_layers": true,
+      "one_gdal_one_ogr": true,
+      "project_and_layers_epsg3826": true,
+      "relative_sources_and_files_exist": true,
+      "nonempty_default_extent": true,
+      "source_files_unchanged": true
+    },
+    "passed": true,
+    "stored_sources": [
+      "./xinyi_boundary.geojson",
+      "./max_depth_m.tif"
+    ],
+    "scope": "Installed PyQGIS with QT_QPA_PLATFORM=offscreen; no GUI opened, no project saved."
+  },
+  "passed": true
+}

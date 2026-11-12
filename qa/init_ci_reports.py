@@ -14,7 +14,7 @@ if os.environ.get("GITHUB_ACTIONS") != "true":
 
 report_names = (
     "portable_engine_tests.json", "full_domain_custom.json", "cloud_app_tests.json",
-    "charts_tests.json", "data_release_audit.json",
+    "charts_tests.json", "data_release_audit.json", "cloud_observability_tests.json",
 )
 base = Path(__file__).resolve().parent
 for name in report_names:
@@ -27,4 +27,4 @@ for name in report_names:
         "scope": "This attempt has not produced evidence for this check yet.",
     }
     (base / name).write_text(json.dumps(record, indent=2), encoding="utf-8")
-print("Initialized five reports as NOT_RUN; no prior PASS can be reused.")
+print(f"Initialized {len(report_names)} reports as NOT_RUN; no prior PASS can be reused.")
