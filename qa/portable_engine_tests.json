@@ -6,6 +6,7 @@
   "cases": [
     {
       "checks": {
+        "native_completion_marker": true,
         "full_surface_clock": true,
         "full_native_clock": true,
         "native_version_52004": true,
@@ -20,7 +21,6 @@
         "no_unaccounted_flood": true,
         "native_binary_storage": true,
         "no_hidden_depth_correction": true,
-        "native_completion_marker": true,
         "no_artificial_water": true
       },
       "passed": true,
@@ -44,7 +44,7 @@
         "time_s": 600.0,
         "exchange_steps": 600.0,
         "surface_steps": 600.0,
-        "wall_s": 0.0789298
+        "wall_s": 0.0978727
       },
       "combined_error_pct": 0.0,
       "native_binary_storage_m3": 0.0,
@@ -60,6 +60,7 @@
     },
     {
       "checks": {
+        "native_completion_marker": true,
         "full_surface_clock": true,
         "full_native_clock": true,
         "native_version_52004": true,
@@ -74,7 +75,6 @@
         "no_unaccounted_flood": true,
         "native_binary_storage": true,
         "no_hidden_depth_correction": true,
-        "native_completion_marker": true,
         "water_enters_native": true
       },
       "passed": true,
@@ -98,7 +98,7 @@
         "time_s": 600.0,
         "exchange_steps": 600.0,
         "surface_steps": 600.0,
-        "wall_s": 0.0770265
+        "wall_s": 0.0892323
       },
       "combined_error_pct": 6.715686978376697e-05,
       "native_binary_storage_m3": 0.35005563497543335,
@@ -114,6 +114,7 @@
     },
     {
       "checks": {
+        "native_completion_marker": true,
         "full_surface_clock": true,
         "full_native_clock": true,
         "native_version_52004": true,
@@ -128,7 +129,6 @@
         "no_unaccounted_flood": true,
         "native_binary_storage": true,
         "no_hidden_depth_correction": true,
-        "native_completion_marker": true,
         "water_enters_native": true
       },
       "passed": true,
@@ -152,7 +152,7 @@
         "time_s": 600.0,
         "exchange_steps": 600.0,
         "surface_steps": 600.0,
-        "wall_s": 0.0775701
+        "wall_s": 0.112505
       },
       "combined_error_pct": 0.00019645897461019273,
       "native_binary_storage_m3": 14.092521667480469,
@@ -168,6 +168,7 @@
     },
     {
       "checks": {
+        "native_completion_marker": true,
         "full_surface_clock": true,
         "full_native_clock": true,
         "native_version_52004": true,
@@ -182,7 +183,6 @@
         "no_unaccounted_flood": true,
         "native_binary_storage": true,
         "no_hidden_depth_correction": true,
-        "native_completion_marker": true,
         "native_water_returns_to_surface": true
       },
       "passed": true,
@@ -206,7 +206,7 @@
         "time_s": 600.0,
         "exchange_steps": 600.0,
         "surface_steps": 600.0,
-        "wall_s": 0.0751484
+        "wall_s": 0.1064356
       },
       "combined_error_pct": 0.022564605299447826,
       "native_binary_storage_m3": 1646.4456787109375,
@@ -222,6 +222,7 @@
     },
     {
       "checks": {
+        "native_completion_marker": true,
         "full_surface_clock": true,
         "full_native_clock": true,
         "native_version_52004": true,
@@ -236,7 +237,6 @@
         "no_unaccounted_flood": true,
         "native_binary_storage": true,
         "no_hidden_depth_correction": true,
-        "native_completion_marker": true,
         "native_water_returns_to_surface": true
       },
       "passed": true,
@@ -260,7 +260,7 @@
         "time_s": 600.0,
         "exchange_steps": 1200.0,
         "surface_steps": 1200.0,
-        "wall_s": 0.1202011
+        "wall_s": 0.1941873
       },
       "combined_error_pct": 0.012867878395726867,
       "native_binary_storage_m3": 1646.3609619140625,
@@ -276,6 +276,7 @@
     },
     {
       "checks": {
+        "native_completion_marker": true,
         "full_surface_clock": true,
         "full_native_clock": true,
         "native_version_52004": true,
@@ -290,7 +291,6 @@
         "no_unaccounted_flood": true,
         "native_binary_storage": true,
         "no_hidden_depth_correction": true,
-        "native_completion_marker": true,
         "native_water_returns_to_surface": true
       },
       "passed": true,
@@ -314,7 +314,7 @@
         "time_s": 600.0,
         "exchange_steps": 600.0,
         "surface_steps": 600.0,
-        "wall_s": 0.0752213
+        "wall_s": 0.1413724
       },
       "combined_error_pct": 0.0035589823887236696,
       "native_binary_storage_m3": 1667.9295654296875,
@@ -330,6 +330,7 @@
     },
     {
       "checks": {
+        "native_completion_marker": true,
         "full_surface_clock": true,
         "full_native_clock": true,
         "native_version_52004": true,
@@ -344,7 +345,6 @@
         "no_unaccounted_flood": true,
         "native_binary_storage": true,
         "no_hidden_depth_correction": true,
-        "native_completion_marker": true,
         "water_enters_native": true,
         "zero_declared_outlet_has_zero_discharge": true
       },
@@ -369,7 +369,7 @@
         "time_s": 600.0,
         "exchange_steps": 600.0,
         "surface_steps": 600.0,
-        "wall_s": 0.0715344
+        "wall_s": 0.1776523
       },
       "combined_error_pct": 0.00046137382577674896,
       "native_binary_storage_m3": 1.6273317337036133,
@@ -385,6 +385,7 @@
     },
     {
       "checks": {
+        "native_completion_marker": true,
         "full_surface_clock": true,
         "full_native_clock": true,
         "native_version_52004": true,
@@ -399,7 +400,6 @@
         "no_unaccounted_flood": true,
         "native_binary_storage": true,
         "no_hidden_depth_correction": true,
-        "native_completion_marker": true,
         "no_artificial_water": true
       },
       "passed": true,
@@ -423,7 +423,7 @@
         "time_s": 25200.0,
         "exchange_steps": 36960.0,
         "surface_steps": 36960.0,
-        "wall_s": 3.4650962
+        "wall_s": 10.9912471
       },
       "combined_error_pct": 0.0,
       "native_binary_storage_m3": 0.0,
@@ -439,6 +439,7 @@
     },
     {
       "checks": {
+        "native_completion_marker": true,
         "full_surface_clock": true,
         "full_native_clock": true,
         "native_version_52004": true,
@@ -452,8 +453,7 @@
         "zero_native_warnings": true,
         "no_unaccounted_flood": true,
         "native_binary_storage": true,
-        "no_hidden_depth_correction": true,
-        "native_completion_marker": true
+        "no_hidden_depth_correction": true
       },
       "passed": true,
       "balance": {
@@ -476,7 +476,7 @@
         "time_s": 600.0,
         "exchange_steps": 600.0,
         "surface_steps": 600.0,
-        "wall_s": 0.0768147
+        "wall_s": 0.1527997
       },
       "combined_error_pct": 0.00019645897461019273,
       "native_binary_storage_m3": 14.092521667480469,
@@ -508,13 +508,16 @@
     "local_datum_translation_invariant": true
   },
   "step_exchange_relative_difference": 0.0003746446437109562,
+  "native_path_guard": {
+    "status": "not_applicable_on_Windows"
+  },
   "runtime": {
     "version": 52004,
-    "engine_sha256": "1247aa50a6dc49482235e102f6be01afec75ca2c58b0e8cbba23480745a06121",
-    "library_sha256": "8d15ddf3f06d6ad3cb01e0cbd51a3391e452f857872f7fb0f38c209394b3faf1",
+    "engine_sha256": "d78b2daad50b2a20840f4673f8c09e112c58d93484af38ee08e54ef393ed8a7c",
+    "library_sha256": "7bac9983ec031415f04e8e6bdafc4878fd17cb7c3460d3323f41cad78f4a7a92",
     "source_commit": "7952ca837988b1c32f791812eccc9fd64547e093",
-    "fingerprint": "fdfa194a61c0ef4eb14229312db91bb75c18a1c801113f7af80edaa58dd00ddc"
+    "fingerprint": "aaa337966eb7ced8705ee79f10105a382435a753112b0d0f1b7c660b82bee3a9"
   },
-  "evidence_directory": ".runtime/tests/7b9a47e8698c",
+  "evidence_directory": ".runtime/tests/9ac583cb6fa6",
   "scope": "Nine synthetic native regressions; not a full Xinyi event or field calibration."
 }

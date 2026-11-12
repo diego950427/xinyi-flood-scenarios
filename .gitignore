@@ -9,6 +9,8 @@ qa/*_required.png
 qa/adapt_backend.py
 qa/artifacts/
 *.log
+!examples/20261020_194418_a791bf32/native/console.log
+!examples/20261020_194910_441553a8/native/console.log
 *.tmp
 *~
 engine/vendor/*.zip

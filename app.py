@@ -5,7 +5,6 @@ import uuid
 import numpy as np
 import pandas as pd
 import streamlit as st
-import streamlit.components.v1 as components
 from backend import (
     ROOT, DATA, RUNS, events, json_read, validate_request, start_job, active_job,
     status_of, cancel_job, run_folder, visible_runs, owner_key,
@@ -119,7 +118,7 @@ with left:
 with right:
     if valid:
         rainchart, total, rainmeta = rainfall_html(request)
-        components.html(rainchart, height=480, scrolling=False)
+        st.iframe(rainchart, height=480, alt="降雨區間、雨強及累積輸入的互動圖")
         st.write(f"信義區平均輸入 **{total:.1f} mm**；降雨資料時段 **{rainmeta['rain_end_s'] / 3600:g} 小時**。")
         if mode == "historical":
             st.caption("圖中是信義區網格按面積加權的雨強。九站事件保留空間差異；移植雨型全區使用同一站。")
@@ -218,7 +217,7 @@ else:
                         key="depth_chart", config={"displaylogo": False, "scrollZoom": False},
                         alt="信義區及周邊的情境水深網格；白線是信義區界。")
         st.caption("白線是信義區界；外圍仍參與計算。可縮放、移動和查值。每格 20 × 20 公尺；橫軸為 TWD97 東向公尺。")
-        components.html(history_html(folder), height=470, scrolling=False)
+        st.iframe(history_html(folder), height=470, alt="模擬期間同時積水超過十公分的面積")
         st.subheader("水去了哪裡")
         b = summary["balance"]
         budget = pd.DataFrame({
@@ -227,7 +226,7 @@ else:
                                                "drain_m3", "surface_stored_m3", "native_stored_m3"]],
         })
         st.dataframe(budget, hide_index=True, width="stretch")
-        components.html(budget_html(summary), height=490, scrolling=False)
+        st.iframe(budget_html(summary), height=490, alt="降雨輸入、排出與剩餘水量收支")
         st.caption(f"聯動收支差 {summary['combined_error_pct']:.5f}%；SWMM 原生收支差 {b['native_flow_error_pct']:.5f}%。"
                    "收支通過代表數值帳算得一致，不代表現地水深已驗證。")
         download1, download2, download3 = st.columns(3)

@@ -1,5 +1,7 @@
 # 信義區降雨與地表積水情境研究
 
+[開啟公開模擬器](https://xinyi-flood-scenarios.streamlit.app/) · [程式與資料](https://github.com/diego950427/xinyi-flood-scenarios) · [Linux 原生驗證](https://github.com/diego950427/xinyi-flood-scenarios/actions)
+
 選歷史大雨，或輸入總雨量與降雨時間，讓 **EPA SWMM 5.2.4** 和二維地表求解器實際計算。預設為 2024/7/10 信義周邊九站雨量；另外三場為臺北站移植雨型，介面逐項標明。
 
 這是條件式情境研究。20 公尺地形、雨量與行政區界來自公開資料；322 個排水單元的開口、暫存、排出能力是假設。**沒有完整真實管網，也沒有校正成淹水預報或發生機率。**
