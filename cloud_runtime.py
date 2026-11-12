@@ -139,8 +139,7 @@ def ensure_runtime() -> dict:
                 elif platform.system() == "Linux":
                     build_dir = RUNTIME_ROOT / "build" / fingerprint[:16]
                     _run([_tool("cmake"), "-S", str(VENDOR), "-B", str(build_dir),
-                          "-DCMAKE_BUILD_TYPE=Release", "-DBUILD_TESTS=OFF",
-                          "-DCMAKE_DISABLE_FIND_PACKAGE_OpenMP=TRUE"], log)
+                          "-DCMAKE_BUILD_TYPE=Release", "-DBUILD_TESTS=OFF"], log)
                     _run([_tool("cmake"), "--build", str(build_dir), "--target", "swmm5", "--parallel", "2"], log)
                     candidates = list(build_dir.rglob("libswmm5.so"))
                     if not candidates:

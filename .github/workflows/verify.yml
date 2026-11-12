@@ -17,6 +17,8 @@ jobs:
       PYTHONUTF8: "1"
     steps:
       - uses: actions/checkout@v4
+      - name: Initialize this attempt without stale PASS reports
+        run: python3 qa/init_ci_reports.py
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

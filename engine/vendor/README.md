@@ -14,5 +14,5 @@
 本研究與 EPA 沒有認證或背書關係。
 
 Linux 由 `cloud_runtime.py` 使用 CMake 編譯這份固定來源，不在每次模擬下載遠端程式。
-OpenMP 關閉，單執行緒 SWMM 與既有 `THREADS 1` 設計一致。
+依官方 CMake 偵測編譯器的 OpenMP 支援；模型仍明訂 `THREADS 1`，與既有單執行緒設計一致。
 Streamlit 的系統相依套件由專案根目錄 `packages.txt` 宣告。
