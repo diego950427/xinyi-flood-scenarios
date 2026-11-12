@@ -1,0 +1,80 @@
+{
+  "checked_on": "2026-11-12",
+  "scope": "Attribution and observed source metadata; not a blanket new license over all repository files.",
+  "sources": [
+    {
+      "id": "moi_20m_terrain",
+      "provider": "內政部地政司",
+      "dataset": "內政部20公尺網格數值地形模型資料",
+      "source_url": "https://data.gov.tw/dataset/35430",
+      "license_observed": "政府資料開放授權條款-第1版",
+      "license_url": "https://data.gov.tw/license",
+      "evidence": "Official dataset page read during this release; historical input tile headers and hashes retained.",
+      "public_files": ["terrain20m.tif", "terrain_domain_provenance.json"],
+      "limitation": "Source tiles here are 2006-2007 survey / 2014 regrid, not the newest 20m product."
+    },
+    {
+      "id": "taipei_district",
+      "provider": "臺北市政府民政局",
+      "dataset": "臺北市區界圖_20220915",
+      "source_url": "https://data.gov.tw/dataset/121199",
+      "original_catalog_url": "https://data.taipei/dataset/detail?id=1601ef3a-c253-4988-b047-943d9e786143",
+      "license_observed": "政府資料開放授權條款-第1版",
+      "license_url": "https://data.gov.tw/license",
+      "evidence": "Official national catalog read; original project snapshot also recorded this license.",
+      "public_files": ["xinyi_boundary.geojson", "xinyi.tif"],
+      "limitation": "Administrative reporting boundary only."
+    },
+    {
+      "id": "cwa_rain",
+      "provider": "交通部中央氣象署；國研院民生公共物聯網歷史資料服務封存",
+      "dataset": "雨量觀測站-雨量資料 O-A0002-001",
+      "source_url": "https://data.gov.tw/dataset/9177",
+      "archive_url": "https://history.colife.org.tw/",
+      "license_observed": "政府資料開放授權條款-第1版",
+      "license_url": "https://data.gov.tw/license",
+      "evidence": "Official CWA catalog marks OGDL 1.0; historical archive identity is preserved in input metadata, not a claim that archive contents were re-downloaded for this release.",
+      "public_files": ["rain_20240710.npz", "event_20230810.npz", "event_20230820.npz", "event_20260608.npz", "rain_stations.geojson", "rain_metadata.json", "events.json", "rain20_semantic_qa.json", "rain_*csv", "466920*csv"],
+      "limitation": "Three transferred Taipei-station rain shapes; 2023-08-20 explicitly contains reconstructed intervals."
+    },
+    {
+      "id": "taipei_sewer_reference",
+      "provider": "臺北市政府工務局（XML）；臺北市政府工務局水利工程處（KML）",
+      "dataset": "臺北市雨水下水道管線 XML / KML",
+      "source_url": "https://data.taipei/dataset/detail?id=97b82d58-faba-4ee4-9488-dd5d04a79efd",
+      "kml_source_url": "https://data.taipei/dataset/detail?id=83048de2-7305-45e4-b022-e04c5155978e",
+      "license_observed": "XML and KML catalogs: 公開; 免費; footer links to 政府資料開放授權條款",
+      "license_url": "https://data.taipei/rule",
+      "evidence": "Official XML and KML catalog pages read during this release, including public/free designation and open-data license link.",
+      "public_files": ["pipes_reference_only.geojson"],
+      "limitation": "Processed XY reference layer, no authenticated utility system access, no inferred real hydraulic connectivity."
+    },
+    {
+      "id": "taipei_flood_reference",
+      "provider": "臺北市政府工務局水利工程處",
+      "dataset": "臺北市歷史積淹水資料",
+      "source_url": "https://data.taipei/dataset/detail?id=8377b584-81e9-432d-b902-5b4e9978e6bc",
+      "license_observed": "公開; 免費; footer links to 政府資料開放授權條款",
+      "license_url": "https://data.taipei/rule",
+      "evidence": "Official current catalog read during this release. The original project snapshot also records OGDL. Existing input bytes were retained, not replaced with the currently updated catalog download.",
+      "public_files": ["flood_observations_reference_only.geojson"],
+      "limitation": "Reference event polygons, incomplete timing and unresolved depth-unit semantics, not model calibration."
+    },
+    {
+      "id": "taipei_catchment",
+      "provider": "臺北市政府工務局水利工程處",
+      "dataset": "臺北市水利處主集水區",
+      "source_url": "https://data.taipei/dataset/detail?id=d8085d88-0a07-4fe6-86ec-8910954342ac",
+      "license_observed": "公開; 免費; footer links to 政府資料開放授權條款",
+      "license_url": "https://data.taipei/rule",
+      "evidence": "Official catalog read during this release; project source hash for original main-catchment KML preserved in the local V2 source archive.",
+      "public_files": ["domain.geojson", "active.tif"],
+      "limitation": "Derived study domain, not a validated hydraulic boundary or pump-tailwater connection."
+    }
+  ],
+  "research_derivatives": {
+    "files": ["active.tif", "domain.geojson", "virtual_units.json", "virtual_units.geojson", "drainage_coverage.npy", "unit_design.json"],
+    "description": "Study boundaries, masks and hypothetical independent drainage units derived in the local project. They are not claimed as official surveyed inlet or outlet data."
+  },
+  "not_included": ["private API credentials", "personal local directory paths", "school plans", "restricted high-resolution terrain", "all-city raw source archives", "entire OneDrive workspace"]
+}

@@ -1,0 +1,56 @@
+name: Linux native SWMM verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  native-linux:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 45
+    env:
+      MPLBACKEND: Agg
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install declared native dependencies
+        run: |
+          sudo apt-get update -qq
+          xargs -a packages.txt sudo apt-get install -y --no-install-recommends
+      - name: Install declared Python dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Compile and execute native regressions
+        run: python qa/test_portable_engine.py
+      - name: Verify data, charts and app controls
+        run: |
+          python qa/data_release_audit.py
+          python qa/test_charts.py
+          python qa/test_cloud_app.py
+      - name: Compute full Xinyi domain with custom rain
+        run: python qa/test_full_domain.py
+      - name: Retain actual numerical evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-native-evidence
+          path: |
+            qa/portable_engine_tests.json
+            qa/full_domain_custom.json
+            qa/cloud_app_tests.json
+            qa/charts_tests.json
+            qa/data_release_audit.json
+            .runtime/build.log
+            .runtime/tests/**/console.log
+            .runtime/tests/**/balance.csv
+            .runtime/tests/**/result.json
+            .runtime/tests/**/model.rpt
+          include-hidden-files: true
+          retention-days: 14

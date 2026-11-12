@@ -1,0 +1,34 @@
+{
+  "source_manifest_sha256": "f643fcb4df55ad6216d4a6b69d86041fcece56b8c7d8ef433d3e253c5b6e8dfb",
+  "engine_sha256": "8a879a0a287090200347ebc1c23dd124153475e57a78bb3a1b8566364b9cd53d",
+  "swmm_dll_sha256": "7bac9983ec031415f04e8e6bdafc4878fd17cb7c3460d3323f41cad78f4a7a92",
+  "engine_sources": {
+    "NativeCoupling.cs": "912c46ae8e05ba09d2418fe7fb6e8d9085c49bbf75ed5539760bdbb493ce149c",
+    "SurfaceEngine.cs": "7b3dfa477d141a72e12b9979e0ac36c6c968791aa98a97ec5845e1f8ddd2c688"
+  },
+  "unit_design": {
+    "unit_count": 322,
+    "coverage_area_km2": 7.9108,
+    "source_role": "public pipe XY coverage only; no source invert or connectivity is used",
+    "tile_m": 200,
+    "coverage_buffer_m": 60,
+    "selection": "lowest eligible 20m terrain cell within each tile",
+    "physical_interpretation": "independent equivalent drainage reservoirs; no connection between reservoirs",
+    "not_actual_inlets": true,
+    "not_actual_pipes": true
+  },
+  "request": {
+    "mode": "custom",
+    "total_mm": 60.0,
+    "duration_min": 60.0,
+    "rain_shape": "middle_peak",
+    "recession_min": 30.0,
+    "drain_mm_h": 30.0,
+    "storage_mm": 20.0,
+    "inlet_area_m2": 0.2,
+    "infiltration_mm_h": 0.0,
+    "exchange_cap_s": 1.0,
+    "model": "SWMM_equivalent_units_bidirectional_2D_NOT_actual_network"
+  },
+  "native_work": "local-source/20261020_194418_a791bf32"
+}

@@ -1,0 +1,14 @@
+{
+  "mode": "historical",
+  "event_id": "H20240710",
+  "recession_min": 60.0,
+  "total_mm": 100.0,
+  "duration_min": 60.0,
+  "drain_mm_h": 30.0,
+  "storage_mm": 20.0,
+  "inlet_area_m2": 0.2,
+  "infiltration_mm_h": 0.0,
+  "exchange_cap_s": 1.0,
+  "rain_shape": "uniform",
+  "model": "SWMM_equivalent_units_bidirectional_2D_NOT_actual_network"
+}

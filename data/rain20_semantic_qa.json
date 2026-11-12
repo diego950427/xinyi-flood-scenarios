@@ -1,0 +1,412 @@
+{
+  "status": "PASS",
+  "scientific_scope": "deterministic normalization and constraint reconstruction QA; NOT observational calibration",
+  "event_date": "2023-08-20",
+  "timezone": "Asia/Taipei (+08:00)",
+  "station_summaries": [
+    {
+      "station_id": "466920",
+      "station_name": "臺北",
+      "distance_m": 65.0,
+      "interval_count": 144,
+      "source_valid_interval_endpoints": 139,
+      "source_missing_interval_endpoints": 0,
+      "source_rejected_interval_endpoints": 5,
+      "resolved_intervals": 144,
+      "remaining_unknown_intervals": 0,
+      "reconstructed_gap_intervals": 8,
+      "direct_min10_cumulative_conflict_intervals": 0,
+      "accepted_interval_sum_mm": 69.5,
+      "source_closing_NOW_daily_total_mm": 69.5,
+      "total_difference_mm": 0.0,
+      "total_is_independent_validation": false,
+      "forcing_role": "PRIMARY_EVENT_INPUT_WITH_EXPLICIT_RECONSTRUCTION",
+      "resolution_method_counts": {
+        "DIRECT_MIN10_AGREES_WITH_DAY_CUMULATIVE": 59,
+        "ACCEPTED_DAY_CUMULATIVE_DIFFERENCE": 76,
+        "RECONSTRUCTED_UNIQUE_CUMULATIVE_RESIDUAL": 8,
+        "DIRECT_MIN10_WITHIN_CUMULATIVE_GAP_CONSTRAINT": 1
+      },
+      "source_RAIN_60min_comparable_windows": 55,
+      "source_RAIN_60min_conflicting_windows": 0
+    },
+    {
+      "station_id": "A1A9Z0",
+      "station_name": "中正國中",
+      "distance_m": 1042.0,
+      "interval_count": 144,
+      "source_valid_interval_endpoints": 126,
+      "source_missing_interval_endpoints": 15,
+      "source_rejected_interval_endpoints": 3,
+      "resolved_intervals": 144,
+      "remaining_unknown_intervals": 0,
+      "reconstructed_gap_intervals": 22,
+      "direct_min10_cumulative_conflict_intervals": 16,
+      "accepted_interval_sum_mm": 57.0,
+      "source_closing_NOW_daily_total_mm": 57.0,
+      "total_difference_mm": 0.0,
+      "total_is_independent_validation": false,
+      "forcing_role": "CONDITIONAL_CUMULATIVE_ONLY_NOT_PRIMARY_FORCING",
+      "resolution_method_counts": {
+        "DIRECT_MIN10_AGREES_WITH_DAY_CUMULATIVE": 47,
+        "ACCEPTED_DAY_CUMULATIVE_DIFFERENCE": 75,
+        "RECONSTRUCTED_UNIQUE_CUMULATIVE_RESIDUAL": 22
+      },
+      "source_RAIN_60min_comparable_windows": 58,
+      "source_RAIN_60min_conflicting_windows": 17
+    },
+    {
+      "station_id": "C0AI30",
+      "station_name": "三重",
+      "distance_m": 2552.6,
+      "interval_count": 144,
+      "source_valid_interval_endpoints": 142,
+      "source_missing_interval_endpoints": 0,
+      "source_rejected_interval_endpoints": 2,
+      "resolved_intervals": 144,
+      "remaining_unknown_intervals": 0,
+      "reconstructed_gap_intervals": 3,
+      "direct_min10_cumulative_conflict_intervals": 0,
+      "accepted_interval_sum_mm": 63.5,
+      "source_closing_NOW_daily_total_mm": 63.5,
+      "total_difference_mm": 0.0,
+      "total_is_independent_validation": false,
+      "forcing_role": "SECOND_STATION_COMPARISON_NOT_CAMPUS_MEASUREMENT",
+      "resolution_method_counts": {
+        "DIRECT_MIN10_AGREES_WITH_DAY_CUMULATIVE": 62,
+        "ACCEPTED_DAY_CUMULATIVE_DIFFERENCE": 79,
+        "RECONSTRUCTED_UNIQUE_CUMULATIVE_RESIDUAL": 3
+      },
+      "source_RAIN_60min_comparable_windows": 57,
+      "source_RAIN_60min_conflicting_windows": 0
+    }
+  ],
+  "peaks": [
+    {
+      "station_id": "466920",
+      "station_name": "臺北",
+      "duration_minutes": 10,
+      "peak_depth_mm": 19.5,
+      "peak_average_intensity_mm_h": 117.0,
+      "window_start_local": "2023-08-20T14:00:00+08:00",
+      "window_end_local": "2023-08-20T14:10:00+08:00",
+      "complete_windows": 144,
+      "possible_windows": 144,
+      "peak_scope": "FULL_DAY_CONDITIONAL_RECONSTRUCTED_SERIES",
+      "peak_window_gap_reconstruction_count": 0,
+      "conditional_cumulative_only_station": false
+    },
+    {
+      "station_id": "466920",
+      "station_name": "臺北",
+      "duration_minutes": 30,
+      "peak_depth_mm": 45.0,
+      "peak_average_intensity_mm_h": 90.0,
+      "window_start_local": "2023-08-20T13:50:00+08:00",
+      "window_end_local": "2023-08-20T14:20:00+08:00",
+      "complete_windows": 142,
+      "possible_windows": 142,
+      "peak_scope": "FULL_DAY_CONDITIONAL_RECONSTRUCTED_SERIES",
+      "peak_window_gap_reconstruction_count": 0,
+      "conditional_cumulative_only_station": false
+    },
+    {
+      "station_id": "466920",
+      "station_name": "臺北",
+      "duration_minutes": 60,
+      "peak_depth_mm": 61.0,
+      "peak_average_intensity_mm_h": 61.0,
+      "window_start_local": "2023-08-20T13:50:00+08:00",
+      "window_end_local": "2023-08-20T14:50:00+08:00",
+      "complete_windows": 139,
+      "possible_windows": 139,
+      "peak_scope": "FULL_DAY_CONDITIONAL_RECONSTRUCTED_SERIES",
+      "peak_window_gap_reconstruction_count": 1,
+      "conditional_cumulative_only_station": false
+    },
+    {
+      "station_id": "A1A9Z0",
+      "station_name": "中正國中",
+      "duration_minutes": 10,
+      "peak_depth_mm": 19.5,
+      "peak_average_intensity_mm_h": 117.0,
+      "window_start_local": "2023-08-20T14:10:00+08:00",
+      "window_end_local": "2023-08-20T14:20:00+08:00",
+      "complete_windows": 144,
+      "possible_windows": 144,
+      "peak_scope": "FULL_DAY_CONDITIONAL_RECONSTRUCTED_SERIES",
+      "peak_window_gap_reconstruction_count": 0,
+      "conditional_cumulative_only_station": true
+    },
+    {
+      "station_id": "A1A9Z0",
+      "station_name": "中正國中",
+      "duration_minutes": 30,
+      "peak_depth_mm": 33.5,
+      "peak_average_intensity_mm_h": 67.0,
+      "window_start_local": "2023-08-20T14:00:00+08:00",
+      "window_end_local": "2023-08-20T14:30:00+08:00",
+      "complete_windows": 142,
+      "possible_windows": 142,
+      "peak_scope": "FULL_DAY_CONDITIONAL_RECONSTRUCTED_SERIES",
+      "peak_window_gap_reconstruction_count": 0,
+      "conditional_cumulative_only_station": true
+    },
+    {
+      "station_id": "A1A9Z0",
+      "station_name": "中正國中",
+      "duration_minutes": 60,
+      "peak_depth_mm": 46.0,
+      "peak_average_intensity_mm_h": 46.0,
+      "window_start_local": "2023-08-20T13:50:00+08:00",
+      "window_end_local": "2023-08-20T14:50:00+08:00",
+      "complete_windows": 139,
+      "possible_windows": 139,
+      "peak_scope": "FULL_DAY_CONDITIONAL_RECONSTRUCTED_SERIES",
+      "peak_window_gap_reconstruction_count": 0,
+      "conditional_cumulative_only_station": true
+    },
+    {
+      "station_id": "C0AI30",
+      "station_name": "三重",
+      "duration_minutes": 10,
+      "peak_depth_mm": 18.0,
+      "peak_average_intensity_mm_h": 108.0,
+      "window_start_local": "2023-08-20T14:30:00+08:00",
+      "window_end_local": "2023-08-20T14:40:00+08:00",
+      "complete_windows": 144,
+      "possible_windows": 144,
+      "peak_scope": "FULL_DAY_CONDITIONAL_RECONSTRUCTED_SERIES",
+      "peak_window_gap_reconstruction_count": 0,
+      "conditional_cumulative_only_station": false
+    },
+    {
+      "station_id": "C0AI30",
+      "station_name": "三重",
+      "duration_minutes": 30,
+      "peak_depth_mm": 43.0,
+      "peak_average_intensity_mm_h": 86.0,
+      "window_start_local": "2023-08-20T14:10:00+08:00",
+      "window_end_local": "2023-08-20T14:40:00+08:00",
+      "complete_windows": 142,
+      "possible_windows": 142,
+      "peak_scope": "FULL_DAY_CONDITIONAL_RECONSTRUCTED_SERIES",
+      "peak_window_gap_reconstruction_count": 0,
+      "conditional_cumulative_only_station": false
+    },
+    {
+      "station_id": "C0AI30",
+      "station_name": "三重",
+      "duration_minutes": 60,
+      "peak_depth_mm": 57.5,
+      "peak_average_intensity_mm_h": 57.5,
+      "window_start_local": "2023-08-20T14:00:00+08:00",
+      "window_end_local": "2023-08-20T15:00:00+08:00",
+      "complete_windows": 139,
+      "possible_windows": 139,
+      "peak_scope": "FULL_DAY_CONDITIONAL_RECONSTRUCTED_SERIES",
+      "peak_window_gap_reconstruction_count": 0,
+      "conditional_cumulative_only_station": false
+    }
+  ],
+  "regression_checks": [
+    {
+      "name": "Taipei_14:00_regression",
+      "passed": true,
+      "evidence": {
+        "actual_mm": 14.5,
+        "expected_mm": 14.5,
+        "method": "DIRECT_MIN10_AGREES_WITH_DAY_CUMULATIVE"
+      }
+    },
+    {
+      "name": "Taipei_14:30_regression",
+      "passed": true,
+      "evidence": {
+        "actual_mm": 7.0,
+        "expected_mm": 7.0,
+        "method": "RECONSTRUCTED_UNIQUE_CUMULATIVE_RESIDUAL"
+      }
+    },
+    {
+      "name": "Taipei_14:40_regression",
+      "passed": true,
+      "evidence": {
+        "actual_mm": 7.0,
+        "expected_mm": 7.0,
+        "method": "DIRECT_MIN10_WITHIN_CUMULATIVE_GAP_CONSTRAINT"
+      }
+    },
+    {
+      "name": "144_intervals_per_station",
+      "passed": true,
+      "evidence": 432
+    },
+    {
+      "name": "midnight_prior_day_cumulative_not_carried",
+      "passed": true,
+      "evidence": "Raw 00:00 NOW is preserved, daily cumulative origin is separately defined"
+    },
+    {
+      "name": "all_resolved_groups_conserve_cumulative",
+      "passed": true,
+      "evidence": 407
+    },
+    {
+      "name": "remaining_unknowns_never_marked_OK",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "name": "nonnegative_resolved_precipitation",
+      "passed": true,
+      "evidence": "Unknown is null, never silently 0"
+    },
+    {
+      "name": "synthetic_unique_positive_residual",
+      "passed": true,
+      "evidence": [
+        7.0,
+        7.0
+      ]
+    },
+    {
+      "name": "synthetic_zero_sum_nonnegative_uniqueness",
+      "passed": true,
+      "evidence": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "synthetic_ambiguous_gap_remains_unknown",
+      "passed": true,
+      "evidence": [
+        null,
+        null
+      ]
+    },
+    {
+      "name": "synthetic_contradiction_fails_closed",
+      "passed": true,
+      "evidence": "CONTRADICTORY_CONSTRAINTS"
+    },
+    {
+      "name": "bad_elevation_rain_row_not_reused",
+      "passed": true,
+      "evidence": "14:30 value derived from 14:20 and 14:40, NOT from bad 14:30 RAIN=52"
+    },
+    {
+      "name": "Taipei_Sanchong_hourly_cross_field_all_match",
+      "passed": true,
+      "evidence": "Every accepted comparable 60-minute RAIN field equals reconstructed interval sums; same-product consistency, not independent gauge validation"
+    },
+    {
+      "name": "Zhongzheng_field_conflicts_explicitly_quarantined_from_primary_role",
+      "passed": true,
+      "evidence": "16 MIN10 conflicts; hourly diagnostic stored separately; usable only as data-source conditional sensitivity"
+    },
+    {
+      "name": "source_immutable_rain_20230819.zip",
+      "passed": true,
+      "evidence": "9fc1d21da071186fec7f605b91780a8772d05cde4f60d6e3dc22f5a758f1f71d"
+    },
+    {
+      "name": "source_immutable_rain_20230820.zip",
+      "passed": true,
+      "evidence": "def12760c2cc90abeef9749a82f33f351eea033d3870688bf5287b0d5dcbe7bb"
+    },
+    {
+      "name": "source_immutable_rain_20230821.zip",
+      "passed": true,
+      "evidence": "eb01b795659f0b817a816945becb304dd6b1dc3f8b77c08fc393d828610f6540"
+    }
+  ],
+  "raw_archives": [
+    {
+      "path": "local-source/rain_20230819.zip",
+      "name": "rain_20230819.zip",
+      "bytes": 1996264,
+      "sha256": "9fc1d21da071186fec7f605b91780a8772d05cde4f60d6e3dc22f5a758f1f71d",
+      "member": "rain_20230819.csv",
+      "member_sha256": "64ebcf117d23dac23ca5a3944d7fe5505b31008663544058659c5d8f5b5dc345",
+      "source_rows": 166432,
+      "zip_crc": "PASS"
+    },
+    {
+      "path": "local-source/rain_20230820.zip",
+      "name": "rain_20230820.zip",
+      "bytes": 1920901,
+      "sha256": "def12760c2cc90abeef9749a82f33f351eea033d3870688bf5287b0d5dcbe7bb",
+      "member": "rain_20230820.csv",
+      "member_sha256": "648ea4e90e3229304a0404e486ced5ac14db7105b5e75beef1122c5a01acde04",
+      "source_rows": 166680,
+      "zip_crc": "PASS"
+    },
+    {
+      "path": "local-source/rain_20230821.zip",
+      "name": "rain_20230821.zip",
+      "bytes": 1784323,
+      "sha256": "eb01b795659f0b817a816945becb304dd6b1dc3f8b77c08fc393d828610f6540",
+      "member": "rain_20230821.csv",
+      "member_sha256": "0e861ca701473e7223a4fd04c7763251e34ff6462ac3d7c97d9fc56e197fc417",
+      "source_rows": 164186,
+      "zip_crc": "PASS"
+    }
+  ],
+  "model_inputs": [
+    {
+      "path": "model_inputs/466920_taipei_20230820_hyetograph_qc.csv",
+      "intervals": 144,
+      "total_mm": 69.5,
+      "sha256": "7ce4066bac699e4c2b0c57d1a28225639907e1e47fe0043afade1c3f1fb90365",
+      "role": "PRIMARY_EVENT_INPUT_WITH_EXPLICIT_RECONSTRUCTION"
+    },
+    {
+      "path": "model_inputs/A1A9Z0_zhongzheng_20230820_hyetograph_qc.csv",
+      "intervals": 144,
+      "total_mm": 57.0,
+      "sha256": "405146760cec980ffbfc9bdb4608a36a588443e88b07e0e5cea12ba3d73be774",
+      "role": "CONDITIONAL_CUMULATIVE_ONLY_NOT_PRIMARY_FORCING"
+    },
+    {
+      "path": "model_inputs/C0AI30_sanchong_20230820_hyetograph_qc.csv",
+      "intervals": 144,
+      "total_mm": 63.5,
+      "sha256": "5482d4ff8f36c54c001263ae5c83c2c18defa94673f7d01e2ebafafbb9d9d659",
+      "role": "SECOND_STATION_COMPARISON_NOT_CAMPUS_MEASUREMENT"
+    }
+  ],
+  "before_after": [
+    {
+      "station_id": "466920",
+      "old_nonblank_increment_sum_mm": 53.5,
+      "new_resolved_increment_sum_mm": 69.5,
+      "change_mm": 16.0,
+      "note": "Old missing intervals excluded from sum for comparison only; not treated as observed zero"
+    },
+    {
+      "station_id": "A1A9Z0",
+      "old_nonblank_increment_sum_mm": 55.5,
+      "new_resolved_increment_sum_mm": 57.0,
+      "change_mm": 1.5,
+      "note": "Old missing intervals excluded from sum for comparison only; not treated as observed zero"
+    },
+    {
+      "station_id": "C0AI30",
+      "old_nonblank_increment_sum_mm": 61.5,
+      "new_resolved_increment_sum_mm": 63.5,
+      "change_mm": 2.0,
+      "note": "Old missing intervals excluded from sum for comparison only; not treated as observed zero"
+    }
+  ],
+  "unresolved_intervals_total": 0,
+  "ponding_alignment": "REJECT_STRICT_EVENT_ALIGNMENT: official polygon date only; unrelated 1999 time not transplanted",
+  "important_limitations": [
+    "Cumulative differences and min10 constraints are not independent instrument validation.",
+    "A1A9Z0 MIN_10 and RAIN contradict cumulative during rain; its cumulative-only series is secondary conditional evidence.",
+    "Negative legacy sentinel codes are preserved; no code-to-zero conversion.",
+    "The date origin is separated from the archive's previous-day 00:00 NOW value.",
+    "Metadata/elevation checks detect obvious mixing but cannot rule out every same-elevation contaminated row."
+  ]
+}

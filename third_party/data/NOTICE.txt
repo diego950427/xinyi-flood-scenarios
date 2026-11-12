@@ -1,0 +1,30 @@
+Data attribution for Xinyi scenario study
+
+Terrain: Ministry of the Interior, Department of Land Administration, Taiwan.
+20 m DTM dataset 35430; source tiles used here were surveyed in 2006-2007 and
+regridded in 2014. https://data.gov.tw/dataset/35430
+
+District boundary: Taipei City Department of Civil Affairs, district boundary
+20220915 edition. https://data.gov.tw/dataset/121199
+
+Rain observations: Central Weather Administration, archived through the
+Civil IoT Taiwan service operated by the National Center for High-performance
+Computing. https://data.gov.tw/dataset/9177 ; https://history.colife.org.tw/
+
+The above official dataset pages specify the Open Government Data License,
+version 1.0: https://data.gov.tw/license . The original agencies are credited;
+none endorses this research application or its scenario results.
+
+Rain sewer geometry and historical flood references: Taipei City Hydraulic
+Engineering Office. Exact dataset links and observed license wording are in
+source_notices.json and DATA_SOURCES.md. The geometry used here is a derived
+reference layer, not a verified hydraulic network.
+
+No API keys, personal machine directories, licensed high-resolution maps,
+school building plans, or private sewer plans are included in this data release.
+
+Numerical grids and prepared scenarios are research derivatives. They do not
+constitute calibrated flood forecasts, surveyed inlet depths, or probabilities.
+Precomputed examples retain their Windows V2 computation date and provenance.
+
+This notice is attribution, not a new license grant over third-party material.

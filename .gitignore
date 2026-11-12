@@ -1,0 +1,15 @@
+.runtime/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+.streamlit/secrets.toml
+qa/*_required.png
+qa/adapt_backend.py
+qa/artifacts/
+*.log
+*.tmp
+*~
+engine/vendor/*.zip
+qa/prepare_public_data.py

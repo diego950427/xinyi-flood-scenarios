@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": {
+    "stranger_cannot_list_results": true,
+    "owner_can_list_result": true,
+    "stranger_cannot_cancel": true,
+    "path_traversal_rejected": true,
+    "initial_renders": true,
+    "history_default": true,
+    "local_nine_station_default": true,
+    "four_events": true,
+    "accepted_examples_visible": true,
+    "excessive_intensity_disables_submit": true,
+    "valid_custom_enables_submit": true,
+    "custom_renders": true,
+    "busy_error_visible": true,
+    "no_uncaught_ui_errors": true
+  },
+  "scope": "UI/input/isolation only; no solver completion claim."
+}

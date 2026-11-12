@@ -1,0 +1,9 @@
+* text=auto eol=lf
+engine/vendor/** -text
+data/** -text
+examples/** -text
+*.tif -text
+*.npz -text
+*.npy -text
+*.png -text
+*.zip -text

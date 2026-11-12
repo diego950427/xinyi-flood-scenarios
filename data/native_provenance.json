@@ -1,0 +1,58 @@
+{
+  "concrt140.dll": {
+    "source": "local-source/concrt140.dll",
+    "sha256": "573229a07f38ab9d2fc2e1a5b98e9243b9b39100323180c83ad7ddaf98eee46a"
+  },
+  "msvcp140.dll": {
+    "source": "local-source/msvcp140.dll",
+    "sha256": "9fee6f36547d6f6ea7ca0338655555dba6bb0f798bc60334d29b94d1547da4da"
+  },
+  "msvcp140_1.dll": {
+    "source": "local-source/msvcp140_1.dll",
+    "sha256": "8731a93e519c2595c9fd489e6d9ac07e964448c0da1c8ee9ee500a7989482617"
+  },
+  "msvcp140_2.dll": {
+    "source": "local-source/msvcp140_2.dll",
+    "sha256": "366af8e071f004da5d95a832a46b2e8821a8e0294340a93f7c95cf48c441067e"
+  },
+  "msvcp140_atomic_wait.dll": {
+    "source": "local-source/msvcp140_atomic_wait.dll",
+    "sha256": "c61a28711f8c6e9bfd4879cf5f53b013d653badad308abe3e887c694b223d6f0"
+  },
+  "msvcp140_codecvt_ids.dll": {
+    "source": "local-source/msvcp140_codecvt_ids.dll",
+    "sha256": "9b45fd069bd0076d8abfeb7c3c30a1f5c5fc8e7124017853a93d831a346c3d21"
+  },
+  "README_求解器說明.md": {
+    "source": "local-source/README_求解器說明.md",
+    "sha256": "c5aaaad833c330422ce3cb17d34d2a3f9380251183e961fe2f585faf42ac80e5"
+  },
+  "runswmm.exe": {
+    "source": "local-source/runswmm.exe",
+    "sha256": "0fe187282e8d90318ad029a5b5661143459d3591292995b7c5e3547953797bde"
+  },
+  "swmm-output.dll": {
+    "source": "local-source/swmm-output.dll",
+    "sha256": "dcb73d4d6dfe683430b1bbfd775756f23891cda0439e15e33a99cef6305ebd70"
+  },
+  "swmm5.dll": {
+    "source": "local-source/swmm5.dll",
+    "sha256": "7bac9983ec031415f04e8e6bdafc4878fd17cb7c3460d3323f41cad78f4a7a92"
+  },
+  "vcomp140.dll": {
+    "source": "local-source/vcomp140.dll",
+    "sha256": "615d9cd5d06e2ad69d10b938d91f88c6d372e6c935b315c45da13bb8c4b67e0a"
+  },
+  "vcruntime140.dll": {
+    "source": "local-source/vcruntime140.dll",
+    "sha256": "9d2b40f0395cc5d1b4d5ea17b84970c29971d448c37104676db577586d4ad1b1"
+  },
+  "vcruntime140_1.dll": {
+    "source": "local-source/vcruntime140_1.dll",
+    "sha256": "34048abaa070ecc13b318cea31425f4ca3edd133d350318ac65259e6058c8b32"
+  },
+  "來源與雜湊_source_provenance.csv": {
+    "source": "local-source/來源與雜湊_source_provenance.csv",
+    "sha256": "57b13826b9a2a34b5b886620b57ad55dc92a33cdbada97f97cc7ca8e9ad13d53"
+  }
+}

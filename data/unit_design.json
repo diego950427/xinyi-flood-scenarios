@@ -1,0 +1,11 @@
+{
+  "unit_count": 322,
+  "coverage_area_km2": 7.9108,
+  "source_role": "public pipe XY coverage only; no source invert or connectivity is used",
+  "tile_m": 200,
+  "coverage_buffer_m": 60,
+  "selection": "lowest eligible 20m terrain cell within each tile",
+  "physical_interpretation": "independent equivalent drainage reservoirs; no connection between reservoirs",
+  "not_actual_inlets": true,
+  "not_actual_pipes": true
+}

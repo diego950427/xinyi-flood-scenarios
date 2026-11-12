@@ -1,0 +1,99 @@
+{
+  "scope": "Existing V2 verified synthetic regressions; not field calibration",
+  "original_qa_sha256": "3db2395930e21f9b707eeb2eb8c27f99068da894b107409e683dfc1046a0f973",
+  "coupling_equations_sha256": "a1beb499976a3fa2dc44ccf6b34063a542883b87fbc129406f663d8e64dd2a38",
+  "surface_equations_sha256": "7b3dfa477d141a72e12b9979e0ac36c6c968791aa98a97ec5845e1f8ddd2c688",
+  "reference_native_sha256": "7bac9983ec031415f04e8e6bdafc4878fd17cb7c3460d3323f41cad78f4a7a92",
+  "cases": {
+    "dry": {
+      "rain_m3": 0.0,
+      "to_network_m3": 0.0,
+      "to_surface_m3": 0.0,
+      "drain_m3": 0.0,
+      "surface_stored_m3": 0.0,
+      "native_stored_m3": 0.0,
+      "time_s": 600.0,
+      "max_depth_m": 0.0
+    },
+    "rain": {
+      "rain_m3": 959.999999998347,
+      "to_network_m3": 1.6317609536102,
+      "to_surface_m3": 0.0,
+      "drain_m3": 1.28106059772152,
+      "surface_stored_m3": 958.368239046389,
+      "native_stored_m3": 0.350055648286513,
+      "time_s": 600.0,
+      "max_depth_m": 0.01665705890574321
+    },
+    "ponded": {
+      "rain_m3": 0.0,
+      "to_network_m3": 141.273811203491,
+      "to_surface_m3": 0.0,
+      "drain_m3": 127.203922045512,
+      "surface_stored_m3": 11378.7261887965,
+      "native_stored_m3": 14.0925212318474,
+      "time_s": 600.0,
+      "max_depth_m": 0.2
+    },
+    "surcharge": {
+      "rain_m3": 0.0,
+      "to_network_m3": 0.0,
+      "to_surface_m3": 370.074150623975,
+      "drain_m3": 287.999999999999,
+      "surface_stored_m3": 370.074150623975,
+      "native_stored_m3": 1646.44573788212,
+      "time_s": 600.0,
+      "max_depth_m": 0.04504434542809833
+    },
+    "surcharge_fine": {
+      "rain_m3": 0.0,
+      "to_network_m3": 0.0,
+      "to_surface_m3": 369.935556249308,
+      "drain_m3": 288.000000000005,
+      "surface_stored_m3": 369.935556249308,
+      "native_stored_m3": 1646.36091966892,
+      "time_s": 600.0,
+      "max_depth_m": 0.04495684806769485
+    },
+    "surcharge_wet": {
+      "rain_m3": 0.0,
+      "to_network_m3": 0.0,
+      "to_surface_m3": 348.562488059315,
+      "drain_m3": 287.999999999999,
+      "surface_stored_m3": 11868.5624880593,
+      "native_stored_m3": 1667.9295056661,
+      "time_s": 600.0,
+      "max_depth_m": 0.2118981404421757
+    },
+    "zero_outlet": {
+      "rain_m3": 959.999999998347,
+      "to_network_m3": 1.6317609536102,
+      "to_surface_m3": 0.0,
+      "drain_m3": 0.0,
+      "surface_stored_m3": 958.368239046389,
+      "native_stored_m3": 1.62733176323052,
+      "time_s": 600.0,
+      "max_depth_m": 0.01665705890574321
+    },
+    "dry_fractional_long": {
+      "rain_m3": 0.0,
+      "to_network_m3": 0.0,
+      "to_surface_m3": 0.0,
+      "drain_m3": 0.0,
+      "surface_stored_m3": 0.0,
+      "native_stored_m3": 0.0,
+      "time_s": 25200.0,
+      "max_depth_m": 0.0
+    },
+    "elevated_ponded": {
+      "rain_m3": 0.0,
+      "to_network_m3": 141.273811203491,
+      "to_surface_m3": 0.0,
+      "drain_m3": 127.203922045512,
+      "surface_stored_m3": 11378.7261887965,
+      "native_stored_m3": 14.0925212318474,
+      "time_s": 600.0,
+      "max_depth_m": 0.2
+    }
+  }
+}

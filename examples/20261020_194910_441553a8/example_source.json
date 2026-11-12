@@ -1,0 +1,203 @@
+{
+  "run_id": "20261020_194910_441553a8",
+  "computed_on": "2026-10-20",
+  "computed_platform": "Windows / V2",
+  "is_precomputed_example": true,
+  "is_cloud_validation": false,
+  "description": "Preserved completed native SWMM 5.2.4 plus 2D result, not a rerun or field calibration.",
+  "original_summary_sha256": "0f301d2ab524e704fdc2922306e7072cedd15c9401d85ceef9240ca40b27cd5b",
+  "included_numeric_files": [
+    {
+      "path": "request.json",
+      "sha256": "9251911ad30d9a2071aedb4a2d854316ca25b694a78d32f58b777b4df292c9bb",
+      "original_sha256": "9251911ad30d9a2071aedb4a2d854316ca25b694a78d32f58b777b4df292c9bb",
+      "bytes": 356,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "rainfall.json",
+      "sha256": "ca0a35e6fb1511089bd2705ea640646eab94ab58564a2447758d53e5492c76e0",
+      "original_sha256": "ca0a35e6fb1511089bd2705ea640646eab94ab58564a2447758d53e5492c76e0",
+      "bytes": 703,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "summary.json",
+      "sha256": "0f301d2ab524e704fdc2922306e7072cedd15c9401d85ceef9240ca40b27cd5b",
+      "original_sha256": "0f301d2ab524e704fdc2922306e7072cedd15c9401d85ceef9240ca40b27cd5b",
+      "bytes": 2856,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "grids.npz",
+      "sha256": "70a6cac590c8d8387c843d36cb254664c0becaba7b5bc908e7298deab7b5ed35",
+      "original_sha256": "70a6cac590c8d8387c843d36cb254664c0becaba7b5bc908e7298deab7b5ed35",
+      "bytes": 1582160,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "rain_input.npz",
+      "sha256": "dd7a90a25ab145fa4093fc69c2bff009dc3ab3b4dc9ff7413489e8001313a5fb",
+      "original_sha256": "dd7a90a25ab145fa4093fc69c2bff009dc3ab3b4dc9ff7413489e8001313a5fb",
+      "bytes": 7568,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "max_depth_m.tif",
+      "sha256": "b51cd86700e2c108b3cd3a6e0b1175fd9bb4063da432845b00b734b6df5ea425",
+      "original_sha256": "b51cd86700e2c108b3cd3a6e0b1175fd9bb4063da432845b00b734b6df5ea425",
+      "bytes": 336385,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "final_depth_m.tif",
+      "sha256": "9eef4314277d64a4b8ba5d780b4782172d0a5b4214bee7d387fa750d3ea837a5",
+      "original_sha256": "9eef4314277d64a4b8ba5d780b4782172d0a5b4214bee7d387fa750d3ea837a5",
+      "bytes": 344267,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "duration_gt10_s.tif",
+      "sha256": "23b06759779b342c6fc546237b1af3e670f5c804c1bbf02fdbe3bf5f6a51f291",
+      "original_sha256": "23b06759779b342c6fc546237b1af3e670f5c804c1bbf02fdbe3bf5f6a51f291",
+      "bytes": 90045,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "first_gt10_s.tif",
+      "sha256": "25d4a85e8b2a18ed068741b1ed432992f7eb0a22eaa48cd7fd0e385557ce2d03",
+      "original_sha256": "25d4a85e8b2a18ed068741b1ed432992f7eb0a22eaa48cd7fd0e385557ce2d03",
+      "bytes": 88124,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "time_of_max_s.tif",
+      "sha256": "28a009c60e865f037296dff29be0186bdb1b68e9774adb55dd3df8019ab5d654",
+      "original_sha256": "28a009c60e865f037296dff29be0186bdb1b68e9774adb55dd3df8019ab5d654",
+      "bytes": 111358,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "qx_m2_s.tif",
+      "sha256": "46edf13d6a53be3dd661282651236576880d4332941e821eee4855be64e6bd05",
+      "original_sha256": "46edf13d6a53be3dd661282651236576880d4332941e821eee4855be64e6bd05",
+      "bytes": 359060,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "qrow_m2_s.tif",
+      "sha256": "d2cfdfad5cfe8335d0b59fb09419e7b7e86eec958e0c50f189ef029b10f18ecb",
+      "original_sha256": "d2cfdfad5cfe8335d0b59fb09419e7b7e86eec958e0c50f189ef029b10f18ecb",
+      "bytes": 357259,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "xinyi_boundary.geojson",
+      "sha256": "253b0ac4d9f1943faa3a8791b16d47d4b4e1ee19b79198437385d5dea96e56c9",
+      "original_sha256": "253b0ac4d9f1943faa3a8791b16d47d4b4e1ee19b79198437385d5dea96e56c9",
+      "bytes": 70937,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "native/history.csv",
+      "sha256": "81dc811ab6f337fe3a301e65f67c056701fcf97f18219c5588339c69364165c1",
+      "original_sha256": "81dc811ab6f337fe3a301e65f67c056701fcf97f18219c5588339c69364165c1",
+      "bytes": 61599,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "native/balance.csv",
+      "sha256": "82dee87a30eca2ccfc213da818127e84641294fbec54a29d7ab374196be29dd1",
+      "original_sha256": "82dee87a30eca2ccfc213da818127e84641294fbec54a29d7ab374196be29dd1",
+      "bytes": 490,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "native/units_result.csv",
+      "sha256": "b9f485d981a2a14d4ff218b8eeff9003f3c5028e7b598d0a01663f97268478ea",
+      "original_sha256": "b9f485d981a2a14d4ff218b8eeff9003f3c5028e7b598d0a01663f97268478ea",
+      "bytes": 14793,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "native/progress.json",
+      "sha256": "abb655521e3c52c91870acfb7519f1926869df9ca8abebe96776663ac902afe4",
+      "original_sha256": "abb655521e3c52c91870acfb7519f1926869df9ca8abebe96776663ac902afe4",
+      "bytes": 53,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "native/model.inp",
+      "sha256": "d0e5644abdeb837a224726ec5f7c1831e6b519b24a2d3e7f98cd9f640737091c",
+      "original_sha256": "d0e5644abdeb837a224726ec5f7c1831e6b519b24a2d3e7f98cd9f640737091c",
+      "bytes": 121715,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "native/units.csv",
+      "sha256": "b720022775a9baf360b2d02c81337eada5a4c5e78b10dee1c941af7c54276444",
+      "original_sha256": "b720022775a9baf360b2d02c81337eada5a4c5e78b10dee1c941af7c54276444",
+      "bytes": 11683,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "native/exchange_cap.txt",
+      "sha256": "d0ff5974b6aa52cf562bea5921840c032a860a91a3512f7fe8f768f6bbe005f6",
+      "original_sha256": "d0ff5974b6aa52cf562bea5921840c032a860a91a3512f7fe8f768f6bbe005f6",
+      "bytes": 3,
+      "metadata_paths_sanitized": false
+    }
+  ],
+  "omitted_large_original_evidence": [
+    {
+      "path": "native/model.out",
+      "sha256": "c8656265d3908dcd8271c8faf5d0c07350da54f956922fdb73704c1159bbc570",
+      "bytes": 15212506
+    },
+    {
+      "path": "native/model.rpt",
+      "sha256": "2d47e05fcccd271d485b1c4913187d085a6b3ab09439ae83cdde7ec2cd06da93",
+      "bytes": 44731780
+    },
+    {
+      "path": "native/state.bin",
+      "sha256": "30845fb0825cdad39f7440591bbbecb4a46adcc9daadd1242a74420b6e8d6f08",
+      "bytes": 5006064
+    },
+    {
+      "path": "native/input.bin",
+      "sha256": "3fbb0da3a7b3f6b969052af608bd0dd4247f899d6ef35983aeda41383be3bd95",
+      "bytes": 5476959
+    }
+  ],
+  "evidence_note": "Original native binaries/reports are retained in the local V2 archive. This public subset preserves numeric summaries, output rasters and time series; it is not the complete original evidence bundle.",
+  "included_supporting_files": [
+    {
+      "path": "max_depth.png",
+      "sha256": "50270a9a06e1b1328418726d2844eae4752b10f1fb911f4da11652af21e3df62",
+      "original_sha256": "50270a9a06e1b1328418726d2844eae4752b10f1fb911f4da11652af21e3df62",
+      "bytes": 182089,
+      "metadata_paths_sanitized": false
+    },
+    {
+      "path": "native/console.log",
+      "sha256": "e6c149224209e3b8c0825dbb9d0fe202da37bcd7ab1fa5d5e1f807f99b54c543",
+      "original_sha256": "ee165095c7404b65aa587ccf711287d04a524ea4fa12bd214bce68ebf2de7955",
+      "bytes": 1399,
+      "metadata_paths_sanitized": true
+    }
+  ],
+  "regenerated_presentation_files": [
+    {
+      "path": "result.qgs",
+      "original_sha256": "8aab8ca8e7c57d95e64a58e80cb81c922c78febadcb052239e861878846e853d",
+      "sha256": "ca752ca771416ac2e3a3929e6ef77f91a337b79fb7675e15bd6abd7643d7ea40",
+      "reason": "Replaced V2 presentation project with shared portable V3 template; numerical raster files unchanged."
+    },
+    {
+      "path": "READ_ME.txt",
+      "sha256": "442d1c1b65d877db2952bb491cdf58c09b35e2a4087e12c0addf3f50a768eb94",
+      "reason": "Generated V3 opening instructions; not numerical evidence."
+    }
+  ]
+}

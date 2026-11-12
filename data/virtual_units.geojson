@@ -1,0 +1,6773 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:3826"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "0",
+        "cell": 6443,
+        "row": 119,
+        "col": 158,
+        "x": 306360.0,
+        "y": 2771640.0,
+        "crest": 5.980000019073486,
+        "support_area_m2": 800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306360.0,
+          2771640.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1",
+        "cell": 6448,
+        "row": 119,
+        "col": 189,
+        "x": 306980.0,
+        "y": 2771640.0,
+        "crest": 6.159999847412109,
+        "support_area_m2": 1600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306980.0,
+          2771640.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2",
+        "cell": 6903,
+        "row": 122,
+        "col": 144,
+        "x": 306080.0,
+        "y": 2771580.0,
+        "crest": 5.840000152587891,
+        "support_area_m2": 19200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306080.0,
+          2771580.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3",
+        "cell": 6909,
+        "row": 122,
+        "col": 150,
+        "x": 306200.0,
+        "y": 2771580.0,
+        "crest": 5.929999828338623,
+        "support_area_m2": 22800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306200.0,
+          2771580.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4",
+        "cell": 6567,
+        "row": 120,
+        "col": 160,
+        "x": 306400.0,
+        "y": 2771620.0,
+        "crest": 6.019999980926514,
+        "support_area_m2": 25600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306400.0,
+          2771620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5",
+        "cell": 6576,
+        "row": 120,
+        "col": 170,
+        "x": 306600.0,
+        "y": 2771620.0,
+        "crest": 6.199999809265137,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306600.0,
+          2771620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6",
+        "cell": 6592,
+        "row": 120,
+        "col": 189,
+        "x": 306980.0,
+        "y": 2771620.0,
+        "crest": 6.159999847412109,
+        "support_area_m2": 23200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306980.0,
+          2771620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7",
+        "cell": 6601,
+        "row": 120,
+        "col": 198,
+        "x": 307160.0,
+        "y": 2771620.0,
+        "crest": 5.889999866485596,
+        "support_area_m2": 35200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307160.0,
+          2771620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8",
+        "cell": 6609,
+        "row": 120,
+        "col": 209,
+        "x": 307380.0,
+        "y": 2771620.0,
+        "crest": 5.570000171661377,
+        "support_area_m2": 30400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307380.0,
+          2771620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "9",
+        "cell": 7179,
+        "row": 123,
+        "col": 219,
+        "x": 307580.0,
+        "y": 2771560.0,
+        "crest": 5.170000076293945,
+        "support_area_m2": 20800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307580.0,
+          2771560.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10",
+        "cell": 6974,
+        "row": 122,
+        "col": 221,
+        "x": 307620.0,
+        "y": 2771580.0,
+        "crest": 5.079999923706055,
+        "support_area_m2": 4400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307620.0,
+          2771580.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "11",
+        "cell": 10708,
+        "row": 138,
+        "col": 143,
+        "x": 306060.0,
+        "y": 2771260.0,
+        "crest": 5.659999847412109,
+        "support_area_m2": 17600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306060.0,
+          2771260.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "12",
+        "cell": 8696,
+        "row": 130,
+        "col": 152,
+        "x": 306240.0,
+        "y": 2771420.0,
+        "crest": 6.110000133514404,
+        "support_area_m2": 29600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306240.0,
+          2771420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "13",
+        "cell": 8711,
+        "row": 130,
+        "col": 167,
+        "x": 306540.0,
+        "y": 2771420.0,
+        "crest": 6.340000152587891,
+        "support_area_m2": 14800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306540.0,
+          2771420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "14",
+        "cell": 8714,
+        "row": 130,
+        "col": 170,
+        "x": 306600.0,
+        "y": 2771420.0,
+        "crest": 6.380000114440918,
+        "support_area_m2": 25200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306600.0,
+          2771420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "15",
+        "cell": 10493,
+        "row": 137,
+        "col": 189,
+        "x": 306980.0,
+        "y": 2771280.0,
+        "crest": 6.289999961853027,
+        "support_area_m2": 8800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306980.0,
+          2771280.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "16",
+        "cell": 8743,
+        "row": 130,
+        "col": 199,
+        "x": 307180.0,
+        "y": 2771420.0,
+        "crest": 5.929999828338623,
+        "support_area_m2": 27200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307180.0,
+          2771420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17",
+        "cell": 9988,
+        "row": 135,
+        "col": 209,
+        "x": 307380.0,
+        "y": 2771320.0,
+        "crest": 5.659999847412109,
+        "support_area_m2": 14800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307380.0,
+          2771320.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "18",
+        "cell": 8995,
+        "row": 131,
+        "col": 215,
+        "x": 307500.0,
+        "y": 2771400.0,
+        "crest": 5.550000190734863,
+        "support_area_m2": 21200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307500.0,
+          2771400.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19",
+        "cell": 9000,
+        "row": 131,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2771400.0,
+        "crest": 5.659999847412109,
+        "support_area_m2": 31200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2771400.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20",
+        "cell": 8777,
+        "row": 130,
+        "col": 233,
+        "x": 307860.0,
+        "y": 2771420.0,
+        "crest": 5.619999885559082,
+        "support_area_m2": 32800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307860.0,
+          2771420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21",
+        "cell": 9026,
+        "row": 131,
+        "col": 246,
+        "x": 308120.0,
+        "y": 2771400.0,
+        "crest": 5.5,
+        "support_area_m2": 34400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308120.0,
+          2771400.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22",
+        "cell": 9273,
+        "row": 132,
+        "col": 250,
+        "x": 308200.0,
+        "y": 2771380.0,
+        "crest": 5.659999847412109,
+        "support_area_m2": 30000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308200.0,
+          2771380.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "23",
+        "cell": 9283,
+        "row": 132,
+        "col": 260,
+        "x": 308400.0,
+        "y": 2771380.0,
+        "crest": 7.369999885559082,
+        "support_area_m2": 30400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308400.0,
+          2771380.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "24",
+        "cell": 9797,
+        "row": 134,
+        "col": 275,
+        "x": 308700.0,
+        "y": 2771340.0,
+        "crest": 7.320000171661377,
+        "support_area_m2": 13200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308700.0,
+          2771340.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "25",
+        "cell": 13224,
+        "row": 148,
+        "col": 151,
+        "x": 306220.0,
+        "y": 2771060.0,
+        "crest": 6.070000171661377,
+        "support_area_m2": 29600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306220.0,
+          2771060.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "26",
+        "cell": 11224,
+        "row": 140,
+        "col": 160,
+        "x": 306400.0,
+        "y": 2771220.0,
+        "crest": 6.429999828338623,
+        "support_area_m2": 35600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306400.0,
+          2771220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "27",
+        "cell": 11234,
+        "row": 140,
+        "col": 170,
+        "x": 306600.0,
+        "y": 2771220.0,
+        "crest": 6.559999942779541,
+        "support_area_m2": 30000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306600.0,
+          2771220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "28",
+        "cell": 11252,
+        "row": 140,
+        "col": 188,
+        "x": 306960.0,
+        "y": 2771220.0,
+        "crest": 6.340000152587891,
+        "support_area_m2": 26000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306960.0,
+          2771220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "29",
+        "cell": 11755,
+        "row": 142,
+        "col": 199,
+        "x": 307180.0,
+        "y": 2771180.0,
+        "crest": 5.980000019073486,
+        "support_area_m2": 28800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307180.0,
+          2771180.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30",
+        "cell": 11270,
+        "row": 140,
+        "col": 206,
+        "x": 307320.0,
+        "y": 2771220.0,
+        "crest": 5.980000019073486,
+        "support_area_m2": 30800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307320.0,
+          2771220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "31",
+        "cell": 11274,
+        "row": 140,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2771220.0,
+        "crest": 6.070000171661377,
+        "support_area_m2": 23600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2771220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "32",
+        "cell": 11288,
+        "row": 140,
+        "col": 224,
+        "x": 307680.0,
+        "y": 2771220.0,
+        "crest": 6.429999828338623,
+        "support_area_m2": 30800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307680.0,
+          2771220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "33",
+        "cell": 11303,
+        "row": 140,
+        "col": 239,
+        "x": 307980.0,
+        "y": 2771220.0,
+        "crest": 6.159999847412109,
+        "support_area_m2": 35200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307980.0,
+          2771220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "34",
+        "cell": 11310,
+        "row": 140,
+        "col": 246,
+        "x": 308120.0,
+        "y": 2771220.0,
+        "crest": 5.929999828338623,
+        "support_area_m2": 21200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308120.0,
+          2771220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "35",
+        "cell": 11314,
+        "row": 140,
+        "col": 250,
+        "x": 308200.0,
+        "y": 2771220.0,
+        "crest": 5.980000019073486,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308200.0,
+          2771220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "36",
+        "cell": 12322,
+        "row": 144,
+        "col": 260,
+        "x": 308400.0,
+        "y": 2771140.0,
+        "crest": 7.320000171661377,
+        "support_area_m2": 25600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308400.0,
+          2771140.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "37",
+        "cell": 13098,
+        "row": 147,
+        "col": 279,
+        "x": 308780.0,
+        "y": 2771080.0,
+        "crest": 7.320000171661377,
+        "support_area_m2": 12400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308780.0,
+          2771080.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "38",
+        "cell": 13099,
+        "row": 147,
+        "col": 280,
+        "x": 308800.0,
+        "y": 2771080.0,
+        "crest": 7.320000171661377,
+        "support_area_m2": 17600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308800.0,
+          2771080.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "39",
+        "cell": 13368,
+        "row": 148,
+        "col": 295,
+        "x": 309100.0,
+        "y": 2771060.0,
+        "crest": 8.579999923706055,
+        "support_area_m2": 5600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309100.0,
+          2771060.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "40",
+        "cell": 13119,
+        "row": 147,
+        "col": 300,
+        "x": 309200.0,
+        "y": 2771080.0,
+        "crest": 9.260000228881836,
+        "support_area_m2": 17200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309200.0,
+          2771080.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "41",
+        "cell": 12630,
+        "row": 145,
+        "col": 315,
+        "x": 309500.0,
+        "y": 2771120.0,
+        "crest": 9.619999885559082,
+        "support_area_m2": 18800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309500.0,
+          2771120.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "42",
+        "cell": 12887,
+        "row": 146,
+        "col": 320,
+        "x": 309600.0,
+        "y": 2771100.0,
+        "crest": 9.710000038146973,
+        "support_area_m2": 10000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309600.0,
+          2771100.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "43",
+        "cell": 13150,
+        "row": 147,
+        "col": 331,
+        "x": 309820.0,
+        "y": 2771080.0,
+        "crest": 9.84000015258789,
+        "support_area_m2": 15200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309820.0,
+          2771080.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "44",
+        "cell": 13731,
+        "row": 150,
+        "col": 152,
+        "x": 306240.0,
+        "y": 2771020.0,
+        "crest": 6.110000133514404,
+        "support_area_m2": 26800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306240.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "45",
+        "cell": 15528,
+        "row": 157,
+        "col": 160,
+        "x": 306400.0,
+        "y": 2770880.0,
+        "crest": 6.559999942779541,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306400.0,
+          2770880.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "46",
+        "cell": 13749,
+        "row": 150,
+        "col": 170,
+        "x": 306600.0,
+        "y": 2771020.0,
+        "crest": 6.739999771118164,
+        "support_area_m2": 25600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306600.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "47",
+        "cell": 15297,
+        "row": 156,
+        "col": 184,
+        "x": 306880.0,
+        "y": 2770900.0,
+        "crest": 6.559999942779541,
+        "support_area_m2": 14400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306880.0,
+          2770900.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "48",
+        "cell": 13775,
+        "row": 150,
+        "col": 196,
+        "x": 307120.0,
+        "y": 2771020.0,
+        "crest": 6.429999828338623,
+        "support_area_m2": 26000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307120.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "49",
+        "cell": 13779,
+        "row": 150,
+        "col": 200,
+        "x": 307200.0,
+        "y": 2771020.0,
+        "crest": 6.519999980926514,
+        "support_area_m2": 35600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307200.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "50",
+        "cell": 13789,
+        "row": 150,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2771020.0,
+        "crest": 6.789999961853027,
+        "support_area_m2": 39600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "51",
+        "cell": 13799,
+        "row": 150,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2771020.0,
+        "crest": 6.96999979019165,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "52",
+        "cell": 13818,
+        "row": 150,
+        "col": 239,
+        "x": 307980.0,
+        "y": 2771020.0,
+        "crest": 6.739999771118164,
+        "support_area_m2": 37200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307980.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "53",
+        "cell": 13827,
+        "row": 150,
+        "col": 248,
+        "x": 308160.0,
+        "y": 2771020.0,
+        "crest": 6.46999979019165,
+        "support_area_m2": 23600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308160.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "54",
+        "cell": 13829,
+        "row": 150,
+        "col": 250,
+        "x": 308200.0,
+        "y": 2771020.0,
+        "crest": 6.46999979019165,
+        "support_area_m2": 36800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308200.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "55",
+        "cell": 15118,
+        "row": 155,
+        "col": 260,
+        "x": 308400.0,
+        "y": 2770920.0,
+        "crest": 7.28000020980835,
+        "support_area_m2": 31200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308400.0,
+          2770920.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "56",
+        "cell": 13857,
+        "row": 150,
+        "col": 278,
+        "x": 308760.0,
+        "y": 2771020.0,
+        "crest": 7.320000171661377,
+        "support_area_m2": 35600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308760.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "57",
+        "cell": 13859,
+        "row": 150,
+        "col": 280,
+        "x": 308800.0,
+        "y": 2771020.0,
+        "crest": 7.460000038146973,
+        "support_area_m2": 36000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308800.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "58",
+        "cell": 14124,
+        "row": 151,
+        "col": 290,
+        "x": 309000.0,
+        "y": 2771000.0,
+        "crest": 8.470000267028809,
+        "support_area_m2": 32000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309000.0,
+          2771000.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "59",
+        "cell": 13879,
+        "row": 150,
+        "col": 300,
+        "x": 309200.0,
+        "y": 2771020.0,
+        "crest": 9.529999732971191,
+        "support_area_m2": 35200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309200.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "60",
+        "cell": 14144,
+        "row": 151,
+        "col": 310,
+        "x": 309400.0,
+        "y": 2771000.0,
+        "crest": 11.779999732971191,
+        "support_area_m2": 7600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309400.0,
+          2771000.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "61",
+        "cell": 13907,
+        "row": 150,
+        "col": 328,
+        "x": 309760.0,
+        "y": 2771020.0,
+        "crest": 9.930000305175781,
+        "support_area_m2": 38800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309760.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "62",
+        "cell": 13909,
+        "row": 150,
+        "col": 330,
+        "x": 309800.0,
+        "y": 2771020.0,
+        "crest": 10.430000305175781,
+        "support_area_m2": 18800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309800.0,
+          2771020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "63",
+        "cell": 16314,
+        "row": 160,
+        "col": 153,
+        "x": 306260.0,
+        "y": 2770820.0,
+        "crest": 6.289999961853027,
+        "support_area_m2": 28000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306260.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "64",
+        "cell": 16321,
+        "row": 160,
+        "col": 160,
+        "x": 306400.0,
+        "y": 2770820.0,
+        "crest": 6.559999942779541,
+        "support_area_m2": 800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306400.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "65",
+        "cell": 16339,
+        "row": 160,
+        "col": 178,
+        "x": 306760.0,
+        "y": 2770820.0,
+        "crest": 6.789999961853027,
+        "support_area_m2": 8800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306760.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "66",
+        "cell": 16341,
+        "row": 160,
+        "col": 180,
+        "x": 306800.0,
+        "y": 2770820.0,
+        "crest": 6.739999771118164,
+        "support_area_m2": 37600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306800.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "67",
+        "cell": 16351,
+        "row": 160,
+        "col": 190,
+        "x": 307000.0,
+        "y": 2770820.0,
+        "crest": 6.96999979019165,
+        "support_area_m2": 30400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307000.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "68",
+        "cell": 16364,
+        "row": 160,
+        "col": 203,
+        "x": 307260.0,
+        "y": 2770820.0,
+        "crest": 7.099999904632568,
+        "support_area_m2": 35200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307260.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69",
+        "cell": 16371,
+        "row": 160,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2770820.0,
+        "crest": 7.150000095367432,
+        "support_area_m2": 33600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "70",
+        "cell": 16381,
+        "row": 160,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2770820.0,
+        "crest": 7.28000020980835,
+        "support_area_m2": 29200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "71",
+        "cell": 16399,
+        "row": 160,
+        "col": 238,
+        "x": 307960.0,
+        "y": 2770820.0,
+        "crest": 7.28000020980835,
+        "support_area_m2": 28000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307960.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "72",
+        "cell": 16410,
+        "row": 160,
+        "col": 249,
+        "x": 308180.0,
+        "y": 2770820.0,
+        "crest": 7.010000228881836,
+        "support_area_m2": 37600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308180.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "73",
+        "cell": 16411,
+        "row": 160,
+        "col": 250,
+        "x": 308200.0,
+        "y": 2770820.0,
+        "crest": 6.96999979019165,
+        "support_area_m2": 28800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308200.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "74",
+        "cell": 16421,
+        "row": 160,
+        "col": 260,
+        "x": 308400.0,
+        "y": 2770820.0,
+        "crest": 7.28000020980835,
+        "support_area_m2": 24000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308400.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "75",
+        "cell": 16436,
+        "row": 160,
+        "col": 275,
+        "x": 308700.0,
+        "y": 2770820.0,
+        "crest": 7.409999847412109,
+        "support_area_m2": 36800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308700.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "76",
+        "cell": 16714,
+        "row": 161,
+        "col": 280,
+        "x": 308800.0,
+        "y": 2770800.0,
+        "crest": 7.949999809265137,
+        "support_area_m2": 30400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308800.0,
+          2770800.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "77",
+        "cell": 16451,
+        "row": 160,
+        "col": 290,
+        "x": 309000.0,
+        "y": 2770820.0,
+        "crest": 9.079999923706055,
+        "support_area_m2": 30800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309000.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "78",
+        "cell": 18849,
+        "row": 169,
+        "col": 300,
+        "x": 309200.0,
+        "y": 2770640.0,
+        "crest": 9.65999984741211,
+        "support_area_m2": 17200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309200.0,
+          2770640.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "79",
+        "cell": 17832,
+        "row": 165,
+        "col": 319,
+        "x": 309580.0,
+        "y": 2770720.0,
+        "crest": 15.010000228881836,
+        "support_area_m2": 10800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309580.0,
+          2770720.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "80",
+        "cell": 16484,
+        "row": 160,
+        "col": 323,
+        "x": 309660.0,
+        "y": 2770820.0,
+        "crest": 15.010000228881836,
+        "support_area_m2": 22800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309660.0,
+          2770820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "81",
+        "cell": 17309,
+        "row": 163,
+        "col": 331,
+        "x": 309820.0,
+        "y": 2770760.0,
+        "crest": 15.010000228881836,
+        "support_area_m2": 12800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309820.0,
+          2770760.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "82",
+        "cell": 18965,
+        "row": 170,
+        "col": 158,
+        "x": 306360.0,
+        "y": 2770620.0,
+        "crest": 7.230000019073486,
+        "support_area_m2": 30800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306360.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "83",
+        "cell": 20019,
+        "row": 174,
+        "col": 164,
+        "x": 306480.0,
+        "y": 2770540.0,
+        "crest": 7.230000019073486,
+        "support_area_m2": 19200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306480.0,
+          2770540.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "84",
+        "cell": 18984,
+        "row": 170,
+        "col": 177,
+        "x": 306740.0,
+        "y": 2770620.0,
+        "crest": 7.190000057220459,
+        "support_area_m2": 18000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306740.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "85",
+        "cell": 18987,
+        "row": 170,
+        "col": 180,
+        "x": 306800.0,
+        "y": 2770620.0,
+        "crest": 7.190000057220459,
+        "support_area_m2": 35600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306800.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "86",
+        "cell": 18997,
+        "row": 170,
+        "col": 190,
+        "x": 307000.0,
+        "y": 2770620.0,
+        "crest": 7.230000019073486,
+        "support_area_m2": 29600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307000.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "87",
+        "cell": 19013,
+        "row": 170,
+        "col": 206,
+        "x": 307320.0,
+        "y": 2770620.0,
+        "crest": 7.369999885559082,
+        "support_area_m2": 19600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307320.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "88",
+        "cell": 19017,
+        "row": 170,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2770620.0,
+        "crest": 7.369999885559082,
+        "support_area_m2": 37600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "89",
+        "cell": 19027,
+        "row": 170,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2770620.0,
+        "crest": 7.949999809265137,
+        "support_area_m2": 34400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "90",
+        "cell": 19046,
+        "row": 170,
+        "col": 239,
+        "x": 307980.0,
+        "y": 2770620.0,
+        "crest": 7.730000019073486,
+        "support_area_m2": 33600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307980.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "91",
+        "cell": 19053,
+        "row": 170,
+        "col": 246,
+        "x": 308120.0,
+        "y": 2770620.0,
+        "crest": 7.679999828338623,
+        "support_area_m2": 36400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308120.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "92",
+        "cell": 19057,
+        "row": 170,
+        "col": 250,
+        "x": 308200.0,
+        "y": 2770620.0,
+        "crest": 7.679999828338623,
+        "support_area_m2": 28800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308200.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "93",
+        "cell": 19067,
+        "row": 170,
+        "col": 260,
+        "x": 308400.0,
+        "y": 2770620.0,
+        "crest": 7.730000019073486,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308400.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "94",
+        "cell": 19077,
+        "row": 170,
+        "col": 270,
+        "x": 308600.0,
+        "y": 2770620.0,
+        "crest": 7.730000019073486,
+        "support_area_m2": 36800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308600.0,
+          2770620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "95",
+        "cell": 20135,
+        "row": 174,
+        "col": 280,
+        "x": 308800.0,
+        "y": 2770540.0,
+        "crest": 8.539999961853027,
+        "support_area_m2": 21200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308800.0,
+          2770540.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "96",
+        "cell": 20421,
+        "row": 175,
+        "col": 299,
+        "x": 309180.0,
+        "y": 2770520.0,
+        "crest": 9.079999923706055,
+        "support_area_m2": 35600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309180.0,
+          2770520.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "97",
+        "cell": 20422,
+        "row": 175,
+        "col": 300,
+        "x": 309200.0,
+        "y": 2770520.0,
+        "crest": 8.9399995803833,
+        "support_area_m2": 34800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309200.0,
+          2770520.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "98",
+        "cell": 20165,
+        "row": 174,
+        "col": 310,
+        "x": 309400.0,
+        "y": 2770540.0,
+        "crest": 9.75,
+        "support_area_m2": 15600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309400.0,
+          2770540.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "99",
+        "cell": 22622,
+        "row": 184,
+        "col": 112,
+        "x": 305440.0,
+        "y": 2770340.0,
+        "crest": 5.929999828338623,
+        "support_area_m2": 16000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305440.0,
+          2770340.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "100",
+        "cell": 24068,
+        "row": 189,
+        "col": 124,
+        "x": 305680.0,
+        "y": 2770240.0,
+        "crest": 6.110000133514404,
+        "support_area_m2": 4400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305680.0,
+          2770240.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "101",
+        "cell": 23786,
+        "row": 188,
+        "col": 130,
+        "x": 305800.0,
+        "y": 2770260.0,
+        "crest": 6.46999979019165,
+        "support_area_m2": 22400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305800.0,
+          2770260.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102",
+        "cell": 21528,
+        "row": 180,
+        "col": 152,
+        "x": 306240.0,
+        "y": 2770420.0,
+        "crest": 7.369999885559082,
+        "support_area_m2": 6000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306240.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103",
+        "cell": 21536,
+        "row": 180,
+        "col": 160,
+        "x": 306400.0,
+        "y": 2770420.0,
+        "crest": 7.369999885559082,
+        "support_area_m2": 10800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306400.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104",
+        "cell": 21546,
+        "row": 180,
+        "col": 170,
+        "x": 306600.0,
+        "y": 2770420.0,
+        "crest": 7.369999885559082,
+        "support_area_m2": 35600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306600.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105",
+        "cell": 21556,
+        "row": 180,
+        "col": 180,
+        "x": 306800.0,
+        "y": 2770420.0,
+        "crest": 7.409999847412109,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306800.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106",
+        "cell": 21566,
+        "row": 180,
+        "col": 190,
+        "x": 307000.0,
+        "y": 2770420.0,
+        "crest": 7.5,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307000.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107",
+        "cell": 21576,
+        "row": 180,
+        "col": 200,
+        "x": 307200.0,
+        "y": 2770420.0,
+        "crest": 7.550000190734863,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307200.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108",
+        "cell": 21586,
+        "row": 180,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2770420.0,
+        "crest": 7.820000171661377,
+        "support_area_m2": 38000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109",
+        "cell": 21596,
+        "row": 180,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2770420.0,
+        "crest": 8.539999961853027,
+        "support_area_m2": 33200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110",
+        "cell": 21606,
+        "row": 180,
+        "col": 230,
+        "x": 307800.0,
+        "y": 2770420.0,
+        "crest": 8.579999923706055,
+        "support_area_m2": 19200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307800.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "111",
+        "cell": 21624,
+        "row": 180,
+        "col": 248,
+        "x": 308160.0,
+        "y": 2770420.0,
+        "crest": 8.539999961853027,
+        "support_area_m2": 12800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308160.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112",
+        "cell": 21626,
+        "row": 180,
+        "col": 250,
+        "x": 308200.0,
+        "y": 2770420.0,
+        "crest": 8.539999961853027,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308200.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113",
+        "cell": 21636,
+        "row": 180,
+        "col": 260,
+        "x": 308400.0,
+        "y": 2770420.0,
+        "crest": 8.579999923706055,
+        "support_area_m2": 38000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308400.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "114",
+        "cell": 21646,
+        "row": 180,
+        "col": 270,
+        "x": 308600.0,
+        "y": 2770420.0,
+        "crest": 8.579999923706055,
+        "support_area_m2": 18800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308600.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "115",
+        "cell": 21656,
+        "row": 180,
+        "col": 280,
+        "x": 308800.0,
+        "y": 2770420.0,
+        "crest": 9.4399995803833,
+        "support_area_m2": 34000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308800.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "116",
+        "cell": 21666,
+        "row": 180,
+        "col": 290,
+        "x": 309000.0,
+        "y": 2770420.0,
+        "crest": 9.569999694824219,
+        "support_area_m2": 33600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309000.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "117",
+        "cell": 21677,
+        "row": 180,
+        "col": 301,
+        "x": 309220.0,
+        "y": 2770420.0,
+        "crest": 9.350000381469727,
+        "support_area_m2": 36800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309220.0,
+          2770420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "118",
+        "cell": 23669,
+        "row": 187,
+        "col": 310,
+        "x": 309400.0,
+        "y": 2770280.0,
+        "crest": 11.600000381469727,
+        "support_area_m2": 22400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309400.0,
+          2770280.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "119",
+        "cell": 24343,
+        "row": 190,
+        "col": 112,
+        "x": 305440.0,
+        "y": 2770220.0,
+        "crest": 6.070000171661377,
+        "support_area_m2": 13600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305440.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "120",
+        "cell": 26964,
+        "row": 199,
+        "col": 120,
+        "x": 305600.0,
+        "y": 2770040.0,
+        "crest": 5.889999866485596,
+        "support_area_m2": 38000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305600.0,
+          2770040.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "121",
+        "cell": 26974,
+        "row": 199,
+        "col": 130,
+        "x": 305800.0,
+        "y": 2770040.0,
+        "crest": 6.25,
+        "support_area_m2": 35200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305800.0,
+          2770040.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "122",
+        "cell": 26674,
+        "row": 198,
+        "col": 140,
+        "x": 306000.0,
+        "y": 2770060.0,
+        "crest": 7.059999942779541,
+        "support_area_m2": 8000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306000.0,
+          2770060.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "123",
+        "cell": 26995,
+        "row": 199,
+        "col": 151,
+        "x": 306220.0,
+        "y": 2770040.0,
+        "crest": 7.320000171661377,
+        "support_area_m2": 12000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306220.0,
+          2770040.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "124",
+        "cell": 27004,
+        "row": 199,
+        "col": 160,
+        "x": 306400.0,
+        "y": 2770040.0,
+        "crest": 7.550000190734863,
+        "support_area_m2": 17200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306400.0,
+          2770040.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "125",
+        "cell": 24392,
+        "row": 190,
+        "col": 171,
+        "x": 306620.0,
+        "y": 2770220.0,
+        "crest": 7.550000190734863,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306620.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "126",
+        "cell": 24401,
+        "row": 190,
+        "col": 180,
+        "x": 306800.0,
+        "y": 2770220.0,
+        "crest": 7.590000152587891,
+        "support_area_m2": 19600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306800.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "127",
+        "cell": 24411,
+        "row": 190,
+        "col": 190,
+        "x": 307000.0,
+        "y": 2770220.0,
+        "crest": 7.679999828338623,
+        "support_area_m2": 34000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307000.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "128",
+        "cell": 24421,
+        "row": 190,
+        "col": 200,
+        "x": 307200.0,
+        "y": 2770220.0,
+        "crest": 7.769999980926514,
+        "support_area_m2": 38000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307200.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "129",
+        "cell": 24431,
+        "row": 190,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2770220.0,
+        "crest": 8.579999923706055,
+        "support_area_m2": 34400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "130",
+        "cell": 24441,
+        "row": 190,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2770220.0,
+        "crest": 9.079999923706055,
+        "support_area_m2": 31600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "131",
+        "cell": 24452,
+        "row": 190,
+        "col": 231,
+        "x": 307820.0,
+        "y": 2770220.0,
+        "crest": 8.989999771118164,
+        "support_area_m2": 36400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307820.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "132",
+        "cell": 24467,
+        "row": 190,
+        "col": 246,
+        "x": 308120.0,
+        "y": 2770220.0,
+        "crest": 9.390000343322754,
+        "support_area_m2": 26800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308120.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "133",
+        "cell": 24471,
+        "row": 190,
+        "col": 250,
+        "x": 308200.0,
+        "y": 2770220.0,
+        "crest": 9.390000343322754,
+        "support_area_m2": 25200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308200.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "134",
+        "cell": 24481,
+        "row": 190,
+        "col": 260,
+        "x": 308400.0,
+        "y": 2770220.0,
+        "crest": 9.4399995803833,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308400.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135",
+        "cell": 24491,
+        "row": 190,
+        "col": 270,
+        "x": 308600.0,
+        "y": 2770220.0,
+        "crest": 9.479999542236328,
+        "support_area_m2": 27200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308600.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "136",
+        "cell": 24789,
+        "row": 191,
+        "col": 281,
+        "x": 308820.0,
+        "y": 2770200.0,
+        "crest": 9.84000015258789,
+        "support_area_m2": 34000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308820.0,
+          2770200.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "137",
+        "cell": 24516,
+        "row": 190,
+        "col": 295,
+        "x": 309100.0,
+        "y": 2770220.0,
+        "crest": 11.510000228881836,
+        "support_area_m2": 34400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309100.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "138",
+        "cell": 24521,
+        "row": 190,
+        "col": 300,
+        "x": 309200.0,
+        "y": 2770220.0,
+        "crest": 11.869999885559082,
+        "support_area_m2": 25200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309200.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "139",
+        "cell": 24533,
+        "row": 190,
+        "col": 312,
+        "x": 309440.0,
+        "y": 2770220.0,
+        "crest": 12.270000457763672,
+        "support_area_m2": 25600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309440.0,
+          2770220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "140",
+        "cell": 27594,
+        "row": 201,
+        "col": 122,
+        "x": 305640.0,
+        "y": 2770000.0,
+        "crest": 5.75,
+        "support_area_m2": 31600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305640.0,
+          2770000.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "141",
+        "cell": 28887,
+        "row": 205,
+        "col": 130,
+        "x": 305800.0,
+        "y": 2769920.0,
+        "crest": 6.159999847412109,
+        "support_area_m2": 24800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305800.0,
+          2769920.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "142",
+        "cell": 29860,
+        "row": 208,
+        "col": 141,
+        "x": 306020.0,
+        "y": 2769860.0,
+        "crest": 6.920000076293945,
+        "support_area_m2": 24800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306020.0,
+          2769860.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "143",
+        "cell": 29552,
+        "row": 207,
+        "col": 151,
+        "x": 306220.0,
+        "y": 2769880.0,
+        "crest": 7.190000057220459,
+        "support_area_m2": 19200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306220.0,
+          2769880.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "144",
+        "cell": 28594,
+        "row": 204,
+        "col": 160,
+        "x": 306400.0,
+        "y": 2769940.0,
+        "crest": 7.460000038146973,
+        "support_area_m2": 19200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306400.0,
+          2769940.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "145",
+        "cell": 29250,
+        "row": 206,
+        "col": 170,
+        "x": 306600.0,
+        "y": 2769900.0,
+        "crest": 7.679999828338623,
+        "support_area_m2": 37600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306600.0,
+          2769900.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "146",
+        "cell": 27337,
+        "row": 200,
+        "col": 180,
+        "x": 306800.0,
+        "y": 2770020.0,
+        "crest": 7.820000171661377,
+        "support_area_m2": 20400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306800.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "147",
+        "cell": 27348,
+        "row": 200,
+        "col": 191,
+        "x": 307020.0,
+        "y": 2770020.0,
+        "crest": 8.220000267028809,
+        "support_area_m2": 36000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307020.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "148",
+        "cell": 27357,
+        "row": 200,
+        "col": 200,
+        "x": 307200.0,
+        "y": 2770020.0,
+        "crest": 8.899999618530273,
+        "support_area_m2": 38000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307200.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "149",
+        "cell": 27367,
+        "row": 200,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2770020.0,
+        "crest": 9.65999984741211,
+        "support_area_m2": 36400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "150",
+        "cell": 27380,
+        "row": 200,
+        "col": 223,
+        "x": 307660.0,
+        "y": 2770020.0,
+        "crest": 9.710000038146973,
+        "support_area_m2": 25600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307660.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "151",
+        "cell": 27392,
+        "row": 200,
+        "col": 235,
+        "x": 307900.0,
+        "y": 2770020.0,
+        "crest": 9.4399995803833,
+        "support_area_m2": 38800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307900.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "152",
+        "cell": 27397,
+        "row": 200,
+        "col": 240,
+        "x": 308000.0,
+        "y": 2770020.0,
+        "crest": 9.619999885559082,
+        "support_area_m2": 36000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308000.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "153",
+        "cell": 27414,
+        "row": 200,
+        "col": 257,
+        "x": 308340.0,
+        "y": 2770020.0,
+        "crest": 9.84000015258789,
+        "support_area_m2": 34400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308340.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "154",
+        "cell": 27417,
+        "row": 200,
+        "col": 260,
+        "x": 308400.0,
+        "y": 2770020.0,
+        "crest": 9.84000015258789,
+        "support_area_m2": 38400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308400.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "155",
+        "cell": 27427,
+        "row": 200,
+        "col": 270,
+        "x": 308600.0,
+        "y": 2770020.0,
+        "crest": 10.880000114440918,
+        "support_area_m2": 25200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308600.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "156",
+        "cell": 27438,
+        "row": 200,
+        "col": 281,
+        "x": 308820.0,
+        "y": 2770020.0,
+        "crest": 11.640000343322754,
+        "support_area_m2": 800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308820.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "157",
+        "cell": 27455,
+        "row": 200,
+        "col": 298,
+        "x": 309160.0,
+        "y": 2770020.0,
+        "crest": 13.800000190734863,
+        "support_area_m2": 14000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309160.0,
+          2770020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "158",
+        "cell": 27772,
+        "row": 201,
+        "col": 300,
+        "x": 309200.0,
+        "y": 2770000.0,
+        "crest": 14.25,
+        "support_area_m2": 11200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309200.0,
+          2770000.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "159",
+        "cell": 30478,
+        "row": 210,
+        "col": 129,
+        "x": 305780.0,
+        "y": 2769820.0,
+        "crest": 6.289999961853027,
+        "support_area_m2": 36000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305780.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "160",
+        "cell": 30479,
+        "row": 210,
+        "col": 130,
+        "x": 305800.0,
+        "y": 2769820.0,
+        "crest": 6.289999961853027,
+        "support_area_m2": 19600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305800.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "161",
+        "cell": 30490,
+        "row": 210,
+        "col": 141,
+        "x": 306020.0,
+        "y": 2769820.0,
+        "crest": 6.880000114440918,
+        "support_area_m2": 22400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306020.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "162",
+        "cell": 31758,
+        "row": 214,
+        "col": 150,
+        "x": 306200.0,
+        "y": 2769740.0,
+        "crest": 7.099999904632568,
+        "support_area_m2": 7200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306200.0,
+          2769740.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "163",
+        "cell": 30516,
+        "row": 210,
+        "col": 167,
+        "x": 306540.0,
+        "y": 2769820.0,
+        "crest": 7.730000019073486,
+        "support_area_m2": 21600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306540.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "164",
+        "cell": 30519,
+        "row": 210,
+        "col": 170,
+        "x": 306600.0,
+        "y": 2769820.0,
+        "crest": 7.909999847412109,
+        "support_area_m2": 20400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306600.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "165",
+        "cell": 30529,
+        "row": 210,
+        "col": 180,
+        "x": 306800.0,
+        "y": 2769820.0,
+        "crest": 8.039999961853027,
+        "support_area_m2": 27200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306800.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "166",
+        "cell": 30539,
+        "row": 210,
+        "col": 190,
+        "x": 307000.0,
+        "y": 2769820.0,
+        "crest": 8.720000267028809,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307000.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "167",
+        "cell": 30549,
+        "row": 210,
+        "col": 200,
+        "x": 307200.0,
+        "y": 2769820.0,
+        "crest": 9.390000343322754,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307200.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "168",
+        "cell": 33129,
+        "row": 218,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2769660.0,
+        "crest": 10.199999809265137,
+        "support_area_m2": 38800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2769660.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "169",
+        "cell": 30891,
+        "row": 211,
+        "col": 229,
+        "x": 307780.0,
+        "y": 2769800.0,
+        "crest": 10.880000114440918,
+        "support_area_m2": 36000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307780.0,
+          2769800.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "170",
+        "cell": 30586,
+        "row": 210,
+        "col": 237,
+        "x": 307940.0,
+        "y": 2769820.0,
+        "crest": 10.289999961853027,
+        "support_area_m2": 39600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307940.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "171",
+        "cell": 30589,
+        "row": 210,
+        "col": 240,
+        "x": 308000.0,
+        "y": 2769820.0,
+        "crest": 10.699999809265137,
+        "support_area_m2": 35200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308000.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "172",
+        "cell": 30599,
+        "row": 210,
+        "col": 250,
+        "x": 308200.0,
+        "y": 2769820.0,
+        "crest": 13.710000038146973,
+        "support_area_m2": 19600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308200.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "173",
+        "cell": 30617,
+        "row": 210,
+        "col": 268,
+        "x": 308560.0,
+        "y": 2769820.0,
+        "crest": 13.210000038146973,
+        "support_area_m2": 30800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308560.0,
+          2769820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "174",
+        "cell": 31878,
+        "row": 214,
+        "col": 270,
+        "x": 308600.0,
+        "y": 2769740.0,
+        "crest": 14.15999984741211,
+        "support_area_m2": 10000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308600.0,
+          2769740.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "175",
+        "cell": 36843,
+        "row": 228,
+        "col": 105,
+        "x": 305300.0,
+        "y": 2769460.0,
+        "crest": 7.769999980926514,
+        "support_area_m2": 2400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305300.0,
+          2769460.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "176",
+        "cell": 33739,
+        "row": 220,
+        "col": 129,
+        "x": 305780.0,
+        "y": 2769620.0,
+        "crest": 7.059999942779541,
+        "support_area_m2": 23200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305780.0,
+          2769620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "177",
+        "cell": 33740,
+        "row": 220,
+        "col": 130,
+        "x": 305800.0,
+        "y": 2769620.0,
+        "crest": 7.059999942779541,
+        "support_area_m2": 4800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305800.0,
+          2769620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "178",
+        "cell": 33758,
+        "row": 220,
+        "col": 148,
+        "x": 306160.0,
+        "y": 2769620.0,
+        "crest": 7.639999866485596,
+        "support_area_m2": 1200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306160.0,
+          2769620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "179",
+        "cell": 33760,
+        "row": 220,
+        "col": 150,
+        "x": 306200.0,
+        "y": 2769620.0,
+        "crest": 7.730000019073486,
+        "support_area_m2": 27600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306200.0,
+          2769620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "180",
+        "cell": 33778,
+        "row": 220,
+        "col": 168,
+        "x": 306560.0,
+        "y": 2769620.0,
+        "crest": 8.220000267028809,
+        "support_area_m2": 36800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306560.0,
+          2769620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "181",
+        "cell": 33780,
+        "row": 220,
+        "col": 170,
+        "x": 306600.0,
+        "y": 2769620.0,
+        "crest": 8.220000267028809,
+        "support_area_m2": 38400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306600.0,
+          2769620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "182",
+        "cell": 33791,
+        "row": 220,
+        "col": 181,
+        "x": 306820.0,
+        "y": 2769620.0,
+        "crest": 8.270000457763672,
+        "support_area_m2": 38400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306820.0,
+          2769620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "183",
+        "cell": 36928,
+        "row": 228,
+        "col": 190,
+        "x": 307000.0,
+        "y": 2769460.0,
+        "crest": 8.630000114440918,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307000.0,
+          2769460.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "184",
+        "cell": 36938,
+        "row": 228,
+        "col": 200,
+        "x": 307200.0,
+        "y": 2769460.0,
+        "crest": 9.029999732971191,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307200.0,
+          2769460.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "185",
+        "cell": 37367,
+        "row": 229,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2769440.0,
+        "crest": 9.390000343322754,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2769440.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "186",
+        "cell": 34562,
+        "row": 222,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2769580.0,
+        "crest": 10.880000114440918,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2769580.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "187",
+        "cell": 33848,
+        "row": 220,
+        "col": 238,
+        "x": 307960.0,
+        "y": 2769620.0,
+        "crest": 12.359999656677246,
+        "support_area_m2": 35600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307960.0,
+          2769620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "188",
+        "cell": 33850,
+        "row": 220,
+        "col": 240,
+        "x": 308000.0,
+        "y": 2769620.0,
+        "crest": 12.630000114440918,
+        "support_area_m2": 12400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308000.0,
+          2769620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "189",
+        "cell": 36174,
+        "row": 226,
+        "col": 259,
+        "x": 308380.0,
+        "y": 2769500.0,
+        "crest": 38.47999954223633,
+        "support_area_m2": 4800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308380.0,
+          2769500.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "190",
+        "cell": 34611,
+        "row": 222,
+        "col": 269,
+        "x": 308580.0,
+        "y": 2769580.0,
+        "crest": 14.609999656677246,
+        "support_area_m2": 26400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308580.0,
+          2769580.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "191",
+        "cell": 33881,
+        "row": 220,
+        "col": 271,
+        "x": 308620.0,
+        "y": 2769620.0,
+        "crest": 14.470000267028809,
+        "support_area_m2": 14800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308620.0,
+          2769620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "192",
+        "cell": 40753,
+        "row": 237,
+        "col": 98,
+        "x": 305160.0,
+        "y": 2769280.0,
+        "crest": 7.679999828338623,
+        "support_area_m2": 7600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305160.0,
+          2769280.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "193",
+        "cell": 40755,
+        "row": 237,
+        "col": 100,
+        "x": 305200.0,
+        "y": 2769280.0,
+        "crest": 7.730000019073486,
+        "support_area_m2": 32400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305200.0,
+          2769280.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "194",
+        "cell": 38563,
+        "row": 232,
+        "col": 117,
+        "x": 305540.0,
+        "y": 2769380.0,
+        "crest": 7.5,
+        "support_area_m2": 24400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305540.0,
+          2769380.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "195",
+        "cell": 37712,
+        "row": 230,
+        "col": 129,
+        "x": 305780.0,
+        "y": 2769420.0,
+        "crest": 7.460000038146973,
+        "support_area_m2": 34400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305780.0,
+          2769420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "196",
+        "cell": 37713,
+        "row": 230,
+        "col": 130,
+        "x": 305800.0,
+        "y": 2769420.0,
+        "crest": 7.460000038146973,
+        "support_area_m2": 21200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305800.0,
+          2769420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "197",
+        "cell": 40795,
+        "row": 237,
+        "col": 140,
+        "x": 306000.0,
+        "y": 2769280.0,
+        "crest": 8.0,
+        "support_area_m2": 5200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306000.0,
+          2769280.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "198",
+        "cell": 41263,
+        "row": 238,
+        "col": 150,
+        "x": 306200.0,
+        "y": 2769260.0,
+        "crest": 8.359999656677246,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306200.0,
+          2769260.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "199",
+        "cell": 37746,
+        "row": 230,
+        "col": 163,
+        "x": 306460.0,
+        "y": 2769420.0,
+        "crest": 8.449999809265137,
+        "support_area_m2": 20000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306460.0,
+          2769420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "200",
+        "cell": 37754,
+        "row": 230,
+        "col": 171,
+        "x": 306620.0,
+        "y": 2769420.0,
+        "crest": 8.399999618530273,
+        "support_area_m2": 30000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306620.0,
+          2769420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "201",
+        "cell": 37763,
+        "row": 230,
+        "col": 180,
+        "x": 306800.0,
+        "y": 2769420.0,
+        "crest": 8.489999771118164,
+        "support_area_m2": 34800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306800.0,
+          2769420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "202",
+        "cell": 37773,
+        "row": 230,
+        "col": 190,
+        "x": 307000.0,
+        "y": 2769420.0,
+        "crest": 8.630000114440918,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307000.0,
+          2769420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "203",
+        "cell": 37783,
+        "row": 230,
+        "col": 200,
+        "x": 307200.0,
+        "y": 2769420.0,
+        "crest": 9.029999732971191,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307200.0,
+          2769420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "204",
+        "cell": 37793,
+        "row": 230,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2769420.0,
+        "crest": 9.4399995803833,
+        "support_area_m2": 32400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2769420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "205",
+        "cell": 37806,
+        "row": 230,
+        "col": 223,
+        "x": 307660.0,
+        "y": 2769420.0,
+        "crest": 20.450000762939453,
+        "support_area_m2": 2800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307660.0,
+          2769420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "206",
+        "cell": 37818,
+        "row": 230,
+        "col": 235,
+        "x": 307900.0,
+        "y": 2769420.0,
+        "crest": 14.109999656677246,
+        "support_area_m2": 24800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307900.0,
+          2769420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "207",
+        "cell": 37823,
+        "row": 230,
+        "col": 240,
+        "x": 308000.0,
+        "y": 2769420.0,
+        "crest": 14.199999809265137,
+        "support_area_m2": 24800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308000.0,
+          2769420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "208",
+        "cell": 39141,
+        "row": 233,
+        "col": 259,
+        "x": 308380.0,
+        "y": 2769360.0,
+        "crest": 40.279998779296875,
+        "support_area_m2": 2800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308380.0,
+          2769360.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "209",
+        "cell": 39145,
+        "row": 233,
+        "col": 263,
+        "x": 308460.0,
+        "y": 2769360.0,
+        "crest": 20.18000030517578,
+        "support_area_m2": 6800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308460.0,
+          2769360.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "210",
+        "cell": 46275,
+        "row": 249,
+        "col": 88,
+        "x": 304960.0,
+        "y": 2769040.0,
+        "crest": 7.150000095367432,
+        "support_area_m2": 2000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          304960.0,
+          2769040.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "211",
+        "cell": 46277,
+        "row": 249,
+        "col": 90,
+        "x": 305000.0,
+        "y": 2769040.0,
+        "crest": 7.150000095367432,
+        "support_area_m2": 11600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305000.0,
+          2769040.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "212",
+        "cell": 46287,
+        "row": 249,
+        "col": 100,
+        "x": 305200.0,
+        "y": 2769040.0,
+        "crest": 7.28000020980835,
+        "support_area_m2": 8000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305200.0,
+          2769040.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213",
+        "cell": 46300,
+        "row": 249,
+        "col": 113,
+        "x": 305460.0,
+        "y": 2769040.0,
+        "crest": 7.369999885559082,
+        "support_area_m2": 16800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305460.0,
+          2769040.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214",
+        "cell": 45381,
+        "row": 247,
+        "col": 120,
+        "x": 305600.0,
+        "y": 2769080.0,
+        "crest": 7.460000038146973,
+        "support_area_m2": 21600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305600.0,
+          2769080.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "215",
+        "cell": 42159,
+        "row": 240,
+        "col": 130,
+        "x": 305800.0,
+        "y": 2769220.0,
+        "crest": 7.590000152587891,
+        "support_area_m2": 31200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305800.0,
+          2769220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "216",
+        "cell": 44475,
+        "row": 245,
+        "col": 140,
+        "x": 306000.0,
+        "y": 2769120.0,
+        "crest": 7.949999809265137,
+        "support_area_m2": 29200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306000.0,
+          2769120.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "217",
+        "cell": 44948,
+        "row": 246,
+        "col": 150,
+        "x": 306200.0,
+        "y": 2769100.0,
+        "crest": 8.220000267028809,
+        "support_area_m2": 38800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306200.0,
+          2769100.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "218",
+        "cell": 43108,
+        "row": 242,
+        "col": 160,
+        "x": 306400.0,
+        "y": 2769180.0,
+        "crest": 8.399999618530273,
+        "support_area_m2": 26400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306400.0,
+          2769180.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "219",
+        "cell": 42201,
+        "row": 240,
+        "col": 172,
+        "x": 306640.0,
+        "y": 2769220.0,
+        "crest": 8.670000076293945,
+        "support_area_m2": 34800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306640.0,
+          2769220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "220",
+        "cell": 42209,
+        "row": 240,
+        "col": 180,
+        "x": 306800.0,
+        "y": 2769220.0,
+        "crest": 8.720000267028809,
+        "support_area_m2": 37200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306800.0,
+          2769220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "221",
+        "cell": 42219,
+        "row": 240,
+        "col": 190,
+        "x": 307000.0,
+        "y": 2769220.0,
+        "crest": 8.850000381469727,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307000.0,
+          2769220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "222",
+        "cell": 42229,
+        "row": 240,
+        "col": 200,
+        "x": 307200.0,
+        "y": 2769220.0,
+        "crest": 9.170000076293945,
+        "support_area_m2": 33600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307200.0,
+          2769220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "223",
+        "cell": 45008,
+        "row": 246,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2769100.0,
+        "crest": 9.6899995803833,
+        "support_area_m2": 35200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2769100.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "224",
+        "cell": 46407,
+        "row": 249,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2769040.0,
+        "crest": 19.780000686645508,
+        "support_area_m2": 2400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2769040.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "225",
+        "cell": 42271,
+        "row": 240,
+        "col": 242,
+        "x": 308040.0,
+        "y": 2769220.0,
+        "crest": 23.459999084472656,
+        "support_area_m2": 24400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308040.0,
+          2769220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "226",
+        "cell": 46739,
+        "row": 250,
+        "col": 88,
+        "x": 304960.0,
+        "y": 2769020.0,
+        "crest": 7.190000057220459,
+        "support_area_m2": 1200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          304960.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "227",
+        "cell": 46741,
+        "row": 250,
+        "col": 90,
+        "x": 305000.0,
+        "y": 2769020.0,
+        "crest": 7.150000095367432,
+        "support_area_m2": 12400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305000.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "228",
+        "cell": 47216,
+        "row": 251,
+        "col": 100,
+        "x": 305200.0,
+        "y": 2769000.0,
+        "crest": 7.190000057220459,
+        "support_area_m2": 29600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305200.0,
+          2769000.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "229",
+        "cell": 46762,
+        "row": 250,
+        "col": 111,
+        "x": 305420.0,
+        "y": 2769020.0,
+        "crest": 7.320000171661377,
+        "support_area_m2": 30000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305420.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "230",
+        "cell": 46771,
+        "row": 250,
+        "col": 120,
+        "x": 305600.0,
+        "y": 2769020.0,
+        "crest": 7.550000190734863,
+        "support_area_m2": 24400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305600.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "231",
+        "cell": 46782,
+        "row": 250,
+        "col": 131,
+        "x": 305820.0,
+        "y": 2769020.0,
+        "crest": 7.769999980926514,
+        "support_area_m2": 26400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305820.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "232",
+        "cell": 46791,
+        "row": 250,
+        "col": 140,
+        "x": 306000.0,
+        "y": 2769020.0,
+        "crest": 7.949999809265137,
+        "support_area_m2": 32400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306000.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "233",
+        "cell": 46801,
+        "row": 250,
+        "col": 150,
+        "x": 306200.0,
+        "y": 2769020.0,
+        "crest": 8.270000457763672,
+        "support_area_m2": 34000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306200.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "234",
+        "cell": 46811,
+        "row": 250,
+        "col": 160,
+        "x": 306400.0,
+        "y": 2769020.0,
+        "crest": 8.850000381469727,
+        "support_area_m2": 34000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306400.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "235",
+        "cell": 46823,
+        "row": 250,
+        "col": 172,
+        "x": 306640.0,
+        "y": 2769020.0,
+        "crest": 8.9399995803833,
+        "support_area_m2": 27200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306640.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "236",
+        "cell": 46836,
+        "row": 250,
+        "col": 185,
+        "x": 306900.0,
+        "y": 2769020.0,
+        "crest": 9.300000190734863,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306900.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "237",
+        "cell": 46845,
+        "row": 250,
+        "col": 194,
+        "x": 307080.0,
+        "y": 2769020.0,
+        "crest": 9.260000228881836,
+        "support_area_m2": 34000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307080.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "238",
+        "cell": 46851,
+        "row": 250,
+        "col": 200,
+        "x": 307200.0,
+        "y": 2769020.0,
+        "crest": 9.350000381469727,
+        "support_area_m2": 35200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307200.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "239",
+        "cell": 47326,
+        "row": 251,
+        "col": 210,
+        "x": 307400.0,
+        "y": 2769000.0,
+        "crest": 9.729999542236328,
+        "support_area_m2": 28400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307400.0,
+          2769000.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "240",
+        "cell": 51090,
+        "row": 259,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2768840.0,
+        "crest": 18.06999969482422,
+        "support_area_m2": 6400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2768840.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "241",
+        "cell": 46894,
+        "row": 250,
+        "col": 243,
+        "x": 308060.0,
+        "y": 2769020.0,
+        "crest": 63.790000915527344,
+        "support_area_m2": 8000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308060.0,
+          2769020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "242",
+        "cell": 54694,
+        "row": 267,
+        "col": 83,
+        "x": 304860.0,
+        "y": 2768680.0,
+        "crest": 8.130000114440918,
+        "support_area_m2": 8800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          304860.0,
+          2768680.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "243",
+        "cell": 54710,
+        "row": 267,
+        "col": 99,
+        "x": 305180.0,
+        "y": 2768680.0,
+        "crest": 7.679999828338623,
+        "support_area_m2": 12000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305180.0,
+          2768680.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "244",
+        "cell": 54714,
+        "row": 267,
+        "col": 103,
+        "x": 305260.0,
+        "y": 2768680.0,
+        "crest": 7.590000152587891,
+        "support_area_m2": 9600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305260.0,
+          2768680.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "245",
+        "cell": 51452,
+        "row": 260,
+        "col": 112,
+        "x": 305440.0,
+        "y": 2768820.0,
+        "crest": 7.590000152587891,
+        "support_area_m2": 26000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305440.0,
+          2768820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "246",
+        "cell": 51462,
+        "row": 260,
+        "col": 122,
+        "x": 305640.0,
+        "y": 2768820.0,
+        "crest": 7.820000171661377,
+        "support_area_m2": 20000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305640.0,
+          2768820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "247",
+        "cell": 51470,
+        "row": 260,
+        "col": 130,
+        "x": 305800.0,
+        "y": 2768820.0,
+        "crest": 8.039999961853027,
+        "support_area_m2": 31600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305800.0,
+          2768820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "248",
+        "cell": 51480,
+        "row": 260,
+        "col": 140,
+        "x": 306000.0,
+        "y": 2768820.0,
+        "crest": 8.220000267028809,
+        "support_area_m2": 20800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306000.0,
+          2768820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "249",
+        "cell": 51491,
+        "row": 260,
+        "col": 151,
+        "x": 306220.0,
+        "y": 2768820.0,
+        "crest": 9.119999885559082,
+        "support_area_m2": 37600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306220.0,
+          2768820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "250",
+        "cell": 51509,
+        "row": 260,
+        "col": 169,
+        "x": 306580.0,
+        "y": 2768820.0,
+        "crest": 9.479999542236328,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306580.0,
+          2768820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "251",
+        "cell": 51515,
+        "row": 260,
+        "col": 175,
+        "x": 306700.0,
+        "y": 2768820.0,
+        "crest": 9.170000076293945,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306700.0,
+          2768820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "252",
+        "cell": 51520,
+        "row": 260,
+        "col": 180,
+        "x": 306800.0,
+        "y": 2768820.0,
+        "crest": 9.529999732971191,
+        "support_area_m2": 36800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306800.0,
+          2768820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "253",
+        "cell": 51536,
+        "row": 260,
+        "col": 196,
+        "x": 307120.0,
+        "y": 2768820.0,
+        "crest": 9.979999542236328,
+        "support_area_m2": 16000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307120.0,
+          2768820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "254",
+        "cell": 51540,
+        "row": 260,
+        "col": 200,
+        "x": 307200.0,
+        "y": 2768820.0,
+        "crest": 9.979999542236328,
+        "support_area_m2": 37600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307200.0,
+          2768820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "255",
+        "cell": 52026,
+        "row": 261,
+        "col": 216,
+        "x": 307520.0,
+        "y": 2768800.0,
+        "crest": 10.020000457763672,
+        "support_area_m2": 39600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307520.0,
+          2768800.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "256",
+        "cell": 55752,
+        "row": 269,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2768640.0,
+        "crest": 10.020000457763672,
+        "support_area_m2": 12400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2768640.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "257",
+        "cell": 56072,
+        "row": 270,
+        "col": 82,
+        "x": 304840.0,
+        "y": 2768620.0,
+        "crest": 8.270000457763672,
+        "support_area_m2": 8800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          304840.0,
+          2768620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "258",
+        "cell": 56089,
+        "row": 270,
+        "col": 99,
+        "x": 305180.0,
+        "y": 2768620.0,
+        "crest": 7.820000171661377,
+        "support_area_m2": 22800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305180.0,
+          2768620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "259",
+        "cell": 56091,
+        "row": 270,
+        "col": 101,
+        "x": 305220.0,
+        "y": 2768620.0,
+        "crest": 7.679999828338623,
+        "support_area_m2": 33600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305220.0,
+          2768620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "260",
+        "cell": 56100,
+        "row": 270,
+        "col": 110,
+        "x": 305400.0,
+        "y": 2768620.0,
+        "crest": 7.860000133514404,
+        "support_area_m2": 26800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305400.0,
+          2768620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "261",
+        "cell": 56115,
+        "row": 270,
+        "col": 125,
+        "x": 305700.0,
+        "y": 2768620.0,
+        "crest": 8.180000305175781,
+        "support_area_m2": 30000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305700.0,
+          2768620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "262",
+        "cell": 56120,
+        "row": 270,
+        "col": 130,
+        "x": 305800.0,
+        "y": 2768620.0,
+        "crest": 8.3100004196167,
+        "support_area_m2": 15200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305800.0,
+          2768620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "263",
+        "cell": 56130,
+        "row": 270,
+        "col": 140,
+        "x": 306000.0,
+        "y": 2768620.0,
+        "crest": 8.720000267028809,
+        "support_area_m2": 39600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306000.0,
+          2768620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "264",
+        "cell": 59748,
+        "row": 278,
+        "col": 150,
+        "x": 306200.0,
+        "y": 2768460.0,
+        "crest": 9.84000015258789,
+        "support_area_m2": 18000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306200.0,
+          2768460.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "265",
+        "cell": 57964,
+        "row": 274,
+        "col": 167,
+        "x": 306540.0,
+        "y": 2768540.0,
+        "crest": 9.529999732971191,
+        "support_area_m2": 20000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306540.0,
+          2768540.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "266",
+        "cell": 56165,
+        "row": 270,
+        "col": 175,
+        "x": 306700.0,
+        "y": 2768620.0,
+        "crest": 9.4399995803833,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306700.0,
+          2768620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "267",
+        "cell": 56629,
+        "row": 271,
+        "col": 184,
+        "x": 306880.0,
+        "y": 2768600.0,
+        "crest": 9.619999885559082,
+        "support_area_m2": 28800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306880.0,
+          2768600.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "268",
+        "cell": 56189,
+        "row": 270,
+        "col": 199,
+        "x": 307180.0,
+        "y": 2768620.0,
+        "crest": 15.239999771118164,
+        "support_area_m2": 2000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307180.0,
+          2768620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "269",
+        "cell": 56194,
+        "row": 270,
+        "col": 204,
+        "x": 307280.0,
+        "y": 2768620.0,
+        "crest": 10.020000457763672,
+        "support_area_m2": 25600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307280.0,
+          2768620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "270",
+        "cell": 60267,
+        "row": 279,
+        "col": 218,
+        "x": 307560.0,
+        "y": 2768440.0,
+        "crest": 10.069999694824219,
+        "support_area_m2": 37600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307560.0,
+          2768440.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "271",
+        "cell": 56666,
+        "row": 271,
+        "col": 221,
+        "x": 307620.0,
+        "y": 2768600.0,
+        "crest": 10.069999694824219,
+        "support_area_m2": 19600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307620.0,
+          2768600.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "272",
+        "cell": 60599,
+        "row": 280,
+        "col": 99,
+        "x": 305180.0,
+        "y": 2768420.0,
+        "crest": 8.449999809265137,
+        "support_area_m2": 6800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305180.0,
+          2768420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "273",
+        "cell": 61055,
+        "row": 281,
+        "col": 103,
+        "x": 305260.0,
+        "y": 2768400.0,
+        "crest": 8.25,
+        "support_area_m2": 33600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305260.0,
+          2768400.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "274",
+        "cell": 60610,
+        "row": 280,
+        "col": 110,
+        "x": 305400.0,
+        "y": 2768420.0,
+        "crest": 8.579999923706055,
+        "support_area_m2": 10400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305400.0,
+          2768420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "275",
+        "cell": 60621,
+        "row": 280,
+        "col": 121,
+        "x": 305620.0,
+        "y": 2768420.0,
+        "crest": 8.670000076293945,
+        "support_area_m2": 10400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305620.0,
+          2768420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "276",
+        "cell": 61088,
+        "row": 281,
+        "col": 136,
+        "x": 305920.0,
+        "y": 2768400.0,
+        "crest": 9.279999732971191,
+        "support_area_m2": 10000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305920.0,
+          2768400.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "277",
+        "cell": 60643,
+        "row": 280,
+        "col": 143,
+        "x": 306060.0,
+        "y": 2768420.0,
+        "crest": 9.260000228881836,
+        "support_area_m2": 39200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306060.0,
+          2768420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "278",
+        "cell": 61555,
+        "row": 282,
+        "col": 150,
+        "x": 306200.0,
+        "y": 2768380.0,
+        "crest": 9.75,
+        "support_area_m2": 27600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306200.0,
+          2768380.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "279",
+        "cell": 62470,
+        "row": 284,
+        "col": 160,
+        "x": 306400.0,
+        "y": 2768340.0,
+        "crest": 10.020000457763672,
+        "support_area_m2": 18400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306400.0,
+          2768340.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "280",
+        "cell": 60679,
+        "row": 280,
+        "col": 179,
+        "x": 306780.0,
+        "y": 2768420.0,
+        "crest": 9.710000038146973,
+        "support_area_m2": 14800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306780.0,
+          2768420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "281",
+        "cell": 60680,
+        "row": 280,
+        "col": 180,
+        "x": 306800.0,
+        "y": 2768420.0,
+        "crest": 9.710000038146973,
+        "support_area_m2": 13200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306800.0,
+          2768420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "282",
+        "cell": 61613,
+        "row": 282,
+        "col": 208,
+        "x": 307360.0,
+        "y": 2768380.0,
+        "crest": 10.25,
+        "support_area_m2": 18800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307360.0,
+          2768380.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "283",
+        "cell": 62073,
+        "row": 283,
+        "col": 216,
+        "x": 307520.0,
+        "y": 2768360.0,
+        "crest": 10.199999809265137,
+        "support_area_m2": 39600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307520.0,
+          2768360.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "284",
+        "cell": 61180,
+        "row": 281,
+        "col": 228,
+        "x": 307760.0,
+        "y": 2768400.0,
+        "crest": 10.020000457763672,
+        "support_area_m2": 21600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307760.0,
+          2768400.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "285",
+        "cell": 61182,
+        "row": 281,
+        "col": 230,
+        "x": 307800.0,
+        "y": 2768400.0,
+        "crest": 15.010000228881836,
+        "support_area_m2": 1600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307800.0,
+          2768400.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "286",
+        "cell": 65168,
+        "row": 290,
+        "col": 105,
+        "x": 305300.0,
+        "y": 2768220.0,
+        "crest": 8.720000267028809,
+        "support_area_m2": 4400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305300.0,
+          2768220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "287",
+        "cell": 65173,
+        "row": 290,
+        "col": 110,
+        "x": 305400.0,
+        "y": 2768220.0,
+        "crest": 9.170000076293945,
+        "support_area_m2": 800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305400.0,
+          2768220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "288",
+        "cell": 68628,
+        "row": 298,
+        "col": 128,
+        "x": 305760.0,
+        "y": 2768060.0,
+        "crest": 10.970000267028809,
+        "support_area_m2": 2400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305760.0,
+          2768060.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "289",
+        "cell": 66939,
+        "row": 294,
+        "col": 132,
+        "x": 305840.0,
+        "y": 2768140.0,
+        "crest": 10.829999923706055,
+        "support_area_m2": 26800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305840.0,
+          2768140.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "290",
+        "cell": 65209,
+        "row": 290,
+        "col": 146,
+        "x": 306120.0,
+        "y": 2768220.0,
+        "crest": 9.800000190734863,
+        "support_area_m2": 36800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306120.0,
+          2768220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "291",
+        "cell": 65213,
+        "row": 290,
+        "col": 150,
+        "x": 306200.0,
+        "y": 2768220.0,
+        "crest": 9.930000305175781,
+        "support_area_m2": 35200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306200.0,
+          2768220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "292",
+        "cell": 65227,
+        "row": 290,
+        "col": 164,
+        "x": 306480.0,
+        "y": 2768220.0,
+        "crest": 10.020000457763672,
+        "support_area_m2": 28800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306480.0,
+          2768220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "293",
+        "cell": 65279,
+        "row": 290,
+        "col": 216,
+        "x": 307520.0,
+        "y": 2768220.0,
+        "crest": 16.68000030517578,
+        "support_area_m2": 25200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307520.0,
+          2768220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "294",
+        "cell": 67894,
+        "row": 296,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2768100.0,
+        "crest": 19.329999923706055,
+        "support_area_m2": 16400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2768100.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "295",
+        "cell": 69373,
+        "row": 300,
+        "col": 126,
+        "x": 305720.0,
+        "y": 2768020.0,
+        "crest": 11.100000381469727,
+        "support_area_m2": 10000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305720.0,
+          2768020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "296",
+        "cell": 69377,
+        "row": 300,
+        "col": 130,
+        "x": 305800.0,
+        "y": 2768020.0,
+        "crest": 12.09000015258789,
+        "support_area_m2": 10400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305800.0,
+          2768020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "297",
+        "cell": 69396,
+        "row": 300,
+        "col": 149,
+        "x": 306180.0,
+        "y": 2768020.0,
+        "crest": 12.270000457763672,
+        "support_area_m2": 30000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306180.0,
+          2768020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "298",
+        "cell": 70459,
+        "row": 303,
+        "col": 156,
+        "x": 306320.0,
+        "y": 2767960.0,
+        "crest": 10.020000457763672,
+        "support_area_m2": 40000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306320.0,
+          2767960.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "299",
+        "cell": 69412,
+        "row": 300,
+        "col": 165,
+        "x": 306500.0,
+        "y": 2768020.0,
+        "crest": 10.020000457763672,
+        "support_area_m2": 38400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306500.0,
+          2768020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "300",
+        "cell": 72419,
+        "row": 309,
+        "col": 170,
+        "x": 306600.0,
+        "y": 2767840.0,
+        "crest": 13.170000076293945,
+        "support_area_m2": 2000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306600.0,
+          2767840.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "301",
+        "cell": 69466,
+        "row": 300,
+        "col": 219,
+        "x": 307580.0,
+        "y": 2768020.0,
+        "crest": 22.1200008392334,
+        "support_area_m2": 14000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307580.0,
+          2768020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "302",
+        "cell": 69467,
+        "row": 300,
+        "col": 220,
+        "x": 307600.0,
+        "y": 2768020.0,
+        "crest": 21.850000381469727,
+        "support_area_m2": 31600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307600.0,
+          2768020.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "303",
+        "cell": 72479,
+        "row": 309,
+        "col": 230,
+        "x": 307800.0,
+        "y": 2767840.0,
+        "crest": 33.2599983215332,
+        "support_area_m2": 1200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307800.0,
+          2767840.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "304",
+        "cell": 73626,
+        "row": 313,
+        "col": 149,
+        "x": 306180.0,
+        "y": 2767760.0,
+        "crest": 14.020000457763672,
+        "support_area_m2": 2000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306180.0,
+          2767760.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "305",
+        "cell": 73330,
+        "row": 312,
+        "col": 157,
+        "x": 306340.0,
+        "y": 2767780.0,
+        "crest": 7.860000133514404,
+        "support_area_m2": 23600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306340.0,
+          2767780.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "306",
+        "cell": 73333,
+        "row": 312,
+        "col": 160,
+        "x": 306400.0,
+        "y": 2767780.0,
+        "crest": 10.020000457763672,
+        "support_area_m2": 31200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306400.0,
+          2767780.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "307",
+        "cell": 73647,
+        "row": 313,
+        "col": 170,
+        "x": 306600.0,
+        "y": 2767760.0,
+        "crest": 10.109999656677246,
+        "support_area_m2": 30000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306600.0,
+          2767760.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "308",
+        "cell": 72773,
+        "row": 310,
+        "col": 215,
+        "x": 307500.0,
+        "y": 2767820.0,
+        "crest": 29.040000915527344,
+        "support_area_m2": 5600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307500.0,
+          2767820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "309",
+        "cell": 72782,
+        "row": 310,
+        "col": 224,
+        "x": 307680.0,
+        "y": 2767820.0,
+        "crest": 25.309999465942383,
+        "support_area_m2": 8800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307680.0,
+          2767820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "310",
+        "cell": 72788,
+        "row": 310,
+        "col": 230,
+        "x": 307800.0,
+        "y": 2767820.0,
+        "crest": 31.149999618530273,
+        "support_area_m2": 400,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307800.0,
+          2767820.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "311",
+        "cell": 73724,
+        "row": 313,
+        "col": 247,
+        "x": 308140.0,
+        "y": 2767760.0,
+        "crest": 93.5999984741211,
+        "support_area_m2": 10000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308140.0,
+          2767760.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "312",
+        "cell": 74334,
+        "row": 315,
+        "col": 250,
+        "x": 308200.0,
+        "y": 2767720.0,
+        "crest": 102.08999633789062,
+        "support_area_m2": 1600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308200.0,
+          2767720.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "313",
+        "cell": 76336,
+        "row": 322,
+        "col": 169,
+        "x": 306580.0,
+        "y": 2767580.0,
+        "crest": 18.34000015258789,
+        "support_area_m2": 2000,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306580.0,
+          2767580.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "314",
+        "cell": 75762,
+        "row": 320,
+        "col": 175,
+        "x": 306700.0,
+        "y": 2767620.0,
+        "crest": 15.239999771118164,
+        "support_area_m2": 30800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306700.0,
+          2767620.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "315",
+        "cell": 78160,
+        "row": 329,
+        "col": 182,
+        "x": 306840.0,
+        "y": 2767440.0,
+        "crest": 16.40999984741211,
+        "support_area_m2": 19200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306840.0,
+          2767440.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "316",
+        "cell": 79369,
+        "row": 334,
+        "col": 179,
+        "x": 306780.0,
+        "y": 2767340.0,
+        "crest": 17.979999542236328,
+        "support_area_m2": 5600,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306780.0,
+          2767340.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "317",
+        "cell": 78403,
+        "row": 330,
+        "col": 182,
+        "x": 306840.0,
+        "y": 2767420.0,
+        "crest": 16.450000762939453,
+        "support_area_m2": 30800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306840.0,
+          2767420.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "318",
+        "cell": 80325,
+        "row": 338,
+        "col": 194,
+        "x": 307080.0,
+        "y": 2767260.0,
+        "crest": 19.059999465942383,
+        "support_area_m2": 10800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307080.0,
+          2767260.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "319",
+        "cell": 80331,
+        "row": 338,
+        "col": 200,
+        "x": 307200.0,
+        "y": 2767260.0,
+        "crest": 28.229999542236328,
+        "support_area_m2": 800,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307200.0,
+          2767260.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "320",
+        "cell": 80762,
+        "row": 340,
+        "col": 183,
+        "x": 306860.0,
+        "y": 2767220.0,
+        "crest": 24.049999237060547,
+        "support_area_m2": 3200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306860.0,
+          2767220.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "321",
+        "cell": 80777,
+        "row": 340,
+        "col": 198,
+        "x": 307160.0,
+        "y": 2767220.0,
+        "crest": 24.68000030517578,
+        "support_area_m2": 1200,
+        "role": "假設交換單元；非實測雨水口"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307160.0,
+          2767220.0
+        ]
+      }
+    }
+  ]
+}

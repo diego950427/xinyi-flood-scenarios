@@ -1,0 +1,25 @@
+{
+  "id": "H20240710",
+  "label": "2024/7/10｜信義周邊九站（12–18 時）",
+  "kind": "local_multigauge",
+  "duration_s": 21600,
+  "start_local": "2024-07-10T12:00:00+08:00",
+  "note": "九站每 10 分鐘雨量，按最近站分配；起算乾地，不代表當天完整初始狀態。",
+  "source": "https://history.colife.org.tw/",
+  "source_detail": "data/rain_metadata.json",
+  "data_file": "rain_20240710.npz",
+  "rain_end_s": 21600.0,
+  "end_s": 25200.0,
+  "recession_note": "雨後延長段明示假設無雨；不是缺測補零。",
+  "gauge_window_totals_mm": [
+    79.5,
+    86.5,
+    109.5,
+    108.0,
+    119.5,
+    80.0,
+    39.5,
+    50.5,
+    58.5
+  ]
+}

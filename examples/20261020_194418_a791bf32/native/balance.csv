@@ -1,0 +1,2 @@
+initial_surface_m3,initial_native_m3,rain_m3,infiltration_m3,boundary_out_m3,to_network_m3,to_surface_m3,drain_m3,surface_stored_m3,native_stored_m3,native_flood_m3,roundoff_m3,surface_residual_m3,combined_residual_m3,native_flow_error_pct,warnings,time_s,exchange_steps,surface_steps,wall_s
+0,0,2145456.00040199,0,640271.009963947,111966.553419599,0,94357.5710244708,1393218.43661651,17606.7841539102,0,0,0.000401936937123537,2.19864315506129,0.00139786,0,5400,5401,12491,285.5399603

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "run": 8,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "scope": "chart semantics, security, JS syntax and contrast; no solver run"
+}

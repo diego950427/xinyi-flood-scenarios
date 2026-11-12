@@ -1,0 +1,162 @@
+{
+  "prepared_at": "2026-10-19T13:20:47.284331+00:00",
+  "purpose": "雨量輸入準備；不是淹水模擬成果",
+  "start_local": "2024-07-10T12:00:00+08:00",
+  "end_local": "2024-07-10T18:00:00+08:00",
+  "interval_s": 600,
+  "duration_s": 21600.0,
+  "station_count": 9,
+  "stations": [
+    {
+      "index": 0,
+      "station_id": "A0A010",
+      "name_raw": "臺灣大學",
+      "x_3826": 304442.2692628249,
+      "y_3826": 2767467.387869631,
+      "event_total_mm": 79.5,
+      "intervals": 36,
+      "assigned_active_cells": 4245,
+      "assigned_xinyi_cells": 33
+    },
+    {
+      "index": 1,
+      "station_id": "A1AA80",
+      "name_raw": "市政中心",
+      "x_3826": 306146.2938411064,
+      "y_3826": 2770201.040046847,
+      "event_total_mm": 86.5,
+      "intervals": 36,
+      "assigned_active_cells": 6334,
+      "assigned_xinyi_cells": 2067
+    },
+    {
+      "index": 2,
+      "station_id": "A1AC60",
+      "name_raw": "九如里",
+      "x_3826": 311719.4136352883,
+      "y_3826": 2769515.8316570246,
+      "event_total_mm": 109.5,
+      "intervals": 36,
+      "assigned_active_cells": 16885,
+      "assigned_xinyi_cells": 0
+    },
+    {
+      "index": 3,
+      "station_id": "A1AC70",
+      "name_raw": "挹翠山莊",
+      "x_3826": 307972.53703805525,
+      "y_3826": 2767793.819117977,
+      "event_total_mm": 108.0,
+      "intervals": 36,
+      "assigned_active_cells": 13174,
+      "assigned_xinyi_cells": 7978
+    },
+    {
+      "index": 4,
+      "station_id": "A1AG40",
+      "name_raw": "四獸山",
+      "x_3826": 308825.630853587,
+      "y_3826": 2769148.720331797,
+      "event_total_mm": 119.5,
+      "intervals": 36,
+      "assigned_active_cells": 19603,
+      "assigned_xinyi_cells": 7863
+    },
+    {
+      "index": 5,
+      "station_id": "C0AC70",
+      "name_raw": "信義",
+      "x_3826": 306973.85821381136,
+      "y_3826": 2770085.723495444,
+      "event_total_mm": 80.0,
+      "intervals": 36,
+      "assigned_active_cells": 11766,
+      "assigned_xinyi_cells": 10118
+    },
+    {
+      "index": 6,
+      "station_id": "C0AC80",
+      "name_raw": "文山",
+      "x_3826": 308113.71107502683,
+      "y_3826": 2766161.2613011617,
+      "event_total_mm": 39.5,
+      "intervals": 36,
+      "assigned_active_cells": 6357,
+      "assigned_xinyi_cells": 38
+    },
+    {
+      "index": 7,
+      "station_id": "C0AH70",
+      "name_raw": "松山",
+      "x_3826": 305539.02792288904,
+      "y_3826": 2771285.9630558216,
+      "event_total_mm": 50.5,
+      "intervals": 36,
+      "assigned_active_cells": 8644,
+      "assigned_xinyi_cells": 0
+    },
+    {
+      "index": 8,
+      "station_id": "CAAH60",
+      "name_raw": "大安森林",
+      "x_3826": 304119.65751132334,
+      "y_3826": 2769157.7411200674,
+      "event_total_mm": 58.5,
+      "intervals": 36,
+      "assigned_active_cells": 2386,
+      "assigned_xinyi_cells": 0
+    }
+  ],
+  "spatial_assignment": "nearest eligible station; tie by sorted station_id",
+  "observation_support": "ten-minute interval totals; uniform intensity within each interval",
+  "outside_time_support": "ERROR, not zero rain; any recession extension needs separately supplied forcing",
+  "active_cells": 89394,
+  "xinyi_cells": 28097,
+  "cell_area_m2": 400,
+  "domain_rain_volume_m3": 3307244.4,
+  "xinyi_rain_volume_m3": 1117445.0,
+  "gauge_distance_max_m": 3411.8547619754277,
+  "gauge_distance_xinyi_max_m": 2016.359614068081,
+  "outside_gauge_hull_cells": 40246,
+  "outside_gauge_hull_xinyi_cells": 3572,
+  "rainfall_spatial_model_validated": false,
+  "hydraulic_simulation_run": false,
+  "sources": [
+    "https://history.colife.org.tw/",
+    "https://opendata.cwa.gov.tw/dataset/observation/O-A0002-001",
+    "https://ci.taiwan.gov.tw/dsp/Files/docs/氣象資訊新舊物理量對應說明.pdf"
+  ],
+  "source_sha256": {
+    "04_事件驗證\\20240710_rain\\rain_qa.json": "de0b4fe36cdc5f58a9ed99834581334a20e9eb78845eea41ef96a66bf96187e9",
+    "04_事件驗證\\20240710_rain\\rain_stations_3826.geojson": "ed8fe7b21cc1b6d08b5fb7ec99788a0c149e0f5fecbcff87cc3049931eaa9b5d",
+    "02_場址資料\\二維候選範圍\\active_domain_mask.tif": "8843607ea8ef31c20f99e6e8a97e85f4af9278a99b2b49f5ead54bd9f8fb1d2c",
+    "02_場址資料\\二維候選範圍\\xinyi_reporting_mask.tif": "b0b636d2aebdff322ac820209d482a1f8150d57b065010f1e382a1172882c254",
+    "tools\\prepare_event_forcing.py": "95c0b137daa6ff75a22b5f8719a34bd11eb49156da39dc7fc97cf7c28345e919",
+    "tools\\rain_forcing.py": "42e3125a07ca07e0e7a8105825cc8f05ae6f848d8e5701efea9d098cbecfe29c",
+    "01_來源快照\\事件資料\\rain_20240709.zip": "7d508f66217c2ab27ef5350b7027c5bf49e7027669e1e264db0d9d1f5c9832fb",
+    "01_來源快照\\事件資料\\rain_20240710.zip": "46ece6df69102f4f1cb4940d3103eecf37392b1200b0c53484a57d48c52e39a4",
+    "01_來源快照\\事件資料\\rain_20240711.zip": "71d2a5694abfbdb632b09dce2a8b83fa49812e2c7fc08ebef07990e5a0216b9e",
+    "04_事件驗證\\20240710_rain\\A0A010_10min_QC.csv": "d29b05bfb1ec6bcc2251df0badb8aea94604b1c62f3f05b0d217b46aec911058",
+    "04_事件驗證\\20240710_rain\\A1AA80_10min_QC.csv": "ef7291e187d371bb2d1c038bc27ee9b6bad39f92b9090dc6d224c64f67739e08",
+    "04_事件驗證\\20240710_rain\\A1AC60_10min_QC.csv": "81f74d8704ae3f918bc86fa11869c951662dc0ecc44c8cb7b2021eb2e7ec3f38",
+    "04_事件驗證\\20240710_rain\\A1AC70_10min_QC.csv": "5181f3898fc419eb0cef1fa939f12f4b7209328a4c9bb2dabceeb881478c008b",
+    "04_事件驗證\\20240710_rain\\A1AG40_10min_QC.csv": "9dbf96a65e160f8542792468164b23dafac8fc16005a3f666768e55bbc3335a7",
+    "04_事件驗證\\20240710_rain\\C0AC70_10min_QC.csv": "d6d9526962b0f7f86d4b11b657578ec683ddb7ec50ad675aa13f0e09942243ce",
+    "04_事件驗證\\20240710_rain\\C0AC80_10min_QC.csv": "8826f0368ad170f018efa9c29c1bb58fc61a9b54fa83a6304e55afb56e6c6b37",
+    "04_事件驗證\\20240710_rain\\C0AH70_10min_QC.csv": "8d8d30b6a157dc3538c78a1041919efe0a6c0b057dbf48b218f9e80071a38be1",
+    "04_事件驗證\\20240710_rain\\CAAH60_10min_QC.csv": "13cd3dc5ae77662e03a7006494b6e2c126fb069e6f909e3fee4d38b7417201f0"
+  },
+  "outputs_sha256": {
+    "rain_20240710_1200_1800_nearest_gauge.npz": "fd62f2c9d688b10ed49b67f9a2f967f09e9e0715fa2d3ffc90eaf98cd698f127",
+    "rain_station_index.tif": "272ecfab712f201ac3b3ed454c42b4a1f168b57d7c9373b6e576e7874ce7a189",
+    "rain_gauge_distance_m.tif": "4a9f7a87e9d08d956ebbf3978eb6ab1c3d9e0fd3a85455e21e0ae86ea43ea37b",
+    "event_rain_total_mm_NOT_water_depth.tif": "0a1c1f7bad9b007b97146a3c377dff0fac29378db1d341706156152905a44db6",
+    "outside_gauge_convex_hull.tif": "835d3e906b94d2c4a42e5f511f06f0e52fca4ba11ab27ac5ff7863fd989ddcee"
+  },
+  "limitations": [
+    "測站間空間差異未校正；凸包外仍按最近站延伸，圖層明列範圍與距離。",
+    "12時前的前期降雨及初始管網水位未設定；不能把本檔當整場洪水的完整條件。",
+    "六集水區是候選計算範圍；不得當已驗收邊界，也不得把雨量圖當淹水圖。",
+    "正式全區聯動仍需可靠管網、進水口、出口條件與事件對照。"
+  ]
+}

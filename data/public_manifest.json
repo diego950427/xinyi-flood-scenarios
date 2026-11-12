@@ -1,0 +1,230 @@
+{
+  "scope": "public derivative input data; private originals stay outside this repository",
+  "source_manifest_role": "source_manifest.json keeps original V2 source hashes; this manifest hashes the public copy",
+  "files": [
+    {
+      "file": "466920_taipei_20230810_hyetograph_qc.csv",
+      "v2_sha256": "baf9aebbce64e34f65b2e2afff3793b68e942e129e39a73c777207d4cd6a9f06",
+      "release_sha256": "baf9aebbce64e34f65b2e2afff3793b68e942e129e39a73c777207d4cd6a9f06",
+      "bytes": 91108,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "466920_taipei_20230820_hyetograph_qc.csv",
+      "v2_sha256": "7ce4066bac699e4c2b0c57d1a28225639907e1e47fe0043afade1c3f1fb90365",
+      "release_sha256": "7ce4066bac699e4c2b0c57d1a28225639907e1e47fe0043afade1c3f1fb90365",
+      "bytes": 39216,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "466920_taipei_20260608_hyetograph_derived.csv",
+      "v2_sha256": "f612515ef8555294c9bc13dfb9494a2676559da544792f26d4fb80681d031296",
+      "release_sha256": "f612515ef8555294c9bc13dfb9494a2676559da544792f26d4fb80681d031296",
+      "bytes": 44844,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "active.tif",
+      "v2_sha256": "8843607ea8ef31c20f99e6e8a97e85f4af9278a99b2b49f5ead54bd9f8fb1d2c",
+      "release_sha256": "8843607ea8ef31c20f99e6e8a97e85f4af9278a99b2b49f5ead54bd9f8fb1d2c",
+      "bytes": 4491,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "domain.geojson",
+      "v2_sha256": "f4ad244be8df08fcebdbff4a778b555fe154abb420d9469d4c198ddae2702fbf",
+      "release_sha256": "f4ad244be8df08fcebdbff4a778b555fe154abb420d9469d4c198ddae2702fbf",
+      "bytes": 177297,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "drainage_coverage.npy",
+      "v2_sha256": "354dc523e776052624c7231bf214dfd17469d78a1f95c1c258e6b2276c0d351c",
+      "release_sha256": "354dc523e776052624c7231bf214dfd17469d78a1f95c1c258e6b2276c0d351c",
+      "bytes": 251288,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "event_20230810.npz",
+      "v2_sha256": "299e522c420cf8be96fe1a524204745f2d5d06edf51855d0c856610e9d981872",
+      "release_sha256": "299e522c420cf8be96fe1a524204745f2d5d06edf51855d0c856610e9d981872",
+      "bytes": 567,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "event_20230820.npz",
+      "v2_sha256": "a03d33b67856d23a33a48644241bda4a05a05893cfd19b8487d2d05c608a2371",
+      "release_sha256": "a03d33b67856d23a33a48644241bda4a05a05893cfd19b8487d2d05c608a2371",
+      "bytes": 570,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "event_20260608.npz",
+      "v2_sha256": "f383e66af8c7796a93cb5153e0937b4187dc1771617e02b65d8acbec2d159466",
+      "release_sha256": "f383e66af8c7796a93cb5153e0937b4187dc1771617e02b65d8acbec2d159466",
+      "bytes": 587,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "events.json",
+      "v2_sha256": "f4c16fcfc273f0d8dc14c7549e7757ff206e2202aa817ce288f27dae13afb2fb",
+      "release_sha256": "f4c16fcfc273f0d8dc14c7549e7757ff206e2202aa817ce288f27dae13afb2fb",
+      "bytes": 2249,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "flood_observations_reference_only.geojson",
+      "v2_sha256": "7c1220c37a769c3d3d4adad646ba567ae20153f8f54a1c23cf893de65cabf798",
+      "release_sha256": "7c1220c37a769c3d3d4adad646ba567ae20153f8f54a1c23cf893de65cabf798",
+      "bytes": 102300,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "native_provenance.json",
+      "v2_sha256": "ea94b465b0714b71950e7bb4daab1c53597f4018a2597b704b91f32441e21e24",
+      "release_sha256": "7708dd440b4b251d2419612e17b04c804adac530d816c2ab7edad1c7d4de139f",
+      "bytes": 2299,
+      "metadata_paths_sanitized": true,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "pipes_reference_only.geojson",
+      "v2_sha256": "274cbeae4e505f576351f7386f6b7edba941654d93d9f5bfb1453631dee3bbf5",
+      "release_sha256": "274cbeae4e505f576351f7386f6b7edba941654d93d9f5bfb1453631dee3bbf5",
+      "bytes": 6108948,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "rain20_semantic_qa.json",
+      "v2_sha256": "1e4ecfd98ded2dba4a95e9420796e6eede7a827e1538f3f28600977657de9052",
+      "release_sha256": "b2215c327813d17f71fab394bf6a308158fa5c836fbe83c9eebb905eb95a8607",
+      "bytes": 15023,
+      "metadata_paths_sanitized": true,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "rain_2023-08-10.csv",
+      "v2_sha256": "8255ccf101f6bf37d4a5fb119a04285f79e51cd71563459e50a8cff693a037fb",
+      "release_sha256": "8255ccf101f6bf37d4a5fb119a04285f79e51cd71563459e50a8cff693a037fb",
+      "bytes": 8741,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "rain_2023-08-20.csv",
+      "v2_sha256": "cce0f11c696a295104b38b106d0afca3b88fad13c3e3557c6b995fecd1dc3059",
+      "release_sha256": "cce0f11c696a295104b38b106d0afca3b88fad13c3e3557c6b995fecd1dc3059",
+      "bytes": 8741,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "rain_20240710.npz",
+      "v2_sha256": "fd62f2c9d688b10ed49b67f9a2f967f09e9e0715fa2d3ffc90eaf98cd698f127",
+      "release_sha256": "fd62f2c9d688b10ed49b67f9a2f967f09e9e0715fa2d3ffc90eaf98cd698f127",
+      "bytes": 11235,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "rain_2026-06-08.csv",
+      "v2_sha256": "eb6a14d3fff79fa3175f4509c71b66a8c376adbd18638258de679b2b83af24a4",
+      "release_sha256": "eb6a14d3fff79fa3175f4509c71b66a8c376adbd18638258de679b2b83af24a4",
+      "bytes": 7878,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "rain_metadata.json",
+      "v2_sha256": "3ad9d7b7d1c6a4b7f0df9f320627ea096c601cabcf7c34b55b26fb2294de3f73",
+      "release_sha256": "3ad9d7b7d1c6a4b7f0df9f320627ea096c601cabcf7c34b55b26fb2294de3f73",
+      "bytes": 7215,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "rain_stations.geojson",
+      "v2_sha256": "ed8fe7b21cc1b6d08b5fb7ec99788a0c149e0f5fecbcff87cc3049931eaa9b5d",
+      "release_sha256": "ed8fe7b21cc1b6d08b5fb7ec99788a0c149e0f5fecbcff87cc3049931eaa9b5d",
+      "bytes": 16550,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "source_manifest.json",
+      "v2_sha256": "f643fcb4df55ad6216d4a6b69d86041fcece56b8c7d8ef433d3e253c5b6e8dfb",
+      "release_sha256": "271ebe97831b5610a4b796acd0686c489a1e44b2342c93e94ded0e9349093925",
+      "bytes": 3598,
+      "metadata_paths_sanitized": true,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "terrain20m.tif",
+      "v2_sha256": "563b180791d5267cf41f2e34c1fcb2ec5bd09cbccc08f2ada24cc19a3b8bdb0a",
+      "release_sha256": "563b180791d5267cf41f2e34c1fcb2ec5bd09cbccc08f2ada24cc19a3b8bdb0a",
+      "bytes": 209144,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "terrain_domain_provenance.json",
+      "v2_sha256": "92f4337987357ecdcdd397c6a12b5cd39b546ec75f72c611534e8ec97a113294",
+      "release_sha256": "92f4337987357ecdcdd397c6a12b5cd39b546ec75f72c611534e8ec97a113294",
+      "bytes": 17777,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "unit_design.json",
+      "v2_sha256": "9a1502f8b8e98816d5a6b77c1b25b1fd1fea69a287c02482065119774e05a9e8",
+      "release_sha256": "9a1502f8b8e98816d5a6b77c1b25b1fd1fea69a287c02482065119774e05a9e8",
+      "bytes": 433,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "virtual_units.geojson",
+      "v2_sha256": "2b3af73d3e9654b613b0eef053a8f62793bd289abc35216e5e1002db35643de6",
+      "release_sha256": "2b3af73d3e9654b613b0eef053a8f62793bd289abc35216e5e1002db35643de6",
+      "bytes": 153426,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "virtual_units.json",
+      "v2_sha256": "62df483ea8deca2192c72f2db28559380d4859be30dc43c887e8028ef38b144c",
+      "release_sha256": "62df483ea8deca2192c72f2db28559380d4859be30dc43c887e8028ef38b144c",
+      "bytes": 59898,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "xinyi.tif",
+      "v2_sha256": "b0b636d2aebdff322ac820209d482a1f8150d57b065010f1e382a1172882c254",
+      "release_sha256": "b0b636d2aebdff322ac820209d482a1f8150d57b065010f1e382a1172882c254",
+      "bytes": 2735,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    },
+    {
+      "file": "xinyi_boundary.geojson",
+      "v2_sha256": "253b0ac4d9f1943faa3a8791b16d47d4b4e1ee19b79198437385d5dea96e56c9",
+      "release_sha256": "253b0ac4d9f1943faa3a8791b16d47d4b4e1ee19b79198437385d5dea96e56c9",
+      "bytes": 70937,
+      "metadata_paths_sanitized": false,
+      "numeric_values_preserved": true
+    }
+  ]
+}

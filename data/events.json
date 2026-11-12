@@ -1,0 +1,52 @@
+[
+  {
+    "id": "H20240710",
+    "label": "2024/7/10｜信義周邊九站（12–18 時）",
+    "kind": "local_multigauge",
+    "duration_s": 21600,
+    "start_local": "2024-07-10T12:00:00+08:00",
+    "note": "九站每 10 分鐘雨量，按最近站分配；起算乾地，不代表當天完整初始狀態。",
+    "source": "https://history.colife.org.tw/",
+    "source_detail": "data/rain_metadata.json",
+    "data_file": "rain_20240710.npz"
+  },
+  {
+    "id": "H20230810",
+    "label": "2023/08/10｜臺北站雨型移植（12–18 時）",
+    "kind": "transferred_single_gauge",
+    "duration_s": 21600,
+    "start_local": "2023-08-10T12:00:00+08:00",
+    "total_window_mm": 106.5,
+    "full_day_total_mm": 114.5,
+    "data_file": "event_20230810.npz",
+    "note": "臺北站 466920 雨型套用全區，不是信義區實測降雨；不是該日信義淹水重現。 由既有累積雨量整理，保留原始 QC。",
+    "source": "https://history.colife.org.tw/",
+    "source_detail": "data/rain_2023-08-10.csv"
+  },
+  {
+    "id": "H20230820",
+    "label": "2023/08/20｜臺北站雨型移植（12–18 時）",
+    "kind": "transferred_single_gauge",
+    "duration_s": 21600,
+    "start_local": "2023-08-20T12:00:00+08:00",
+    "total_window_mm": 69.5,
+    "full_day_total_mm": 69.5,
+    "data_file": "event_20230820.npz",
+    "note": "臺北站 466920 雨型套用全區，不是信義區實測降雨；不是該日信義淹水重現。 8 個全日區間曾依累積雨量約束重建，詳見保留 QC。",
+    "source": "https://history.colife.org.tw/",
+    "source_detail": "data/rain_2023-08-20.csv"
+  },
+  {
+    "id": "H20260608",
+    "label": "2026/06/08｜臺北站雨型移植（12–18 時）",
+    "kind": "transferred_single_gauge",
+    "duration_s": 21600,
+    "start_local": "2026-06-08T12:00:00+08:00",
+    "total_window_mm": 117.5,
+    "full_day_total_mm": 120.5,
+    "data_file": "event_20260608.npz",
+    "note": "臺北站 466920 雨型套用全區，不是信義區實測降雨；不是該日信義淹水重現。 由既有累積雨量整理，保留原始 QC。",
+    "source": "https://history.colife.org.tw/",
+    "source_detail": "data/rain_2026-06-08.csv"
+  }
+]

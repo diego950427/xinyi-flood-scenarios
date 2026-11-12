@@ -1,0 +1,13 @@
+{
+  "mode": "custom",
+  "total_mm": 60.0,
+  "duration_min": 60.0,
+  "rain_shape": "middle_peak",
+  "recession_min": 30.0,
+  "drain_mm_h": 30.0,
+  "storage_mm": 20.0,
+  "inlet_area_m2": 0.2,
+  "infiltration_mm_h": 0.0,
+  "exchange_cap_s": 1.0,
+  "model": "SWMM_equivalent_units_bidirectional_2D_NOT_actual_network"
+}

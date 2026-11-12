@@ -1,0 +1,501 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:3826"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "A0A010",
+        "station_name_raw": "臺灣大學",
+        "town_raw": "大安區",
+        "longitude": 121.53941,
+        "latitude": 25.014278,
+        "altitude_m_raw": "17.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 1729.9689545540477,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 1,
+        "flagged_event_intervals_12_to_18": 0,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 79.5,
+        "sum_event_available_10min_mm": 79.5,
+        "peak_reported_1h_mm": 76.5,
+        "peak_10min_mm": 30.5,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          304442.2692628249,
+          2767467.387869631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "A1A9Y0",
+        "station_name_raw": "民生國中",
+        "town_raw": "松山區",
+        "longitude": 121.5667,
+        "latitude": 25.059692,
+        "altitude_m_raw": "28.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 1184.6489582612203,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 3,
+        "flagged_event_intervals_12_to_18": 2,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 55.0,
+        "sum_event_available_10min_mm": 55.0,
+        "peak_reported_1h_mm": 49.5,
+        "peak_10min_mm": 19.0,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307175.6296795401,
+          2772508.9513743804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "A1AA00",
+        "station_name_raw": "三興國小",
+        "town_raw": "信義區",
+        "longitude": 121.558105,
+        "latitude": 25.029194,
+        "altitude_m_raw": "28.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 0.0,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 7,
+        "flagged_event_intervals_12_to_18": 6,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 80.5,
+        "sum_event_available_10min_mm": 80.5,
+        "peak_reported_1h_mm": 81.0,
+        "peak_10min_mm": 31.0,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306322.3731790226,
+          2769127.2084599594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "A1AA60",
+        "station_name_raw": "留公國中",
+        "town_raw": "信義區",
+        "longitude": 121.58561,
+        "latitude": 25.037191,
+        "altitude_m_raw": "32.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 0.0,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 11,
+        "flagged_event_intervals_12_to_18": 10,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 89.0,
+        "sum_event_available_10min_mm": 89.0,
+        "peak_reported_1h_mm": 105.5,
+        "peak_10min_mm": 20.0,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          309094.3296790045,
+          2770024.726151982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "A1AA80",
+        "station_name_raw": "市政中心",
+        "town_raw": "信義區",
+        "longitude": 121.556404,
+        "latitude": 25.038895,
+        "altitude_m_raw": "83.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 119.45108933469514,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 1,
+        "flagged_event_intervals_12_to_18": 0,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 86.5,
+        "sum_event_available_10min_mm": 86.5,
+        "peak_reported_1h_mm": 78.5,
+        "peak_10min_mm": 31.5,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306146.2938411064,
+          2770201.040046847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "A1AB40",
+        "station_name_raw": "玉成",
+        "town_raw": "南港區",
+        "longitude": 121.582504,
+        "latitude": 25.052193,
+        "altitude_m_raw": "27.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 389.5752813180996,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 15,
+        "flagged_event_intervals_12_to_18": 14,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 31.5,
+        "sum_event_available_10min_mm": 31.5,
+        "peak_reported_1h_mm": 86.5,
+        "peak_10min_mm": 6.5,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308773.74206368363,
+          2771685.088059583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "A1AC60",
+        "station_name_raw": "九如里",
+        "town_raw": "南港區",
+        "longitude": 121.6116,
+        "latitude": 25.032492,
+        "altitude_m_raw": "44.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 1966.6242330394355,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 1,
+        "flagged_event_intervals_12_to_18": 0,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 109.5,
+        "sum_event_available_10min_mm": 109.5,
+        "peak_reported_1h_mm": 79.0,
+        "peak_10min_mm": 18.0,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          311719.4136352883,
+          2769515.8316570246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "A1AC70",
+        "station_name_raw": "挹翠山莊",
+        "town_raw": "信義區",
+        "longitude": 121.5744,
+        "latitude": 25.017094,
+        "altitude_m_raw": "118.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 0.0,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 1,
+        "flagged_event_intervals_12_to_18": 0,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 108.0,
+        "sum_event_available_10min_mm": 108.0,
+        "peak_reported_1h_mm": 102.5,
+        "peak_10min_mm": 34.0,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          307972.53703805525,
+          2767793.819117977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "A1AG40",
+        "station_name_raw": "四獸山",
+        "town_raw": "信義區",
+        "longitude": 121.58291,
+        "latitude": 25.029293,
+        "altitude_m_raw": "315.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 0.0,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 1,
+        "flagged_event_intervals_12_to_18": 0,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 119.5,
+        "sum_event_available_10min_mm": 119.5,
+        "peak_reported_1h_mm": 102.5,
+        "peak_10min_mm": 27.5,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308825.630853587,
+          2769148.720331797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "A1AG60",
+        "station_name_raw": "福州山",
+        "town_raw": "大安區",
+        "longitude": 121.554306,
+        "latitude": 25.016893,
+        "altitude_m_raw": "122.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 445.0572575764287,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 6,
+        "flagged_event_intervals_12_to_18": 5,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 110.5,
+        "sum_event_available_10min_mm": 110.5,
+        "peak_reported_1h_mm": 106.0,
+        "peak_10min_mm": 34.5,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305944.5569312741,
+          2767763.1073131906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "C0AC70",
+        "station_name_raw": "信義",
+        "town_raw": "信義區",
+        "longitude": 121.5646,
+        "latitude": 25.037823,
+        "altitude_m_raw": "71.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 0.0,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 1,
+        "flagged_event_intervals_12_to_18": 0,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 80.0,
+        "sum_event_available_10min_mm": 80.0,
+        "peak_reported_1h_mm": 72.0,
+        "peak_10min_mm": 28.0,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          306973.85821381136,
+          2770085.723495444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "C0AC80",
+        "station_name_raw": "文山",
+        "town_raw": "文山區",
+        "longitude": 121.57573,
+        "latitude": 25.00235,
+        "altitude_m_raw": "40.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 1047.6147273796398,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 1,
+        "flagged_event_intervals_12_to_18": 0,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 39.5,
+        "sum_event_available_10min_mm": 39.5,
+        "peak_reported_1h_mm": 38.5,
+        "peak_10min_mm": 15.0,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308113.71107502683,
+          2766161.2613011617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "C0AH70",
+        "station_name_raw": "松山",
+        "town_raw": "松山區",
+        "longitude": 121.55043,
+        "latitude": 25.048712,
+        "altitude_m_raw": "34.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 829.6034630932432,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 1,
+        "flagged_event_intervals_12_to_18": 0,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 51.0,
+        "sum_event_available_10min_mm": 50.5,
+        "peak_reported_1h_mm": 43.5,
+        "peak_10min_mm": 22.0,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          305539.02792288904,
+          2771285.9630558216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "CAAH60",
+        "station_name_raw": "大安森林",
+        "town_raw": "大安區",
+        "longitude": 121.53628,
+        "latitude": 25.02955,
+        "altitude_m_raw": "18.0",
+        "metadata_variants": 1,
+        "distance_to_district_m": 1737.920184746446,
+        "expected_intervals": 144,
+        "valid_intervals": 143,
+        "flagged_intervals": 1,
+        "flagged_event_intervals_12_to_18": 0,
+        "identical_duplicate_rows": 2,
+        "conflicting_timestamps": 0,
+        "conflicting_full_day_timestamps": 0,
+        "conflicting_event_timestamps": 0,
+        "midnight_cumulative_comparisons_skipped": 2,
+        "sum_available_10min_mm_not_gap_filled": 58.5,
+        "sum_event_available_10min_mm": 58.5,
+        "peak_reported_1h_mm": 55.0,
+        "peak_10min_mm": 23.5,
+        "full_day_internally_consistent": false,
+        "event_12_to_18_internally_consistent": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          304119.65751132334,
+          2769157.7411200674
+        ]
+      }
+    }
+  ]
+}

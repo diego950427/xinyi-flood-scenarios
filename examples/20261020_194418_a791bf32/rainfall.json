@@ -1,0 +1,11 @@
+{
+  "label": "自訂 60 mm／60 分鐘",
+  "kind": "synthetic_rainfall",
+  "start_local": "2020-01-01T00:00:00+08:00",
+  "rain_end_s": 3600.0,
+  "end_s": 5400.0,
+  "recession_note": "雨後延長段明示假設無雨；不是缺測補零。",
+  "gauge_window_totals_mm": [
+    60.0
+  ]
+}

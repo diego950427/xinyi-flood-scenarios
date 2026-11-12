@@ -1,0 +1,193 @@
+{
+  "updated_at": "2026-10-19T13:01:26.642827+00:00",
+  "checks": {
+    "full_xinyi_geometry_in_domain": true,
+    "every_xinyi_cell_active": true,
+    "active_terrain_complete": true,
+    "independent_mask_agrees": true,
+    "has_cross_district_cells": true,
+    "original_20m_spacing": true
+  },
+  "data_preparation_passed": true,
+  "site_boundary_accepted": false,
+  "simulation_run": false,
+  "shape": [
+    455,
+    552
+  ],
+  "pixel_m": 20,
+  "active_cells": 89394,
+  "active_area_km2": 35.7576,
+  "vector_candidate_area_km2": 35.7429822979496,
+  "district_cells": 28097,
+  "external_active_cells": 61297,
+  "active_nodata_cells": 0,
+  "uncovered_district_added_m2": 1143.4659039299129,
+  "independent_mask_disagreement_cells": 0,
+  "consistent_duplicate_samples": 18977,
+  "geotransform": [
+    303190.0,
+    20.0,
+    0.0,
+    2774030.0,
+    0.0,
+    -20.0
+  ],
+  "epsg": 3826,
+  "vertical_datum": "TWVD2001",
+  "pipe_datum_compatibility_confirmed": false,
+  "resampling_or_fill_applied": false,
+  "terrain_tiles": [
+    {
+      "member": "分幅_臺北市DEM/97224001dem.grd",
+      "samples": 1320,
+      "header": "97224001\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n301240\r\n2762880\r\n303840\r\n2765720\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2488\r\n163\r\n0\r\n16\r\n20061224\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97224002dem.grd",
+      "samples": 5330,
+      "header": "97224002\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n130\r\n143\r\n18590\r\n18590\r\n303780\r\n2762900\r\n306360\r\n2765740\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2417\r\n141\r\n0\r\n20\r\n20061022\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97224003dem.grd",
+      "samples": 5330,
+      "header": "97224003\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n130\r\n143\r\n18590\r\n18590\r\n306300\r\n2762900\r\n308880\r\n2765740\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2417\r\n251\r\n1\r\n48\r\n20061022\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97224004dem.grd",
+      "samples": 5502,
+      "header": "97224004\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n308820\r\n2762920\r\n311420\r\n2765760\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3116\r\n555\r\n1\r\n190\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97224005dem.grd",
+      "samples": 5502,
+      "header": "97224005\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n311340\r\n2762920\r\n313940\r\n2765760\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3111\r\n581\r\n3\r\n253\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233061dem.grd",
+      "samples": 124,
+      "header": "97233061\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n301200\r\n2773960\r\n303800\r\n2776800\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2492\r\n159\r\n0\r\n12\r\n20061224\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233062dem.grd",
+      "samples": 524,
+      "header": "97233062\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n303720\r\n2773960\r\n306320\r\n2776800\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2417\r\n217\r\n0\r\n46\r\n20061022\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233063dem.grd",
+      "samples": 393,
+      "header": "97233063\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n306240\r\n2773980\r\n308840\r\n2776820\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2489\r\n259\r\n0\r\n60\r\n20061224\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233064dem.grd",
+      "samples": 393,
+      "header": "97233064\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n308760\r\n2773980\r\n311360\r\n2776820\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3111\r\n327\r\n0\r\n58\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233065dem.grd",
+      "samples": 260,
+      "header": "97233065\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n130\r\n143\r\n18590\r\n18590\r\n311300\r\n2774000\r\n313880\r\n2776840\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3117\r\n191\r\n1\r\n62\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233071dem.grd",
+      "samples": 4433,
+      "header": "97233071\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n130\r\n143\r\n18590\r\n18590\r\n301220\r\n2771180\r\n303800\r\n2774020\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2491\r\n33\r\n0\r\n3\r\n20061224\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233072dem.grd",
+      "samples": 18602,
+      "header": "97233072\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n303740\r\n2771200\r\n306340\r\n2774040\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2417\r\n9\r\n0\r\n4\r\n20061022\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233073dem.grd",
+      "samples": 18602,
+      "header": "97233073\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n306260\r\n2771200\r\n308860\r\n2774040\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2490\r\n79\r\n0\r\n6\r\n20061224\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233074dem.grd",
+      "samples": 18471,
+      "header": "97233074\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n308780\r\n2771220\r\n311380\r\n2774060\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3114\r\n79\r\n0\r\n14\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233075dem.grd",
+      "samples": 18340,
+      "header": "97233075\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n311300\r\n2771240\r\n313900\r\n2774080\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3117\r\n92\r\n0\r\n16\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233081dem.grd",
+      "samples": 4576,
+      "header": "97233081\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n301220\r\n2768420\r\n303820\r\n2771260\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2492\r\n11\r\n0\r\n5\r\n20061224\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233082dem.grd",
+      "samples": 18602,
+      "header": "97233082\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n142\r\n18602\r\n18602\r\n303740\r\n2768440\r\n306340\r\n2771260\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2417\r\n36\r\n0\r\n6\r\n20061022\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233083dem.grd",
+      "samples": 18590,
+      "header": "97233083\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n130\r\n143\r\n18590\r\n18590\r\n306280\r\n2768440\r\n308860\r\n2771280\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2417\r\n249\r\n0\r\n22\r\n20061022\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233084dem.grd",
+      "samples": 18590,
+      "header": "97233084\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n130\r\n143\r\n18590\r\n18590\r\n308800\r\n2768460\r\n311380\r\n2771300\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3114\r\n373\r\n0\r\n91\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233085dem.grd",
+      "samples": 18733,
+      "header": "97233085\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n311320\r\n2768460\r\n313920\r\n2771300\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3115\r\n357\r\n0\r\n79\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233086dem.grd",
+      "samples": 2860,
+      "header": "97233086\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n313840\r\n2768480\r\n316440\r\n2771320\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3118\r\n437\r\n2\r\n205\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233091dem.grd",
+      "samples": 4719,
+      "header": "97233091\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n301240\r\n2765660\r\n303840\r\n2768500\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2489\r\n42\r\n0\r\n6\r\n20061224\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233092dem.grd",
+      "samples": 18733,
+      "header": "97233092\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n303760\r\n2765660\r\n306360\r\n2768500\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2417\r\n140\r\n0\r\n23\r\n20061022\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233093dem.grd",
+      "samples": 18733,
+      "header": "97233093\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n306280\r\n2765680\r\n308880\r\n2768520\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n2417\r\n277\r\n2\r\n72\r\n20061022\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233094dem.grd",
+      "samples": 18733,
+      "header": "97233094\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n308800\r\n2765680\r\n311400\r\n2768520\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3114\r\n367\r\n1\r\n117\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233095dem.grd",
+      "samples": 18733,
+      "header": "97233095\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n131\r\n143\r\n18733\r\n18733\r\n311320\r\n2765700\r\n313920\r\n2768540\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3113\r\n340\r\n2\r\n137\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    },
+    {
+      "member": "分幅_臺北市DEM/97233096dem.grd",
+      "samples": 2717,
+      "header": "97233096\r\nTWD97\r\nTWVD2001\r\n5000\r\nm\r\n20\r\n20\r\n130\r\n143\r\n18590\r\n18590\r\n313860\r\n2765700\r\n316440\r\n2768540\r\n00，網格重製\r\nSocetSet，網格重製\r\nAC，網格重製\r\n3118\r\n387\r\n3\r\n167\r\n20060104\r\n農航所\r\n200707，網格重製日期：20140113\r\n原始測製單位：生產製造中心第四○一廠\r\n網格重製單位：財團法人成大研究發展基金會\r\n使用5M網格資料重製20M網格資料"
+    }
+  ],
+  "source_sha256": {
+    "02_場址資料\\xinyi_boundary.geojson": "253b0ac4d9f1943faa3a8791b16d47d4b4e1ee19b79198437385d5dea96e56c9",
+    "02_場址資料\\聯動準備\\官方集水區_與信義區相交候選.geojson": "81661678ef26c5edf75150e8e7a4d1fc06c330db20f02353ee6725021073ba76",
+    "01_來源快照\\MOI_20m_DTM_Taipei.zip": "f30d5586f33a9255a7094e3ae4e6ec954c759fc794dcc8bf537db639b17c94ec"
+  },
+  "output_sha256": {
+    "02_場址資料\\二維候選範圍\\candidate_domain_NOT_accepted_boundary.geojson": "f4ad244be8df08fcebdbff4a778b555fe154abb420d9469d4c198ddae2702fbf",
+    "02_場址資料\\二維候選範圍\\active_domain_mask.tif": "8843607ea8ef31c20f99e6e8a97e85f4af9278a99b2b49f5ead54bd9f8fb1d2c",
+    "02_場址資料\\二維候選範圍\\terrain20m_source_values.tif": "563b180791d5267cf41f2e34c1fcb2ec5bd09cbccc08f2ada24cc19a3b8bdb0a",
+    "02_場址資料\\二維候選範圍\\xinyi_reporting_mask.tif": "b0b636d2aebdff322ac820209d482a1f8150d57b065010f1e382a1172882c254"
+  },
+  "limitations": [
+    "全相交集水區包含細碎交界，仍須確認實際計算邊界",
+    "行政區只作成果統計，不設成內部擋水牆",
+    "20m舊地形未解析路緣、雨水口及新工程；未自行補高程"
+  ]
+}

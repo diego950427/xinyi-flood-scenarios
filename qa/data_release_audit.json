@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "checks": {
+    "all_public_data_hashes_match": true,
+    "unchanged_numeric_files_match_v2": true,
+    "metadata_numeric_values_preserved_at_packaging": true,
+    "no_private_machine_paths_or_obvious_credentials": true,
+    "no_executable_or_secret_files": true,
+    "terrain_epsg3826_20m": true,
+    "exact_domain_and_reporting_masks": true,
+    "finite_active_terrain": true,
+    "four_event_arrays_readable": true,
+    "two_examples_preserve_completed_original_results": true
+  },
+  "privacy_findings": [],
+  "scope": "data and examples only; repository code, cloud computation and redistribution terms require separate review",
+  "files_scanned": 86,
+  "bytes_scanned": 21977292,
+  "events": [
+    {
+      "id": "H20240710",
+      "array_names": [
+        "edges_s",
+        "depths_mm",
+        "station_index",
+        "active_mask",
+        "dx_m",
+        "station_ids"
+      ],
+      "bytes": 11235
+    },
+    {
+      "id": "H20230810",
+      "array_names": [
+        "edges_s",
+        "depths_mm"
+      ],
+      "bytes": 567
+    },
+    {
+      "id": "H20230820",
+      "array_names": [
+        "edges_s",
+        "depths_mm"
+      ],
+      "bytes": 570
+    },
+    {
+      "id": "H20260608",
+      "array_names": [
+        "edges_s",
+        "depths_mm"
+      ],
+      "bytes": 587
+    }
+  ],
+  "examples": [
+    {
+      "id": "20261020_194910_441553a8",
+      "included_original_numeric_files_unchanged": true,
+      "supporting_evidence_matches": true,
+      "regenerated_presentation_separately_declared": true,
+      "original_summary_unchanged": true,
+      "clearly_precomputed_windows_result": true,
+      "original_numerical_acceptance": true
+    },
+    {
+      "id": "20261020_194418_a791bf32",
+      "included_original_numeric_files_unchanged": true,
+      "supporting_evidence_matches": true,
+      "regenerated_presentation_separately_declared": true,
+      "original_summary_unchanged": true,
+      "clearly_precomputed_windows_result": true,
+      "original_numerical_acceptance": true
+    }
+  ]
+}
