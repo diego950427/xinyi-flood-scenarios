@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "expected_project_count": 3,
+  "scope": "Real local PyQGIS headless loading of two public V2 examples and one new V3 full-domain result. No GUI, solver rerun, source changes or new numerical acceptance claim.",
+  "projects": [
+    {
+      "project": "examples/20261020_194418_a791bf32/result.qgs",
+      "request": {
+        "mode": "custom",
+        "event_id": null,
+        "total_mm": 60.0,
+        "duration_min": 60.0
+      },
+      "stored_sources": [
+        "./xinyi_boundary.geojson",
+        "./max_depth_m.tif"
+      ],
+      "layers": [
+        {
+          "name": "信義區界（白線內為統計範圍）",
+          "provider": "ogr",
+          "valid": true,
+          "crs": "EPSG:3826"
+        },
+        {
+          "name": "最大地表水深（公尺；情境）",
+          "provider": "gdal",
+          "valid": true,
+          "crs": "EPSG:3826"
+        }
+      ],
+      "checks": {
+        "project_loaded_by_pyqgis": true,
+        "exactly_two_layers": true,
+        "all_layers_valid": true,
+        "one_raster_one_vector": true,
+        "project_epsg3826": true,
+        "both_layers_epsg3826": true,
+        "stored_sources_relative_and_expected": true,
+        "relative_sources_exist": true,
+        "default_extent_not_empty": true,
+        "inputs_unchanged_by_read": true
+      },
+      "passed": true
+    },
+    {
+      "project": "examples/20261020_194910_441553a8/result.qgs",
+      "request": {
+        "mode": "historical",
+        "event_id": "H20240710",
+        "total_mm": 100.0,
+        "duration_min": 60.0
+      },
+      "stored_sources": [
+        "./xinyi_boundary.geojson",
+        "./max_depth_m.tif"
+      ],
+      "layers": [
+        {
+          "name": "信義區界（白線內為統計範圍）",
+          "provider": "ogr",
+          "valid": true,
+          "crs": "EPSG:3826"
+        },
+        {
+          "name": "最大地表水深（公尺；情境）",
+          "provider": "gdal",
+          "valid": true,
+          "crs": "EPSG:3826"
+        }
+      ],
+      "checks": {
+        "project_loaded_by_pyqgis": true,
+        "exactly_two_layers": true,
+        "all_layers_valid": true,
+        "one_raster_one_vector": true,
+        "project_epsg3826": true,
+        "both_layers_epsg3826": true,
+        "stored_sources_relative_and_expected": true,
+        "relative_sources_exist": true,
+        "default_extent_not_empty": true,
+        "inputs_unchanged_by_read": true
+      },
+      "passed": true
+    },
+    {
+      "project": ".runtime/full_domain/runs/qa_custom_e23151e49b90/result.qgs",
+      "request": {
+        "mode": "custom",
+        "event_id": "H20240710",
+        "total_mm": 10.0,
+        "duration_min": 10.0
+      },
+      "stored_sources": [
+        "./xinyi_boundary.geojson",
+        "./max_depth_m.tif"
+      ],
+      "layers": [
+        {
+          "name": "信義區界（白線內為統計範圍）",
+          "provider": "ogr",
+          "valid": true,
+          "crs": "EPSG:3826"
+        },
+        {
+          "name": "最大地表水深（公尺；情境）",
+          "provider": "gdal",
+          "valid": true,
+          "crs": "EPSG:3826"
+        }
+      ],
+      "checks": {
+        "project_loaded_by_pyqgis": true,
+        "exactly_two_layers": true,
+        "all_layers_valid": true,
+        "one_raster_one_vector": true,
+        "project_epsg3826": true,
+        "both_layers_epsg3826": true,
+        "stored_sources_relative_and_expected": true,
+        "relative_sources_exist": true,
+        "default_extent_not_empty": true,
+        "inputs_unchanged_by_read": true
+      },
+      "passed": true
+    }
+  ]
+}

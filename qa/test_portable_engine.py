@@ -7,6 +7,7 @@ import hashlib
 import json
 import os
 import platform
+import shutil
 import subprocess
 import sys
 import uuid
@@ -83,6 +84,15 @@ def main():
         results.append(result)
         print(name, result["passed"], result.get("combined_error_pct"), flush=True)
     checks = {}
+    path_guard = {"status": "not_applicable_on_Windows"}
+    if platform.system() == "Linux":
+        probe = workroot / "NativePathProbe.exe"
+        subprocess.run([shutil.which("mcs"), "-out:" + str(probe), str(ROOT / "qa" / "NativePathProbe.cs")],
+                       check=True, timeout=30, capture_output=True, text=True)
+        result = subprocess.run([shutil.which("mono"), str(probe), runtime["binary"]],
+                                cwd=workroot, check=True, timeout=30, capture_output=True, text=True)
+        path_guard = json.loads(result.stdout)
+        checks["native_path_guard_byte_limits"] = path_guard["passed"]
     byname = {r["name"]: r for r in results}
     baseline_record = json.loads((ROOT / "qa" / "v2_native_baseline.json").read_text())
     coupling_source = (ROOT / "engine" / "NativeCoupling.cs").read_text().replace("\r\n", "\n")
@@ -112,6 +122,7 @@ def main():
         "platform": platform.system(), "architecture": platform.machine(),
         "python": platform.python_version(), "cases": results, "checks": checks,
         "step_exchange_relative_difference": diff,
+        "native_path_guard": path_guard,
         "runtime": {k: runtime[k] for k in ("version", "engine_sha256", "library_sha256", "source_commit", "fingerprint")},
         "evidence_directory": str(workroot.relative_to(ROOT)).replace("\\", "/"),
         "scope": "Nine synthetic native regressions; not a full Xinyi event or field calibration.",

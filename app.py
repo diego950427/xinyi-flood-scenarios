@@ -1,4 +1,4 @@
-"""Extend the V1 research report with a local simulation workspace."""
+"""Run public Xinyi rainfall scenarios with native SWMM and surface flow."""
 from pathlib import Path
 import json
 import uuid
@@ -28,6 +28,10 @@ st.markdown("""<style>
 h1{font-size:2rem!important}h2{font-size:1.45rem!important}
 p,label,[data-testid="stCaptionContainer"]{line-height:1.65}
 [data-testid="stCaptionContainer"],[data-testid="stCaptionContainer"] p{color:#c5d3e6!important}
+[data-testid="stCaptionContainer"]{opacity:1!important}
+button[kind="primary"],button[kind="primary"] p{color:#081f5c!important;font-weight:700}
+button[kind="primary"]{background-color:#9ebfe9!important}
+button[kind="primary"]:disabled{opacity:.6}
 [data-testid="stAlert"] p{color:#edeff1!important}
 button:focus-visible,input:focus-visible{outline:3px solid #b9d6ff!important;outline-offset:2px}
 @media(max-width:700px){.stMainBlockContainer{padding-left:1rem;padding-right:1rem}}

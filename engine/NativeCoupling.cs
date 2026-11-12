@@ -10,7 +10,23 @@ partial class SurfaceEngine {
 #else
     const CallingConvention NativeCallingConvention = CallingConvention.StdCall;
 #endif
-    [DllImport("swmm5.dll",CallingConvention=NativeCallingConvention)] static extern int swmm_open(string i,string r,string o);
+    [DllImport("swmm5.dll",EntryPoint="swmm_open",CallingConvention=NativeCallingConvention)] static extern int NativeOpen(string i,string r,string o);
+    static string NativePath(string value) {
+#if UNIX
+        // SWMM 5.2.4's POSIX relative-path branch passes a 260-byte buffer
+        // to realpath. glibc FORTIFY rejects that branch. Use the supported
+        // absolute-path branch, with its MAXFNAME limit checked in bytes.
+        string absolute=Path.GetFullPath(value);
+        if(System.Text.Encoding.UTF8.GetByteCount(absolute)>259)
+            throw new ArgumentException("Native SWMM path exceeds 259 UTF-8 bytes");
+        return absolute;
+#else
+        return value;
+#endif
+    }
+    static int swmm_open(string i,string r,string o) {
+        return NativeOpen(NativePath(i),NativePath(r),NativePath(o));
+    }
     [DllImport("swmm5.dll",CallingConvention=NativeCallingConvention)] static extern int swmm_start(int save);
     [DllImport("swmm5.dll",CallingConvention=NativeCallingConvention)] static extern int swmm_step(ref double t);
     [DllImport("swmm5.dll",CallingConvention=NativeCallingConvention)] static extern int swmm_end();
