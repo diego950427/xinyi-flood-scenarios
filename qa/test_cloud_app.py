@@ -40,6 +40,10 @@ checks['history_default'] = at.radio(key='mode').value == '歷史大雨事件'
 checks['local_nine_station_default'] = at.selectbox(key='event_id').value == 'H20240710'
 checks['four_events'] = len(at.selectbox(key='event_id').options) == 4
 checks['accepted_examples_visible'] = len(at.selectbox(key='result_picker').options) >= 2
+checks['simple_navigation_and_no_subheadings'] = ([t.label for t in at.tabs] == ['開始試算', '使用說明']
+                                                and len(at.subheader) == 0)
+checks['guide_available'] = any('60 mm' in m.value and 'result.qgs' in m.value for m in at.markdown)
+original_result = at.selectbox(key='result_picker').value
 at.radio(key='mode').set_value('自己輸入雨量').run()
 at.number_input(key='rain_total').set_value(300.0)
 at.number_input(key='rain_duration').set_value(10).run()
@@ -47,6 +51,9 @@ checks['excessive_intensity_disables_submit'] = at.button(key='start_run').disab
 at.number_input(key='rain_total').set_value(10.0).run()
 checks['valid_custom_enables_submit'] = not at.button(key='start_run').disabled
 checks['custom_renders'] = len(at.exception) == 0
+checks['new_inputs_do_not_relabel_old_example'] = (at.selectbox(key='result_picker').value == original_result
+    and any('目前顯示：先前本機範例' in e.value for e in at.success)
+    and any('降雨 **360 分鐘**' in m.value and '雨後觀察 **60 分鐘**' in m.value for m in at.markdown))
 # Unit tests never pretend a mocked submission is native solver evidence.
 with patch('backend.start_job', side_effect=RuntimeError('TEST_BUSY')):
     at.button(key='start_run').click().run()

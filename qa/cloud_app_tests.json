@@ -10,9 +10,12 @@
     "local_nine_station_default": true,
     "four_events": true,
     "accepted_examples_visible": true,
+    "simple_navigation_and_no_subheadings": true,
+    "guide_available": true,
     "excessive_intensity_disables_submit": true,
     "valid_custom_enables_submit": true,
     "custom_renders": true,
+    "new_inputs_do_not_relabel_old_example": true,
     "busy_error_visible": true,
     "no_uncaught_ui_errors": true
   },
