@@ -49,10 +49,10 @@
 |---|---|
 | 網站、輸入雨量、執行與下載 | 已上線。 |
 | 雲端 10 mm／10 分鐘測試 | 已算完；下載包的數值檢查與 QGIS 載入檢查通過。 |
-| 完整歷史事件的雲端驗收 | 尚未完成。一輪因主機重啟中斷，一輪依使用者要求停止。 |
+| 2024/7/10 完整歷史情境 | 已在雲端算完 6 小時降雨＋1 小時退水；下載包的數值與 QGIS 檢查通過。前兩次中斷、停止仍不列成果；其他事件尚未逐一完成雲端驗收。 |
 | 頁面上的已完成範例 | 先前本機 V2 結果，可先看懂圖表；不是剛跑好的雲端結果。 |
 | 真實街道淹水預測 | 尚未建立；缺完整真實管網與足夠現地驗證。 |
 
 現在最實際的用途，是比較「同一地形，換一種雨或排水假設，地表留水會怎麼變」。地形來自既有內政部 20 m 資料；雨量使用已整理的公開觀測。322 個交換點是假設位置，不能當成現地雨水口。
 
-[開啟模擬器](https://xinyi-flood-scenarios.streamlit.app/) · [下載已完成的雲端測試包](https://github.com/diego950427/xinyi-flood-scenarios/releases/tag/v3.0.0) · [資料來源與程式](https://github.com/diego950427/xinyi-flood-scenarios)
+[開啟模擬器](https://xinyi-flood-scenarios.streamlit.app/) · [下載已完成的雲端測試包](https://github.com/diego950427/xinyi-flood-scenarios/releases/tag/v3.1.0) · [資料來源與程式](https://github.com/diego950427/xinyi-flood-scenarios)
