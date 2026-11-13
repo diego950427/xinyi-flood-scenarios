@@ -38,7 +38,7 @@ def _document(kind, title, subtitle, note, source, data):
 <title>{escape(title)}</title><style>
 *{{box-sizing:border-box}}body{{margin:0;background:#081f5c;color:#edeff1;font-family:Inter,"Microsoft JhengHei","Noto Sans TC",sans-serif}}
 .card{{background:#142f60;border-radius:24px;padding:20px 18px 14px;overflow:hidden}}
-.chart-label{{margin:0 0 6px;font-size:16px;font-weight:600}}
+h2{{margin:0 0 6px;font-size:18px;font-weight:700;letter-spacing:-.02em}}
 .sub,.note{{font-size:13px;line-height:1.55;color:#bdcde5;margin:0 0 8px}}
 .src{{font-size:11px;line-height:1.45;color:#bdcde5;margin-top:9px;letter-spacing:.015em}}
 svg{{width:100%;height:240px;display:block}}svg text{{font-family:inherit}}
@@ -46,13 +46,13 @@ svg{{width:100%;height:240px;display:block}}svg text{{font-family:inherit}}
 .controls{{display:flex;gap:12px;align-items:center}}input[type=range]{{width:100%;min-width:0;accent-color:#9ebfe9}}
 button{{background:#142f60;color:#edeff1;border:1px solid #9ebfe9;border-radius:8px;padding:5px 9px;font:inherit;white-space:nowrap;cursor:pointer}}
 button:focus-visible,input:focus-visible{{outline:2px solid #edeff1;outline-offset:2px}}
-@media(max-width:420px){{.card{{padding:16px 10px 12px}}}}
+@media(max-width:420px){{.card{{padding:16px 10px 12px}}h2{{font-size:17px}}}}
 .fade{{animation:fade .9s ease both}}@keyframes fade{{from{{opacity:0}}}}
 .draw{{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.2s cubic-bezier(.4,0,.2,1) both}}@keyframes draw{{to{{stroke-dashoffset:0}}}}
 .pop{{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,.7,.3,1) both}}@keyframes pop{{from{{transform:scale(0)}}to{{transform:none}}}}
 @media(prefers-reduced-motion:reduce){{.fade,.draw,.pop{{animation:none;stroke-dasharray:none;stroke-dashoffset:0}}}}
 </style></head><body><section class="card">
-<p class="chart-label">{escape(title)}</p><p class="sub">{escape(subtitle)}</p>
+<h2>{escape(title)}</h2><p class="sub">{escape(subtitle)}</p>
 <svg id="chart" role="img" aria-label="{escape(title, quote=True)}"></svg>
 <div id="readout" class="readout" aria-live="polite"></div>
 <div class="controls"><input id="inspect" type="range" min="0" max="1" value="0" aria-label="移動以查看時間或水量項目"><button id="replay" type="button">重播</button></div>

@@ -39,7 +39,7 @@ web
 ## Delivery State
 V3 已公開部署：[開啟模擬器](https://xinyi-flood-scenarios.streamlit.app/)；[程式與資料](https://github.com/diego950427/xinyi-flood-scenarios)。
 
-2026/11/13 的介面簡化與新手說明已寫入本機版本，尚未部署。五個區段小標題已移除，圖名改一般圖說，開始按鈕移至設定後。`BEGINNER_GUIDE.md` 供頁內閱讀，`簡單使用說明.html` 可下載後離線開啟及列印。`qa/cloud_app_tests.json` 的 17 項檢查、`qa/charts_tests.json` 的 8 項檢查通過；主代理已檢查本次 1280 px 桌面與 390 px 手機畫面文字正常。這些是介面驗證，本次沒有新增求解結果。
+2026/11/13 的介面簡化與新手說明已同步公開網站並確認可讀取、可下載說明書。五個區段小標題已移除，保留圖名與單位，開始按鈕移至設定後。`BEGINNER_GUIDE.md` 供頁內閱讀，`簡單使用說明.html` 可下載後離線開啟及列印。`qa/cloud_app_tests.json` 的 17 項檢查、`qa/charts_tests.json` 的 8 項檢查通過；主代理已檢查本次 1280 px 桌面與 390 px 手機畫面文字正常。這些是介面驗證，本次沒有新增求解結果。
 
 已從公開網站實際執行自訂 10 mm／10 分鐘均勻降雨，完成求解並下載結果包。`qa/cloud_custom_acceptance.json` 記錄 15 項原生結果檢查全部通過；下載包的 QGIS 專案以無介面方式載入，兩層皆有效、使用相對路徑及 EPSG:3826。驗收沒有重跑求解，也沒有把既有範例當作本次雲端結果。
 
