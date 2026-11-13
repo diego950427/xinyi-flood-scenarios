@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checks": {
+    "webgl_actual": true,
+    "all_active_cells": true,
+    "real_cell_values": true,
+    "rotation_applied": true,
+    "synchronized_camera": true,
+    "difference_mode": true,
+    "zero_centered": true,
+    "full_scale_available": true,
+    "keyboard_pan": true,
+    "mobile_no_horizontal_scroll": true,
+    "mobile_stacks": true,
+    "mobile_query": true,
+    "canvas_fallback": true,
+    "fallback_values_equal": true,
+    "render_on_demand": true,
+    "no_external_requests": true,
+    "no_browser_errors": true
+  },
+  "errors": [],
+  "external_requests": [],
+  "html_sha256": "047e6b6a49e99a03fdefe26250c58d287d042b236b98777d1c7c0b5ee55e1158",
+  "scope": "Actual full-resolution results in headless Chrome WebGL/Canvas, desktop and mobile; no solver rerun",
+  "checked_at": "2026-11-13T04:05:34.077Z"
+}

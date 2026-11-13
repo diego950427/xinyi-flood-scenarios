@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "run": 7,
+  "failures": 0,
+  "errors": 0,
+  "scope": "ZIP boundaries and real example reloading; no solver rerun"
+}

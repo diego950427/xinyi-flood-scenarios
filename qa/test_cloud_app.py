@@ -40,9 +40,19 @@ checks['history_default'] = at.radio(key='mode').value == '歷史大雨事件'
 checks['local_nine_station_default'] = at.selectbox(key='event_id').value == 'H20240710'
 checks['four_events'] = len(at.selectbox(key='event_id').options) == 4
 checks['accepted_examples_visible'] = len(at.selectbox(key='result_picker').options) >= 2
-checks['simple_navigation_and_no_subheadings'] = ([t.label for t in at.tabs] == ['開始試算', '使用說明']
+checks['simple_navigation_and_no_subheadings'] = ([t.label for t in at.tabs] == ['開始試算', '並排比較', '使用說明']
                                                 and len(at.subheader) == 0)
 checks['guide_available'] = any('60 mm' in m.value and 'result.qgs' in m.value for m in at.markdown)
+checks['comparison_uses_completed_results'] = (len(at.selectbox(key='compare_a').options) >= 2
+    and at.selectbox(key='compare_a').value != at.selectbox(key='compare_b').value)
+at.button(key='open_comparison').click().run()
+checks['comparison_renders_without_solver'] = (len(at.exception) == 0 and
+    any('差值包含雨量差異' in e.value for e in at.warning))
+at.radio(key='compare_field').set_value('首次超過 10 cm').run()
+checks['comparison_time_field_renders'] = len(at.exception) == 0
+at.selectbox(key='compare_b').set_value(at.selectbox(key='compare_a').value).run()
+checks['comparison_same_result_is_explicit'] = (len(at.exception) == 0 and
+    any('同一筆結果' in e.value for e in at.info))
 original_result = at.selectbox(key='result_picker').value
 at.radio(key='mode').set_value('自己輸入雨量').run()
 at.number_input(key='rain_total').set_value(300.0)

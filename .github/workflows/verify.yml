@@ -36,6 +36,8 @@ jobs:
           python qa/data_release_audit.py
           python qa/test_charts.py
           python qa/test_cloud_observability.py
+          python qa/test_comparison_data.py
+          python qa/test_comparison_import.py
           python qa/test_cloud_app.py
       - name: Compute full Xinyi domain with custom rain
         run: python qa/test_full_domain.py
@@ -50,6 +52,8 @@ jobs:
             qa/cloud_app_tests.json
             qa/charts_tests.json
             qa/cloud_observability_tests.json
+            qa/comparison_data_tests.json
+            qa/comparison_import_tests.json
             qa/data_release_audit.json
             .runtime/build.log
             .runtime/tests/**/console.log

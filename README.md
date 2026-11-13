@@ -14,6 +14,9 @@
 2. 保留預設排水參數，或改一項來比較。
 3. 按「開始這次模擬」，保留頁面等待。歷史雨型可能需要數十分鐘，依伺服器而異。
 4. 完成後看水深圖、超過 10 公分的面積變化、水量收支；下載結果 ZIP，可直接用 QGIS 開 `result.qgs`。
+5. 在「並排比較」選兩筆已完成結果，按「顯示比較」。可同步旋轉 3D 地形、看 B−A、查同一格；也能載入以前下載的 ZIP，保存可離線開啟的互動 HTML 與含兩筆設定的 CSV。
+
+Three.js 比較保留完整 20 m 格網；最大水深只在地形上著色，不是同一時刻水面。這批沒有重跑歷史模型或新增逐時動畫。比較功能的當次檢查見 [格網與原生收支](qa/comparison_data_tests.json)、[ZIP 載入](qa/comparison_import_tests.json)、[實際瀏覽器](qa/comparison_browser_tests.json)及[Streamlit 嵌入操作](qa/comparison_app_browser_tests.json)。
 
 範例是先前已完成的本機原生計算，明示其來源；修改輸入不會偷偷套用範例數值。新模擬必須真正完成求解並通過檢查才顯示成功。
 

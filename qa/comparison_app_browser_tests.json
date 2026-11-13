@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": {
+    "embedded_webgl": true,
+    "default_focus_is_xinyi": true,
+    "embedded_3d": true,
+    "mobile_iframe_can_scroll": true,
+    "mobile_iframe_no_horizontal_scroll": true,
+    "download_is_complete_offline_html": true,
+    "no_app_exception": true,
+    "no_browser_errors": true
+  },
+  "errors": [],
+  "url": "http://127.0.0.1:8518",
+  "checked_at": "2026-11-13T04:05:38.379Z",
+  "scope": "Actual browser in Streamlit; compare controls, mobile iframe scroll, offline download; no solver execution"
+}

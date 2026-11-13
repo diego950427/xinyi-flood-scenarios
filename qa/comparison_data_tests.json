@@ -1,0 +1,1 @@
+{"passed": true, "run": 18, "failures": 0, "errors": 0, "skipped": 0, "scope": "Two real completed examples, full-resolution grid comparisons, sentinel handling, source/grid/clock validation and native-budget recomputation; no solver rerun"}

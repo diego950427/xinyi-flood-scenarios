@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>__TITLE__｜情境比較</title><style>__STYLE__</style></head><body>
+<!-- Existing navy research workbench extension. Operate: compare actual cells.
+     Shared scale and camera; no simulated water geometry, animations or smoothing.
+     Local Three.js 0.180.0, MIT; full license is retained beside this renderer. -->
+<main id="viewer" aria-label="兩組情境的格網比較">
+  <div class="toolbar" role="toolbar" aria-label="地圖顯示與操作">
+    <div class="button-group" role="group" aria-label="觀看角度"><button id="top" aria-pressed="true">2D 俯視</button><button id="three" aria-pressed="false">3D 地形</button></div>
+    <div class="button-group" role="group" aria-label="比較方式"><button id="compare" aria-pressed="true">A / B</button><button id="difference" aria-pressed="false">差值 B − A</button></div>
+    <button id="zoom-in" aria-label="放大兩幅地圖">放大</button><button id="zoom-out" aria-label="縮小兩幅地圖">縮小</button><button id="reset">重設視角</button>
+    <label class="grid-control"><input id="grid" type="checkbox">20 m 格線</label>
+    <label class="scale-control" id="scale-control">色階 <select id="scale" aria-label="兩邊共用的色階範圍"><option value="focus">0–100 cm</option><option value="full">完整範圍</option></select></label>
+    <label class="scale-control">範圍 <select id="extent" aria-label="兩邊共用的地圖範圍"><option value="district">信義區</option><option value="domain">整個計算域</option></select></label>
+    <details class="conditions"><summary>兩筆條件</summary><div id="conditions-content"></div></details>
+    <details class="help"><summary aria-label="操作說明">操作</summary><div>拖曳平移；3D 拖曳旋轉，Shift 拖曳平移。點格子查值。<br>方向鍵平移，Shift＋方向鍵旋轉；＋／− 縮放，R 重設。<br>手機雙指縮放／平移。最大水深著色代表各格最大值，不是同時水面。<button id="fallback">改用 2D 相容模式</button></div></details>
+  </div>
+  <div id="condition-warning" class="status" role="status" hidden></div>
+  <div id="status" class="status" role="status" hidden></div>
+  <div id="maps" class="maps">
+    <section class="pane" id="pane-a" aria-label="情境 A 地圖"><div class="pane-label" id="label-a"></div><div class="map" id="map-a" tabindex="0" role="application" aria-label="情境 A，方向鍵移動，點擊格網查值"></div><div class="north" aria-hidden="true">N<svg viewBox="0 0 20 26"><path d="M10 2 4 22l6-4 6 4Z" fill="currentColor"/></svg></div></section>
+    <section class="pane" id="pane-b" aria-label="情境 B 地圖"><div class="pane-label" id="label-b"></div><div class="map" id="map-b" tabindex="0" role="application" aria-label="情境 B，方向鍵移動，點擊格網查值"></div><div class="north" aria-hidden="true">N<svg viewBox="0 0 20 26"><path d="M10 2 4 22l6-4 6 4Z" fill="currentColor"/></svg></div></section>
+  </div>
+  <div class="legend"><span id="legend-title"></span><div class="legend-scale"><div id="legend-bar"></div><div class="legend-ticks"><span id="legend-min"></span><span id="legend-mid"></span><span id="legend-max"></span></div></div><span class="missing"><i></i>無資料</span></div>
+  <div id="readout" class="readout" aria-live="polite"><span>點選任一格，查看同一位置的 A、B 與差值。</span></div>
+  <div class="inspect-controls"><label>列 <input id="row" inputmode="numeric" type="number" min="1" value="1" aria-label="查詢網格列，從北向南"></label><label>欄 <input id="col" inputmode="numeric" type="number" min="1" value="1" aria-label="查詢網格欄，從西向東"></label><button id="inspect">查這一格</button><span id="grid-label"></span></div>
+  <noscript>此比較圖需要 JavaScript。原始格網仍可由成果 ZIP 的 result.qgs 在 QGIS 開啟。</noscript>
+</main><template id="three-license">__LICENSE__</template><script id="comparison-data" type="application/json">__PAYLOAD__</script><script>__THREE__</script><script>__VIEWER__</script></body></html>

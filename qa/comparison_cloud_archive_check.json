@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "source_run": "20261113_013716_780243343c5a",
+  "scope": "Real downloaded cloud archive import and source/grid/budget validation; no solver rerun",
+  "difference": {
+    "common_reporting_cells": 28097,
+    "only_a_valid_reporting_cells": 0,
+    "only_b_valid_reporting_cells": 0,
+    "positive_reporting_cells": 0,
+    "negative_reporting_cells": 0,
+    "unchanged_reporting_cells": 28097,
+    "mean_difference": 0.0,
+    "min_difference": 0.0,
+    "max_difference": 0.0
+  }
+}

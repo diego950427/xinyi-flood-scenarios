@@ -3,7 +3,7 @@ address = "0.0.0.0"
 port = 8501
 headless = true
 fileWatcherType = "none"
-maxUploadSize = 10
+maxUploadSize = 80
 
 [browser]
 gatherUsageStats = false

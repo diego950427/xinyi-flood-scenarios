@@ -15,6 +15,7 @@ if os.environ.get("GITHUB_ACTIONS") != "true":
 report_names = (
     "portable_engine_tests.json", "full_domain_custom.json", "cloud_app_tests.json",
     "charts_tests.json", "data_release_audit.json", "cloud_observability_tests.json",
+    "comparison_data_tests.json", "comparison_import_tests.json",
 )
 base = Path(__file__).resolve().parent
 for name in report_names:

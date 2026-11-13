@@ -46,7 +46,7 @@ def show_chart(html, alt):
     style = "<style>.sub,.note,.src{display:none}.card{padding:18px 14px 12px}</style>"
     st.iframe(html.replace("</head>", style + "</head>", 1), height=420, alt=alt)
 
-simulator_tab, guide_tab = st.tabs(["開始試算", "使用說明"])
+simulator_tab, comparison_tab, guide_tab = st.tabs(["開始試算", "並排比較", "使用說明"])
 with guide_tab:
     st.download_button("保存說明書（離線可讀）", (ROOT / "簡單使用說明.html").read_bytes(),
                        file_name="信義區_簡單使用說明.html", mime="text/html", key="save_guide")
@@ -260,3 +260,7 @@ with simulator_tab:
             st.caption("計算編號：" + rid)
         else:
             st.write("這筆尚未完成。請看上方進度，或選另一筆已完成紀錄。")
+
+with comparison_tab:
+    from comparison_ui import render_comparison
+    render_comparison(folders, example_folders, labels if folders else {}, token)
